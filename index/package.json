@@ -1,0 +1,16 @@
+{
+  "name": "@hardpoint/index",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --strict --check-urls",
+    "hash": "node scripts/hash.mjs",
+    "dev": "node scripts/dev-server.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "fflate": "^0.8.3"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mist",
+  "name": "MIST (Mission Scripting Tools)",
+  "summary": "Long-standing Lua helper library for DCS mission scripting: spawning, messaging, unit tables and more.",
+  "description": "A general-purpose scripting library that many missions and other scripts build on.\n\nLoaded **inside a mission**. The release is distributed as a `.rar`, so download it from the release page and extract it with 7-Zip.",
+  "category": "script",
+  "tags": [
+    "mission making",
+    "lua"
+  ],
+  "authors": [
+    {
+      "name": "mrSkortch",
+      "url": "https://github.com/mrSkortch"
+    }
+  ],
+  "source": "https://github.com/mrSkortch/MissionScriptingTools",
+  "installable": false,
+  "releases": [
+    {
+      "version": "4.5.126",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/mrSkortch/MissionScriptingTools/releases/tag/4.5.126"
+      }
+    }
+  ]
+}

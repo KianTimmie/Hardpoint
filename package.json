@@ -1,0 +1,14 @@
+{
+  "name": "hardpoint",
+  "private": true,
+  "description": "Open-source mod manager and hub for DCS World",
+  "workspaces": ["index", "packages/*", "apps/hub", "apps/desktop"],
+  "scripts": {
+    "index:build": "npm run build -w index",
+    "index:dev": "npm run dev -w index",
+    "hub:dev": "npm run dev -w apps/hub",
+    "hub:build": "npm run build -w apps/hub",
+    "desktop:dev": "npm run tauri -w apps/desktop -- dev",
+    "desktop:build": "npm run tauri -w apps/desktop -- build"
+  }
+}

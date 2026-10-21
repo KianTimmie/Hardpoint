@@ -1,0 +1,24 @@
+[package]
+name = "hardpoint-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Hardpoint desktop app"
+
+[lib]
+name = "hardpoint_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
+hardpoint-core = { path = "../../../crates/hardpoint-core" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+tauri = "2"
+tauri-plugin-deep-link = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-single-instance = { version = "2", features = ["deep-link"] }
+
+[build-dependencies]
+tauri-build = "2"

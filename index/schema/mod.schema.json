@@ -1,0 +1,234 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hardpoint.example/schema/mod.schema.json",
+  "title": "Hardpoint hub entry",
+  "description": "One DCS World mod in the Hardpoint hub index. File name must be <id>.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "summary",
+    "category",
+    "authors"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "description": "Stable, unique, lowercase id. Never change it after publishing.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,62}[a-z0-9]$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "summary": {
+      "description": "One line, shown on cards.",
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 160
+    },
+    "description": {
+      "description": "Markdown.",
+      "type": "string",
+      "maxLength": 20000
+    },
+    "category": {
+      "enum": [
+        "aircraft",
+        "livery",
+        "terrain",
+        "mission",
+        "campaign",
+        "script",
+        "sound",
+        "tech",
+        "utility",
+        "other"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9 +./-]{0,30}$"
+      },
+      "maxItems": 12,
+      "uniqueItems": true
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "license": {
+      "description": "SPDX id where possible, or 'Freeware' / 'Proprietary'.",
+      "type": "string"
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source": {
+      "description": "Source repository, if public.",
+      "type": "string",
+      "format": "uri"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "maxItems": 8
+    },
+    "requires_modules": {
+      "description": "Official DCS modules or maps needed, e.g. 'F-16C Viper', 'Syria map'.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "dependencies": {
+      "description": "Other hub mods that must be installed first.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "min_version": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "installable": {
+      "description": "Set false for things that are not installed into DCS folders (e.g. Lua libraries loaded inside missions). The hub and app show a download link only.",
+      "type": "boolean",
+      "default": true
+    },
+    "releases": {
+      "description": "Newest first is conventional but not required. May be empty for listing-only entries.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/release"
+      }
+    }
+  },
+  "$defs": {
+    "target": {
+      "description": "saved:<path> (Saved Games\\DCS) or install:<path> (DCS install folder).",
+      "type": "string",
+      "pattern": "^(saved|install):(?!.*(^|/)\\.\\.(/|$))[^:]*$"
+    },
+    "release": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "download"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "changelog": {
+          "type": "string",
+          "maxLength": 20000
+        },
+        "dcs_min": {
+          "description": "Minimum DCS version, e.g. 2.9.10.",
+          "type": "string"
+        },
+        "download": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "url"
+          ],
+          "properties": {
+            "kind": {
+              "description": "direct: Hardpoint downloads the file itself. page: the user downloads it from a web page, then drops it in.",
+              "enum": [
+                "direct",
+                "page"
+              ]
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-fA-F0-9]{64}$"
+            },
+            "size": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "file_name": {
+              "type": "string"
+            }
+          }
+        },
+        "install": {
+          "description": "Explicit install rules. Omit to let Hardpoint detect the layout.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "to"
+            ],
+            "properties": {
+              "from": {
+                "description": "File or folder inside the archive ('' = archive root).",
+                "type": "string"
+              },
+              "to": {
+                "$ref": "#/$defs/target"
+              }
+            }
+          }
+        },
+        "livery_for": {
+          "description": "For liveries: the DCS aircraft folder name, e.g. FA-18C_hornet.",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

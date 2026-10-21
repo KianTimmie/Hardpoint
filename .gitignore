@@ -1,0 +1,9 @@
+node_modules/
+target/
+dist/
+index/.dev/
+apps/hub/public/index.json
+apps/desktop/public/demo-index.json
+apps/desktop/src-tauri/gen/
+*.tsbuildinfo
+.DS_Store

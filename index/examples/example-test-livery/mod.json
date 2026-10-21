@@ -1,0 +1,18 @@
+{
+  "id": "example-test-livery",
+  "name": "Hardpoint Test Livery (F-16C)",
+  "summary": "Tiny test livery: adds 'Hardpoint Test' to the F-16C livery list using the default textures.",
+  "description": "Shows how a hub entry gives explicit install rules: the archive has a single livery folder and the rules send it to `Liveries\\F-16C_50`.",
+  "category": "livery",
+  "tags": ["example", "test"],
+  "authors": [{ "name": "Hardpoint" }],
+  "license": "MIT",
+  "requires_modules": ["F-16C Viper"],
+  "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-21",
+      "install": [{ "from": "Hardpoint Test", "to": "saved:Liveries/F-16C_50/Hardpoint Test" }]
+    }
+  ]
+}

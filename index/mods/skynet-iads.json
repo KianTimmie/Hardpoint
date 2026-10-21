@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "skynet-iads",
+  "name": "Skynet IADS",
+  "summary": "Mission-scripting library that makes SAM sites behave as a networked integrated air defence system.",
+  "description": "A Lua library for mission makers. Air defence sites are linked through early-warning radars and command centres, and react as a network rather than individually.\n\nThis is loaded **inside a mission** (Do Script File), so there is nothing to install into DCS. Download it from the release page.",
+  "category": "script",
+  "tags": [
+    "mission making",
+    "lua",
+    "air defence"
+  ],
+  "authors": [
+    {
+      "name": "walder",
+      "url": "https://github.com/walder"
+    }
+  ],
+  "source": "https://github.com/walder/Skynet-IADS",
+  "installable": false,
+  "releases": [
+    {
+      "version": "3.3.0",
+      "changelog": "Added C-RAM Centurion Phalanx.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/walder/Skynet-IADS/releases/tag/3.3.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "moose",
+  "name": "MOOSE",
+  "summary": "Mission Object Oriented Scripting Environment: a large Lua framework for building dynamic DCS missions.",
+  "description": "An object-oriented Lua framework for mission designers, covering AI tasking, air traffic, CSAR, ranges, carrier operations and much more.\n\nLoaded **inside a mission**, so there is nothing to install into DCS. Download `Moose.lua` from the release page.",
+  "category": "script",
+  "tags": [
+    "mission making",
+    "lua",
+    "framework"
+  ],
+  "authors": [
+    {
+      "name": "FlightControl-Master contributors",
+      "url": "https://github.com/FlightControl-Master"
+    }
+  ],
+  "source": "https://github.com/FlightControl-Master/MOOSE",
+  "installable": false,
+  "releases": [
+    {
+      "version": "2.9.18",
+      "date": "2026-06-14",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/FlightControl-Master/MOOSE/releases/tag/2.9.18"
+      }
+    }
+  ]
+}

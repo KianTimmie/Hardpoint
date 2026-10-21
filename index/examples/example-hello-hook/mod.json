@@ -1,0 +1,11 @@
+{
+  "id": "example-hello-hook",
+  "name": "Hardpoint Test Hook",
+  "summary": "Tiny test mod: writes a line to dcs.log on mission load so you can confirm installs work.",
+  "description": "Installs one Lua hook into `Saved Games\\DCS\\Scripts\\Hooks`. Load any mission, then look for `Hardpoint example hook is installed and running` in `Logs\\dcs.log`.",
+  "category": "utility",
+  "tags": ["example", "test"],
+  "authors": [{ "name": "Hardpoint" }],
+  "license": "MIT",
+  "releases": [{ "version": "1.0.0", "date": "2026-10-21", "changelog": "First release." }]
+}

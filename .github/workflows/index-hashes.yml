@@ -1,0 +1,28 @@
+# Fill in missing sha256/size for direct downloads on pull requests that touch the index,
+# so contributors don't have to download big archives themselves.
+name: Index checksums
+on:
+  pull_request:
+    paths: ["index/mods/**"]
+permissions:
+  contents: write
+jobs:
+  fill:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.head_ref }}" }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run hash -w index -- --fill
+      - name: Commit checksums
+        run: |
+          if ! git diff --quiet; then
+            git config user.name "hardpoint-bot"
+            git config user.email "hardpoint-bot@users.noreply.github.com"
+            git commit -am "index: add checksums"
+            git push
+          fi
+      - run: node index/scripts/build.mjs --strict

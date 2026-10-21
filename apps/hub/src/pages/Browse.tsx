@@ -1,0 +1,63 @@
+import type { HubIndex } from "../types";
+import { CATEGORIES } from "../types";
+import { browseHref, type Route } from "../router";
+import { search, isOneClick, isIcSafe } from "../data";
+import { StoresTable } from "../components/StoresTable";
+
+type B = Extract<Route, { name: "browse" }>;
+
+export function Browse({ index, route }: { index: HubIndex; route: B }) {
+  const go = (patch: Partial<B>) => (location.hash = browseHref({ ...route, ...patch }));
+  let mods = search(index.mods, route.q);
+  const base = mods;
+  if (route.oneclick) mods = mods.filter(isOneClick);
+  if (route.icsafe) mods = mods.filter(isIcSafe);
+  const pool = mods;
+  const countFor = (c: string) => pool.filter((m) => m.category === c).length;
+  if (route.cat) mods = mods.filter((m) => m.category === route.cat);
+  if (route.sort === "updated") mods = [...mods].sort((a, b) => (b.updated ?? "").localeCompare(a.updated ?? ""));
+  else if (!route.q) mods = [...mods].sort((a, b) => a.name.localeCompare(b.name));
+  const cats = CATEGORIES.filter((c) => base.some((m) => m.category === c.id) || c.id === route.cat);
+  const catLabel = CATEGORIES.find((c) => c.id === route.cat)?.plural;
+
+  return (
+    <main className="wrap browse">
+      <aside className="filters" aria-label="Filters">
+        <h3>Category</h3>
+        <ul>
+          <li><button aria-pressed={!route.cat} onClick={() => go({ cat: "" })}><span>All</span></button></li>
+          {cats.map((c) => (
+            <li key={c.id}>
+              <button aria-pressed={route.cat === c.id} onClick={() => go({ cat: c.id })}>
+                <span>{c.plural}</span><span className="c">{countFor(c.id)}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+        <h3>Show only</h3>
+        <label><input type="checkbox" checked={route.oneclick} onChange={(e) => go({ oneclick: e.target.checked })} /> One-click install</label>
+        <label><input type="checkbox" checked={route.icsafe} onChange={(e) => go({ icsafe: e.target.checked })} /> Declared Saved Games only (safe for integrity-checked servers)</label>
+      </aside>
+      <section aria-live="polite">
+        <div className="toolbar">
+          <h1 style={{ fontSize: "2rem", marginRight: "auto" }}>
+            {route.q ? <>Results for “{route.q}”</> : catLabel ?? "All mods"}
+          </h1>
+          <label className="muted" htmlFor="sort">Sort</label>
+          <select id="sort" value={route.sort} onChange={(e) => go({ sort: e.target.value })}>
+            <option value="name">{route.q ? "Best match" : "Name"}</option>
+            <option value="updated">Recently updated</option>
+          </select>
+        </div>
+        {mods.length ? (
+          <StoresTable mods={mods} caption="Mods" />
+        ) : (
+          <div className="empty">
+            <p>No mods match these filters.</p>
+            <a className="btn" href="#/browse">Clear filters</a>
+          </div>
+        )}
+      </section>
+    </main>
+  );
+}

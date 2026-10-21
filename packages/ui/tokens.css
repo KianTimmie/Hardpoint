@@ -1,0 +1,81 @@
+/* Hardpoint shared tokens (hub site + desktop app) — tokens follow technical-drawing conventions:
+   gull-grey paper, navy ink, insignia blue for links, remove-before-flight red for actions only. */
+:root {
+  --paper: #e6e7e3;
+  --panel: #d2d4cf;
+  --plate: #f3f3f0;
+  --ink: #1b2430;
+  --ink-2: #4a5360;
+  --line: #8e959c;
+  --line-soft: #bfc3c1;
+  --blue: #2e4a6b;
+  --red: #b8232b;
+  --red-ink: #ffffff;
+  --amber: #8a5a00;
+  --amber-bg: #f1e2bd;
+  --ok: #2f5d3a;
+  --ok-bg: #d6e3d4;
+
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "Barlow", system-ui, sans-serif;
+  --stencil: "Saira Stencil One", var(--display);
+
+  --measure: 68ch;
+  --gutter: 16px;
+  --radius: 3px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #141b24;
+    --panel: #1d2633;
+    --plate: #222c3a;
+    --ink: #e4e6e1;
+    --ink-2: #a9b0b8;
+    --line: #6b7480;
+    --line-soft: #333e4c;
+    --blue: #9cb8d9;
+    --red: #d8424a;
+    --amber: #e6b960;
+    --amber-bg: #3a2f17;
+    --ok: #9cc9a5;
+    --ok-bg: #1e3326;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #141b24;
+  --panel: #1d2633;
+  --plate: #222c3a;
+  --ink: #e4e6e1;
+  --ink-2: #a9b0b8;
+  --line: #6b7480;
+  --line-soft: #333e4c;
+  --blue: #9cb8d9;
+  --red: #d8424a;
+  --amber: #e6b960;
+  --amber-bg: #3a2f17;
+  --ok: #9cc9a5;
+  --ok-bg: #1e3326;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 17px/1.55 var(--body);
+  overflow-x: hidden;
+}
+a { color: var(--blue); text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.1; margin: 0; letter-spacing: 0.005em; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 700; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.3rem; }
+p { margin: 0 0 1em; }
+code { font-size: 0.92em; background: var(--panel); padding: 0.05em 0.35em; border-radius: var(--radius); }
