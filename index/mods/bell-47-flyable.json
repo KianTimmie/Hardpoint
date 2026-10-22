@@ -2,8 +2,8 @@
   "$schema": "../schema/mod.schema.json",
   "id": "bell-47-flyable",
   "name": "Bell 47 Flyable Helicopter (EFM)",
-  "summary": "Freeware flyable Bell 47 light helicopter with EFM for DCS World.",
-  "description": "Flyable Bell 47 with cold start, NVG, flashlight and a door gunner that fires where the pilot looks. Built for DCS 2.7; cannot land on water.",
+  "summary": "Freeware flyable Bell 47 light helicopter with EFM, updated for DCS World 2.9.",
+  "description": "Flyable Bell 47 with an external flight model, cold start, night-vision goggles (N), flashlight (LAlt+L), pilot and copilot seats (1 and 2), and a door gunner who fires where the pilot looks once you click \"Cleared To Fire\".\n\nVersion 2.0 is built for DCS 2.9 and fixes the inverted control-stick animation. The gunner seat isn't selectable, and the floats are for show: it can't land on water.\n\nThe download on ED User Files is a small zip that points to the full mod.",
   "category": "aircraft",
   "tags": [
     "helicopter",
@@ -19,17 +19,20 @@
       "name": "upuart"
     },
     {
+      "name": "Andy Woodhead"
+    },
+    {
       "name": "FreddyStoned"
     },
     {
       "name": "Hawkeye60"
     },
     {
-      "name": "cerealex"
+      "name": "Leviathan0815"
     }
   ],
-  "license": "Freeware (unlimited distribution)",
-  "homepage": "https://www.digitalcombatsimulator.com/en/files/3317105/",
+  "license": "Freeware (do not redistribute)",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3344037/",
   "cover": {
     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Helicopter_Bell_47.jpg?width=1920",
     "credit": "Stefan Krause, Germany",
@@ -37,15 +40,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:Helicopter_Bell_47.jpg"
   },
   "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/e16/0mljbu1oq0dv2bj6s25wt3eeih4v6z79/c12db71d3eb819ff32b53da1690243d6.jpg",
     "https://files.digitalcombatsimulator.com/upload/iblock/4a2/1bvf0y47qtl7qv96kleul418anhnrc54/HE-7-4.jpg"
   ],
   "releases": [
     {
-      "version": "2.7",
-      "date": "2021-06-23",
+      "version": "2.0",
+      "date": "2025-03-27",
+      "changelog": "Updated for DCS 2.9. Fixed the inverted control-stick animation.",
+      "dcs_min": "2.9",
       "download": {
         "kind": "page",
-        "url": "https://www.digitalcombatsimulator.com/en/files/3317105/"
+        "url": "https://files.digitalcombatsimulator.com/en/files/3344037/"
       }
     }
   ]
