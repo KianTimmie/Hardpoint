@@ -14,7 +14,7 @@ use crate::paths::Root;
 use crate::version;
 
 pub const INDEX_SCHEMA: u32 = 1;
-const USER_AGENT: &str = concat!("Hardpoint/", env!("CARGO_PKG_VERSION"), " (+https://github.com/OWNER/hardpoint)");
+const USER_AGENT: &str = concat!("Hardpoint/", env!("CARGO_PKG_VERSION"), " (+https://github.com/KianTimmie/Hardpoint)");
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct HubIndex {

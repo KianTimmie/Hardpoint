@@ -26,9 +26,9 @@ Working prototype (v0.1). What's been verified:
 | Hub site | Builds as a static site; responsive; light and dark |
 | Windows installer | Produced by the `Release` workflow (not built locally) |
 
-Before going public: replace `OWNER` (search the repo) with the GitHub org/user, push, enable
-GitHub Pages (Settings → Pages → GitHub Actions), and the app's default index URL becomes
-`https://OWNER.github.io/hardpoint/index.json`.
+The hub is published by GitHub Pages at <https://kiantimmie.github.io/Hardpoint/> (enable it under
+Settings → Pages → Source: GitHub Actions). The app reads its mod list from
+`https://kiantimmie.github.io/Hardpoint/index.json`.
 
 ## Repository layout
 

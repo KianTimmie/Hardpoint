@@ -6,7 +6,7 @@ export function GetApp() {
         <p className="muted" style={{ fontSize: "1.15rem" }}>
           A small desktop app that installs, updates and removes DCS mods without touching anything it didn't put there.
         </p>
-        <p><a className="btn btn-install" href="https://github.com/OWNER/hardpoint/releases/latest">Download the latest release</a></p>
+        <p><a className="btn btn-install" href="https://github.com/KianTimmie/Hardpoint/releases/latest">Download the latest release</a></p>
 
         <h2 style={{ marginTop: 32 }}>What it does</h2>
         <ul>

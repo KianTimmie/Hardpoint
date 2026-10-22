@@ -26,7 +26,7 @@ export async function mockBackend(): Promise<Backend> {
   add({ id: "clearer-cockpit-shaders", name: "Clearer cockpit shaders", version: "local", category: "other", source: { type: "local", file_name: "Clearer cockpit shaders v3.7z" }, writes_install_dir: true, files: 6, bytes: 412_000, targets: ["install:"] });
   add({ id: "night-ops-kneeboards", name: "Night ops kneeboards", version: "local", category: "other", source: { type: "local", file_name: "night-ops-kneeboards.zip" }, enabled: false, enabled_at: null, files: 12, bytes: 3_400_000, targets: ["saved:Kneeboard"] });
 
-  let config = { install_dir: "C:\\Program Files\\Eagle Dynamics\\DCS World", saved_dir: "C:\\Users\\Pilot\\Saved Games\\DCS", index_url: "https://OWNER.github.io/hardpoint/index.json" };
+  let config = { install_dir: "C:\\Program Files\\Eagle Dynamics\\DCS World", saved_dir: "C:\\Users\\Pilot\\Saved Games\\DCS", index_url: "https://kiantimmie.github.io/Hardpoint/index.json" };
   const shaderRepaired = { done: false };
   const progressSubs = new Set<(e: ProgressEvent) => void>();
 

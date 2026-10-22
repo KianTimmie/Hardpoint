@@ -40,7 +40,7 @@ pub fn default_data_dir() -> PathBuf {
         .unwrap_or_else(|| PathBuf::from(".hardpoint"))
 }
 
-pub const DEFAULT_INDEX_URL: &str = "https://OWNER.github.io/hardpoint/index.json";
+pub const DEFAULT_INDEX_URL: &str = "https://kiantimmie.github.io/Hardpoint/index.json";
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Config {
@@ -201,6 +201,11 @@ impl Engine {
         if state.schema > STATE_SCHEMA {
             return Err(Error::Other("this data folder was written by a newer Hardpoint".into()));
         }
+        // Builds before the hub was published saved a placeholder address; move them to the real one.
+        let migrate_index = config.index_url == "https://OWNER.github.io/hardpoint/index.json";
+        if migrate_index {
+            config.index_url = DEFAULT_INDEX_URL.to_string();
+        }
         let first_run = config.install_dir.is_none() && config.saved_dir.is_none();
         if first_run {
             let d = paths::detect().best();
@@ -208,7 +213,7 @@ impl Engine {
             config.saved_dir = d.saved;
         }
         let mut engine = Engine { data_dir, config, state };
-        if first_run {
+        if first_run || migrate_index {
             engine.save_config()?;
         }
         engine.recover()?;

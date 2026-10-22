@@ -6,4 +6,4 @@ members = ["crates/hardpoint-core", "crates/hardpoint-cli", "apps/desktop/src-ta
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/OWNER/hardpoint"
+repository = "https://github.com/KianTimmie/Hardpoint"
