@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "cuesta-drones-pack-mq9-tb2",
+  "name": "Drones Pack: MQ-9 and Bayraktar TB2 (Cuesta brothers)",
+  "summary": "UAV pack with a repaired MQ-9 and a carrier-capable Bayraktar TB2 variant (TB2_S).",
+  "description": "Drone pack with a repaired version of the older MQ-9 mod and the Bayraktar TB2_S, a naval TB2 variant that can take off from and land on a carrier. Both can be flown or used as AI. Built for DCS 2.8.7 to 2.9.12; reuses code from Pastrana's Pucará mod with permission.",
+  "category": "aircraft",
+  "tags": [
+    "uav",
+    "drone",
+    "flyable",
+    "ai",
+    "military"
+  ],
+  "authors": [
+    {
+      "name": "Eric Cuesta"
+    },
+    {
+      "name": "Patrick Cuesta"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/368097-download-drones-pack-mq9-predator-and-bayraktar-tb2-siha-by-eric-et-patrick-cuesta-2872912/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayraktar_TB2_Runway.jpg?width=1920",
+    "credit": "Bayhaluk",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bayraktar_TB2_Runway.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_01/Screen_241221_101451.jpg.9e73cc03a3d2c74c1286fb920857430e.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2.8.7 - 2.9.12",
+      "date": "2025-01-22",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/kwzv7q5b0d48fkw/DRONES+PACK+2.8.7+++2.9.12.7z/file"
+      }
+    }
+  ]
+}

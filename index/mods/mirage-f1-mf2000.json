@@ -1,0 +1,46 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mirage-f1-mf2000",
+  "name": "Mirage F1 MF2000 (Virtual RMAF)",
+  "summary": "Moroccan MF2000 modernisation of the DCS Mirage F1 with new pods and weapons.",
+  "description": "Mirage F1 MF2000 by AWAW / Virtual RMAF Spark SQN, based on the DCS Mirage F1EE: Moroccan skin, minor radar upgrade, Damocles pod, MICA, AASM and more countermeasures. V1.0 (October 2025); may break the stock version. Distributed via Discord.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "flyable",
+    "modern",
+    "france"
+  ],
+  "authors": [
+    {
+      "name": "AWAW"
+    },
+    {
+      "name": "Virtual RMAF Spark SQN"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/380837-mirage-f1-mf2000-the-ultimate-modernization-v10/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nose_of_the_Dassault_Mirage_F1_at_the_South_African_Air_Force_Museum_Ysterplaat_June_2026.jpg?width=1920",
+    "credit": "Nick-D",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nose_of_the_Dassault_Mirage_F1_at_the_South_African_Air_Force_Museum_Ysterplaat_June_2026.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_10/image.png.4b029bf2f9e6e132220ff1f13b9c35b2.png"
+  ],
+  "requires_modules": [
+    "Mirage F1"
+  ],
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2025-10-25",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/380837-mirage-f1-mf2000-the-ultimate-modernization-v10/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ai-pack-1940-battle-of-britain",
+  "name": "AI Pack 1940 Battle of Britain (Cuesta brothers)",
+  "summary": "AI-only pack of 1940 Battle of Britain era aircraft for DCS missions.",
+  "description": "AI-only pack of 1940-era aircraft from Eric and Patrick Cuesta for Battle of Britain missions. The 2026 post does not list the aircraft; earlier versions included a Ju 87 Stuka, He 111 and others. Version named for DCS 2.9.24.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "ai",
+    "ww2",
+    "warbird",
+    "pack"
+  ],
+  "authors": [
+    {
+      "name": "Eric Cuesta"
+    },
+    {
+      "name": "Patrick Cuesta"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/385493-news-2026-ai-pack-1940-battle-of-britain-2924/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/German_Stuka_dive_bomber_(Junkers_Ju_87)_at_Malmi_Airport,_Finland_1941.jpg?width=1920",
+    "credit": "Unknown author",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:German_Stuka_dive_bomber_(Junkers_Ju_87)_at_Malmi_Airport,_Finland_1941.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2026_02/AIPACK1940BATTLEOFBRITAIN2.9_24.jpg.782d7279f586522e501191fa4fe96f2f.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2.9.24",
+      "date": "2026-02-17",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/tx04i5jqbtko770/AI+PACK+1940++BATTLE+OF+BRITAIN+2.9.24.zip/file"
+      }
+    }
+  ]
+}

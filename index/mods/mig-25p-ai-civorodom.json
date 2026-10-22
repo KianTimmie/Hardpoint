@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mig-25p-ai-civorodom",
+  "name": "MiG-25P (AI only)",
+  "summary": "AI-only MiG-25P Foxbat interceptor for DCS World with Soviet, Libyan, Iraqi and Algerian liveries.",
+  "description": "AI-only MiG-25P interceptor with a simulated Smerch-A1 radar and R-40R/T or R-60 missiles. Earlier versions were flyable with FC3; converted to AI-only in May 2025 after DCS 2.9.6.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "interceptor",
+    "cold war",
+    "russia"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3335324/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikoyan-Gurevich_MiG-25PU_%E2%80%9953_blue%E2%80%99_(38094151656).jpg?width=1920",
+    "credit": "Alan Wilson",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-25PU_%E2%80%9953_blue%E2%80%99_(38094151656).jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/userfiles/e02/utsos8empn4oq615g3qdeyw3s21ztmxv/Screen_240111_000801.jpg"
+  ],
+  "releases": [
+    {
+      "version": "1.4",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3335324/"
+      }
+    }
+  ]
+}

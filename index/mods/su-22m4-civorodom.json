@@ -1,0 +1,47 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "su-22m4-civorodom",
+  "name": "Su-22M4 (civorodom)",
+  "summary": "Free flyable Su-22M4 swing-wing fighter-bomber for DCS World, flown from the Su-25T cockpit.",
+  "description": "Adds the Su-17/Su-22M4 Fitter with bombs, rockets, Kh-25/Kh-29 and SEAD (Kh-25MP/MPU with ELINT pod). Flyable using the free Su-25T cockpit; since DCS 2.9.6 it needs the author's FC3 fix patch.\n\nRequires: Since DCS 2.9.6 an FC3 fix patch is needed (per the file page).",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "attack",
+    "cold war",
+    "soviet",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://files.digitalcombatsimulator.com/en/files/filter/user-is-civorodom/apply/"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3339069/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Su-22M4_MLP_15.jpg?width=1920",
+    "credit": "Zala",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Su-22M4_MLP_15.jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/userfiles/3f1/3xw92x9he3tcmeqj613gwhngmm6bsrdk/ussr02.jpg"
+  ],
+  "requires_modules": [
+    "Su-25T (free with DCS World)"
+  ],
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2024-06-19",
+      "changelog": "Oct 2025 update fixed the landing drag chute.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3339069/"
+      }
+    }
+  ]
+}

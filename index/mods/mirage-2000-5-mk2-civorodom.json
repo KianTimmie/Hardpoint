@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mirage-2000-5-mk2-civorodom",
+  "name": "Mirage 2000-5 Mk2",
+  "summary": "Dassault Mirage 2000-5 Mk2 mod for DCS World with RDY-2 radar and MICA missiles.",
+  "description": "Mirage 2000-5 Mk2 (Hellenic and UAE variant) flyable in the F-15C cockpit, with simulated RDY-2 radar and R-550 Magic II, S530D, MICA-IR and MICA-RF missiles.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "flyable",
+    "fighter",
+    "france",
+    "fc3"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3331803/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dassault_Mirage_2000-5_participating_in_Odyssey_Dawn_(cropped).jpg?width=1920",
+    "credit": "Paul Farley, U.S. Navy",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Dassault_Mirage_2000-5_participating_in_Odyssey_Dawn_(cropped).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/b82/zxxtcyrd1m9fwphnrzvpleleq64dvkpv/Screen_230627_051702.jpg"
+  ],
+  "requires_modules": [
+    "Flaming Cliffs 3 (F-15C cockpit, to fly)"
+  ],
+  "releases": [
+    {
+      "version": "1.3",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3331803/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "rafale-pack-evolution-iii",
+  "name": "Rafale Pack Evolution III (Cuesta Brothers)",
+  "summary": "Pack of Dassault Rafale A, S, B, C and M variants plus a tanker, flyable and AI.",
+  "description": "Rafale pack by the Cuesta brothers (Eric and Patrick): Rafale A, S, B, C, M and a 'Nounou' tanker variant, with player and AI weapon updates (SCALP, Exocet, AASM). Thread reports the Su-33 is needed (C/M variants); AS-30 use needs the Super Etendard pack. File named for DCS 2.9.28.\n\nRequires: Super Etendard et Class Clemenceau pack needed for AS-30 use.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "flyable",
+    "ai",
+    "france",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "Eric and Patrick Cuesta"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/381076-rafale-pack-for-287-to-2928-2026-by-cuesta-brothers-new-version/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rafale_M-16-EybnCWLWgAAi3I9.jpeg?width=1920",
+    "credit": "SSgt Alexander Cook, USAF",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Rafale_M-16-EybnCWLWgAAi3I9.jpeg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_10/Screen_250616_203750.jpg.f73b469ec0e7740e760e96af40bc3e03.jpg"
+  ],
+  "requires_modules": [
+    "Su-33 (Flaming Cliffs)"
+  ],
+  "releases": [
+    {
+      "version": "2.9.28 (2026)",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/3v6764ooaza85qb/RAFALE_PACK_EVOLUTION_III_2.9.28_2026.zip/file"
+      }
+    }
+  ]
+}

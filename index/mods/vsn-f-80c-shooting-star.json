@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-80c-shooting-star",
+  "name": "VSN F-80C Shooting Star",
+  "summary": "VSN team's free F-80C Shooting Star early jet fighter for DCS World.",
+  "description": "Free VSN mod adding the Lockheed F-80C Shooting Star with a custom model (based on purchased file404 data) and FC3-style cockpit. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "korea",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8306-f-80c-shooting-star/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lockheed_F-80C_USAF.jpg?width=1920",
+    "credit": "United States Air Force",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Lockheed_F-80C_USAF.jpg"
+  },
+  "images": [
+    "https://abload.de/img/f-80cshootingstarerjc8.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.6.03",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZuYzAZwASmfE8hbRFImz61YGzdYp5bNm0V"
+      }
+    }
+  ]
+}

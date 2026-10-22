@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "clp-rq-4-global-hawk-ai",
+  "name": "RQ-4 Global Hawk (AI only)",
+  "summary": "AI-only RQ-4 Global Hawk and MQ-4C Triton high-altitude drones for DCS World.",
+  "description": "AI-only RQ-4 Global Hawk with MQ-4C Triton, NATO Block 40 and RAAF liveries/variants, from prcCOWBOY's collection.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "uav",
+    "modern",
+    "reconnaissance"
+  ],
+  "authors": [
+    {
+      "name": "prcCOWBOY"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3331847/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RQ-4_Global_Hawk_3.jpg?width=1920",
+    "credit": "Staff Sgt. Christopher Matthews, USAF",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:RQ-4_Global_Hawk_3.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/264/j8ald2q65ew4f3tc5vsjwkiwju1vzsvd/CLP_RQ4.png"
+  ],
+  "releases": [
+    {
+      "version": "v1.0.0704",
+      "date": "2023-07-04",
+      "changelog": "First release.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3331847/"
+      }
+    }
+  ]
+}

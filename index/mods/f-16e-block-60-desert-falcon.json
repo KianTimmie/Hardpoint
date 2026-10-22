@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f-16e-block-60-desert-falcon",
+  "name": "F-16E Block 60 Desert Falcon (chahine037)",
+  "summary": "UAE F-16E Block 60 variant built on the DCS F-16C, with conformal tanks.",
+  "description": "Flyable F-16E Block 60 'Desert Falcon' by chahine037, using the standard DCS F-16C cockpit with Nightstorm-based conformal fuel tanks and UAE liveries.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "flyable",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "chahine037"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/386824-dcs-mod-release-f-16e-block-60-uae-desert-falcon-by-chahine037/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/UAE_F-16E.tif?width=1920",
+    "credit": "Bill Thornton",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:UAE_F-16E.tif"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2026_03/image.png.c1ac3949703e08e3e324b75d92a376d5.png"
+  ],
+  "requires_modules": [
+    "F-16C Viper"
+  ],
+  "releases": [
+    {
+      "version": "2026-04-06",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/1f83qlw19hqtegq/UAE_F-16E_Bl.60_Desert_Falcon.zip/file"
+      }
+    }
+  ]
+}

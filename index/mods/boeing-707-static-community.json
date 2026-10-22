@@ -1,0 +1,54 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "boeing-707-static-community",
+  "name": "Static Boeing 707 (Community)",
+  "summary": "Boeing 707 airliner built as a static object that can also fly as AI, with classic liveries.",
+  "description": "Boeing 707 with classic liveries. Mainly a static object but can take off, fly and land as AI (set the first and last waypoints to Immortal to avoid tailstrike explosions). Model by helijah from FlightGear (open source), converted by Hawkeye60.\n\nRequires: Separate livery/texture packs: ED files 3350381 and 3350382.",
+  "category": "aircraft",
+  "tags": [
+    "civil",
+    "airliner",
+    "ai",
+    "static",
+    "jet"
+  ],
+  "authors": [
+    {
+      "name": "Hawkeye60"
+    },
+    {
+      "name": "helijah (model)"
+    },
+    {
+      "name": "HawaiianRyan"
+    },
+    {
+      "name": "Unis431fos"
+    },
+    {
+      "name": "Stratos"
+    }
+  ],
+  "license": "Freeware - do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3349674/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HZ-HM3_B707-320B_Saudi_Royal_Flight_LHR_15MAR89_(6053389864).jpg?width=1920",
+    "credit": "Ken Fielding",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HZ-HM3_B707-320B_Saudi_Royal_Flight_LHR_15MAR89_(6053389864).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/d5d/2yvix6jjv5fij4kgl4lxbbvtat5fczzv/pan_am_boeing_707_at_kemayoran_airport.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2026-06 update",
+      "date": "2026-06-10",
+      "changelog": "Updated textures, roughmets and new liveries.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3349674/"
+      }
+    }
+  ]
+}

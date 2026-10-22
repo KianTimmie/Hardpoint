@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "observation-balloons-ai-hawkeye60",
+  "name": "Observation Balloons (AI only)",
+  "summary": "AI-only observation balloons: a basket balloon and a spy-camera balloon, nation-neutral.",
+  "description": "Two AI-only observation balloons (basket and spy camera), not tied to any nation, built on the helicopter framework with a custom sound folder. Collision is untested. The ceiling is capped near 10 km.",
+  "category": "aircraft",
+  "tags": [
+    "ai",
+    "balloon",
+    "civil",
+    "target"
+  ],
+  "authors": [
+    {
+      "name": "Hawkeye60"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/318986-balloon-mod-ai-only/",
+  "releases": [
+    {
+      "version": "V1.0",
+      "date": "2023-02-12",
+      "download": {
+        "kind": "page",
+        "url": "https://www.dropbox.com/s/f074ojs293zcod8/Observation_Balloons_V1.0.rar?dl=0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "community-j-10",
+  "name": "Community J-10 (J-10A / J-10C)",
+  "summary": "Community J-10 mod built on the JF-17 cockpit and avionics, with a J-10C beta release.",
+  "description": "Flyable J-10 community mod by Cactus, Snowy Wolf, Yatsie and Whisky Actual, adapted from happy cavin's FC3 J-10 with permission. Uses the Deka JF-17 cockpit and avionics, so the JF-17 module is required. Latest GitHub release is the J-10C Community Beta (J-10C.rar, 1.01 GB).",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "flyable",
+    "china",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "Whisky Actual",
+      "url": "https://github.com/whisky-actual"
+    },
+    {
+      "name": "Cactus"
+    },
+    {
+      "name": "Snowy Wolf"
+    },
+    {
+      "name": "Yatsie"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/306543-j10-a-community-mod/",
+  "source": "https://github.com/whisky-actual/Community-J-10",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J-10_AUG01_09_taking_off_at_CCAS2023_(20230724104603).jpg?width=1920",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:J-10_AUG01_09_taking_off_at_CCAS2023_(20230724104603).jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2022_08/Screen_220806_110905.jpg.2365f8f7433b81609732a66efa0b2919.jpg"
+  ],
+  "requires_modules": [
+    "JF-17 Thunder"
+  ],
+  "releases": [
+    {
+      "version": "J10cBeta",
+      "date": "2025-09-26",
+      "changelog": "J10C Community Beta",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/whisky-actual/Community-J-10/releases/tag/J10cBeta"
+      }
+    }
+  ]
+}

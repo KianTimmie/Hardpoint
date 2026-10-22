@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-104g-starfighter",
+  "name": "VSN F-104G/S Starfighter",
+  "summary": "VSN team's free F-104G and F-104S Starfighter (incl. air-to-ground versions) for DCS World.",
+  "description": "Free VSN mod adding the F-104G and Italian F-104S Starfighter, each with an air-to-ground version, and many skin packs. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "cold war",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/7654-f-104g-starfighter/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lockheed_F-104G_Starfighter_D-8114_(9179542542).jpg?width=1920",
+    "credit": "Alan Wilson",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lockheed_F-104G_Starfighter_D-8114_(9179542542).jpg"
+  },
+  "images": [
+    "https://s20.directupload.net/images/user/240501/jnccrt8g.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.4.10",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZPYzAZDsFE2POMw20GMdwyohq9BLDPonPy"
+      }
+    }
+  ]
+}

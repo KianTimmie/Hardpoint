@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "a-5-vigilante-ai-halfscience",
+  "name": "North American A-5 Vigilante AI Asset",
+  "summary": "Non-animated AI North American A-5 Vigilante aircraft asset for DCS World missions.",
+  "description": "AI-controlled North American A-5 Vigilante asset with an approximate flight model tuned to public performance data (no EFM). Technically player-controllable but has no animations or working cockpit. 3D model by helijah (Sketchfab), used with permission.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "bomber",
+    "cold war",
+    "naval"
+  ],
+  "authors": [
+    {
+      "name": "HalfScience"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3344965/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RA-5C_Vigilante_Pax_River_Museum-2.jpg?width=1920",
+    "credit": "Balon Greyjoy",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:RA-5C_Vigilante_Pax_River_Museum-2.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/a21/eyfjv8zm7qx2c1qtykhl0i3x9at5v804/a5_image_1.png"
+  ],
+  "releases": [
+    {
+      "version": "2025-05-25",
+      "date": "2025-05-25",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3344965/"
+      }
+    }
+  ]
+}

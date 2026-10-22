@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "super-etendard-clemenceau-pack",
+  "name": "Super Etendard and Clemenceau Pack (E&P)",
+  "summary": "Flyable Super Etendard and Super Etendard Modernise with a Clemenceau-class carrier.",
+  "description": "Pack by Eric and Patrick Cuesta with flyable Super Etendard and Super Etendard Modernise (SEM), Exocet and AS-30 for player and AI, and a Clemenceau-class aircraft carrier. A commenter says the MiG-29 is needed for the cockpit. Version 2.9.28.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "attack",
+    "flyable",
+    "naval",
+    "france",
+    "cold war"
+  ],
+  "authors": [
+    {
+      "name": "Eric and Patrick Cuesta"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/381078-super-etendard-et-class-clemenceau-pack-2928-2026-by-eric-and-patrick/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Super_Etendard_in_flight_in_1988.JPEG?width=1920",
+    "credit": "LCdr. Leenhouts, U.S. Navy",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Super_Etendard_in_flight_in_1988.JPEG"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_10/Screen_250923_213816.jpg.74fdfb823d3a7c05fb9fef01c63b3591.jpg"
+  ],
+  "requires_modules": [
+    "MiG-29 (Flaming Cliffs)"
+  ],
+  "releases": [
+    {
+      "version": "2.9.28",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/qlv040gnb4x56ad/SUPER_ETENDARD_et_CLASS_CLEMENCEAU_PACK_2.9.28_2026.zip/file"
+      }
+    }
+  ]
+}

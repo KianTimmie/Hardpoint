@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "clp-tu-214-variants-ai",
+  "name": "Tupolev Tu-204/214 Variants (AI only)",
+  "summary": "AI-only Tupolev Tu-214 airliner and special-mission variants for DCS World.",
+  "description": "AI-only Tu-214, Tu-214PU, Tu-214PU-SBUS, Tu-214ON and Tu-214R (ELINT/SIGINT) variants from prcCOWBOY's collection, with several liveries.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "transport",
+    "russia",
+    "special mission"
+  ],
+  "authors": [
+    {
+      "name": "prcCOWBOY"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3327489/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tupolev_Tu-214_(Transaero_Airlines)_(4069538104).jpg?width=1920",
+    "credit": "John Taggart",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-214_(Transaero_Airlines)_(4069538104).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/e06/8vcwpfjubxmjs6ma2y9z37uv0lgw9jpl/Screen_221113_211828.jpg"
+  ],
+  "releases": [
+    {
+      "version": "v1.2.0123",
+      "changelog": "Bugfix release.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3327489/"
+      }
+    }
+  ]
+}

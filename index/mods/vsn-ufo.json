@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-ufo",
+  "name": "VSN UFO",
+  "summary": "VSN team's free flyable UFO (flying saucer) novelty mod for DCS World.",
+  "description": "Free novelty flying-saucer mod (model by Herminio Nieves). Needs FC3 for the AFM; the author advises setting G-effects to none.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "fictional",
+    "fun",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/7247-ufo-flyable-mod/",
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-25",
+      "changelog": "No version shown; date is when VSN refreshed the download links.",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZSmzAZDO9f2llN0YQiMQ4QzBO43f3qXPIV"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ch-53e-super-stallion-freddystoned",
+  "name": "Sikorsky CH-53E Super Stallion (FreddyStoned)",
+  "summary": "Flyable CH-53E heavy-lift helicopter with a partly clickable cockpit and EFM files.",
+  "description": "Flyable, standalone CH-53E with a partly clickable cockpit, animated door gunners, an opening tail ramp and a visual-only winch and cargo. Built from the FlightGear CH-53 model (used with permission) with an EFM derived from the CptSmiley and Nibbylots demos. Known issues: autorotation is incomplete and AI landing gear does not work.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "flyable",
+    "transport",
+    "efm",
+    "military"
+  ],
+  "authors": [
+    {
+      "name": "FreddyStoned"
+    },
+    {
+      "name": "Silverbullet_238"
+    }
+  ],
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3316599/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikorsky_CH-53E_Super_Stallion_USMC_165503_FDK_MD2.jpg?width=1920",
+    "credit": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sikorsky_CH-53E_Super_Stallion_USMC_165503_FDK_MD2.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2021_05/1103680856_ch531.jpg.0565d7bee2591ca2dc355d31f0b254c8.jpg"
+  ],
+  "releases": [
+    {
+      "version": "ED User Files release (no version number",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3316599/"
+      }
+    }
+  ]
+}

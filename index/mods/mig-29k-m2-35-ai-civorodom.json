@@ -1,0 +1,45 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mig-29k-m2-35-ai-civorodom",
+  "name": "MiG-29K, MiG-29M2 and MiG-35 (AI only)",
+  "summary": "AI-only MiG-29K naval, MiG-29M2 and MiG-35 Fulcrum variants for DCS World.",
+  "description": "AI-only pack of second-generation Fulcrums: the carrier-capable MiG-29K, land-based MiG-29M2 and the MiG-35. Converted to AI-only after the DCS 2.9.6 update. Based on an early version by NINO.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "russia",
+    "naval"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    },
+    {
+      "name": "NINO"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3335456/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MiG-29K_at_MAKS-2007_airshow_(altered).jpg?width=1920",
+    "credit": "Dmitriy Pichugin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MiG-29K_at_MAKS-2007_airshow_(altered).jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/userfiles/72f/wmjuiackcyjd4qizp4se3go3x2rt4rqd/Screen_240124_103850.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2024-01-24",
+      "date": "2024-01-24",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3335456/"
+      }
+    }
+  ]
+}

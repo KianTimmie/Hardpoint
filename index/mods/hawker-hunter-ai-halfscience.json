@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "hawker-hunter-ai-halfscience",
+  "name": "Hawker Hunter AI Asset",
+  "summary": "Non-animated AI Hawker Hunter aircraft asset for DCS World missions.",
+  "description": "AI-controlled Hawker Hunter asset with an approximate flight model tuned to public performance data (no EFM). Technically player-controllable but has no animations or working cockpit. 3D model by Captain Ahab 62 (Thingiverse), used with permission.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "cold war",
+    "uk"
+  ],
+  "authors": [
+    {
+      "name": "HalfScience"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3344969/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hawker_Hunter_F.6_(43105658494).jpg?width=1920",
+    "credit": "Clemens Vasters",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hawker_Hunter_F.6_(43105658494).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/347/qy9cwgomi5a226n0wh4627fooalxedcq/hawker_hunter_2.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2025-05-25",
+      "date": "2025-05-25",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3344969/"
+      }
+    }
+  ]
+}

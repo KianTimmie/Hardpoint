@@ -1,0 +1,64 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f-23b-black-widow-ii",
+  "name": "F-23B Black Widow II",
+  "summary": "What-if operational YF-23 with Hornet cockpit, internal bays and ten liveries.",
+  "description": "Flyable fictional F-23B by Coookalo (Mile High Digital Works) using the F/A-18C clickable cockpit and avionics, sequenced internal weapon bays, MALICE and AIM-9X. Requires the F/A-18C module. v1.4 built for DCS 2.9.30.28738.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "stealth",
+    "flyable",
+    "fictional"
+  ],
+  "authors": [
+    {
+      "name": "Coookalo / Mile High Digital Works",
+      "url": "https://github.com/Mile-High-Digital-Works"
+    }
+  ],
+  "license": "GPL-3.0-or-later (code); CC BY-SA 4.0 (docs); purchased models separate",
+  "homepage": "https://forum.dcs.world/topic/392133-f23b-ready-for-takeoff/",
+  "source": "https://github.com/Mile-High-Digital-Works/f23b-public",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two_YF-23_in_formation.jpg?width=1920",
+    "credit": "U.S. Air Force",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Two_YF-23_in_formation.jpg"
+  },
+  "images": [
+    "https://raw.githubusercontent.com/Coaokalo/f23b-public/v1.4/docs/images/f23b-exterior.jpg"
+  ],
+  "requires_modules": [
+    "F/A-18C Hornet"
+  ],
+  "releases": [
+    {
+      "version": "v1.4",
+      "date": "2026-10-06",
+      "changelog": "F-23B v1.4 - DCS 2.9.30.28738",
+      "install": [
+        {
+          "from": "Mods",
+          "to": "saved:Mods"
+        },
+        {
+          "from": "Liveries",
+          "to": "saved:Liveries"
+        },
+        {
+          "from": "F-23B-docs",
+          "to": "saved:F-23B-docs"
+        }
+      ],
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/Mile-High-Digital-Works/f23b-public/releases/download/v1.4/F-23B-v1.4.zip",
+        "sha256": "db359076bc8b50dc5bb5df83c42d6a2326ce35f16876b595ba1aa323c5f6c3fe",
+        "size": 116624641,
+        "file_name": "F-23B-v1.4.zip"
+      }
+    }
+  ]
+}

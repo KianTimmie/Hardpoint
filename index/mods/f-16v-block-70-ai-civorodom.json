@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f-16v-block-70-ai-civorodom",
+  "name": "F-16V Block 70 for AI",
+  "summary": "AI F-16 Block 70 with APG-83 AESA radar, AIM-9X and AIM-120D for DCS World.",
+  "description": "F-16V Block 70 designed for AI, with simulated AN/APG-83 radar, reduced RCS, AIM-9X/AIM-120D and Paveway, JDAM, HARM and Maverick weapons. Built for DCS World 2.9.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "multirole",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3339676/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/100th_ARW_fuels_BALTOPS_(6236620).jpg?width=1920",
+    "credit": "Tech. Sgt. Emerson Nuñez, USAF",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:100th_ARW_fuels_BALTOPS_(6236620).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/acc/34amtlm29053kwifsonjb0stwb3d2dvj/f16v-01.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2024-07-30",
+      "date": "2024-07-30",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3339676/"
+      }
+    }
+  ]
+}

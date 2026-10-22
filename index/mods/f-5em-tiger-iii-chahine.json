@@ -1,0 +1,38 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f-5em-tiger-iii-chahine",
+  "name": "F-5EM / F-5E Tiger III (Chahine)",
+  "summary": "Modernised F-5E variants inspired by Brazilian, Chilean and Moroccan upgrades.",
+  "description": "Flyable F-5EM upgrade by Chahine on the DCS F-5E (2024/Remastered), with Python-5/Derby missiles, DASH helmet and Reccelite pod; a Tiger III variant was announced. Distributed via the author's Discord.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "flyable",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "Chahine"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/373301-f5em-f5e-tiger-iii-mod-by-chahine/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Academia_da_For%C3%A7a_A%C3%A9rea_(AFA)_em_Pirassununga-SP._Ca%C3%A7a_F-5EM_(4856)_da_For%C3%A7a_A%C3%A9rea_Brasileira_iniciando_o_taxiamento_para_a_apresenta%C3%A7%C3%A3o_no_Domingo_A%C3%A9reo_-_panoramio_(1).jpg?width=1920",
+    "credit": "Marco Aurélio (Panoramio user)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Academia_da_For%C3%A7a_A%C3%A9rea_(AFA)_em_Pirassununga-SP._Ca%C3%A7a_F-5EM_(4856)_da_For%C3%A7a_A%C3%A9rea_Brasileira_iniciando_o_taxiamento_para_a_apresenta%C3%A7%C3%A3o_no_Domingo_A%C3%A9reo_-_panoramio_(1).jpg"
+  },
+  "requires_modules": [
+    "F-5E Tiger II (Remastered)"
+  ],
+  "releases": [
+    {
+      "version": "2025-05-08",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/373301-f5em-f5e-tiger-iii-mod-by-chahine/"
+      }
+    }
+  ]
+}

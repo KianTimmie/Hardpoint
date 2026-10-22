@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "clp-p-8-poseidon-ai",
+  "name": "P-8 Poseidon (AI only)",
+  "summary": "AI-only Boeing P-8 Poseidon maritime patrol aircraft for DCS World.",
+  "description": "AI-only P-8 Poseidon from prcCOWBOY's collection, modified from the 737-800ERX, with 11 liveries (USA, Australia, UK, India, Norway, South Korea, Germany, blank). Carries AGM-84D/H and a placeholder LTF-5B torpedo loadout; listed in the Mission Editor as \"P-8 Poseidon (CLP)\". Built for DCS World 2.7.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "maritime patrol",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "prcCOWBOY"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3321581/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/P-8A_Poseidon_VX-20_Squadron.jpg?width=1920",
+    "credit": "Greg L. Davis",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:P-8A_Poseidon_VX-20_Squadron.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/bfe/m41tnt9zyoz4kkmk9d1x2uy46q0s4rt7/Screen_220405_221130.jpg"
+  ],
+  "releases": [
+    {
+      "version": "v1.2.0922",
+      "date": "2024-09-22",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3321581/"
+      }
+    }
+  ]
+}

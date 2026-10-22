@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-hawker-hunter-f6",
+  "name": "VSN Hawker Hunter F.6",
+  "summary": "VSN team's free Hawker Hunter F.6 for DCS World.",
+  "description": "Free VSN mod adding the Hawker Hunter Mk 6. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "cold war",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://filedn.eu/lry92aiYXwlhFlDghoB2OEp/VSN_html_Links/VSN_MODS.html",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hawker_Hunter_F.6_(42918842945).jpg?width=1920",
+    "credit": "Clemens Vasters",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hawker_Hunter_F.6_(42918842945).jpg"
+  },
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-25",
+      "changelog": "No version shown; date is when VSN refreshed the download links.",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZpmzAZU4jOhVddnO7OnHKXRshqJHChthvk"
+      }
+    }
+  ]
+}

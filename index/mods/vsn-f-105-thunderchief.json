@@ -1,0 +1,51 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-105-thunderchief",
+  "name": "VSN F-105D/G Thunderchief",
+  "summary": "VSN team's free F-105D and F-105G Thunderchief for DCS World.",
+  "description": "Free VSN mod adding the Republic F-105D strike and F-105G Wild Weasel variants. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "strike",
+    "vietnam",
+    "cold war",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "PeeJott (SFM/engine)"
+    },
+    {
+      "name": "Urbi (liveries)"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8315-f-105-thunderchief/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Republic_F-105_Thunderchief_62-4444_NAS_Atlanta_GA1.jpg?width=1920",
+    "credit": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Republic_F-105_Thunderchief_62-4444_NAS_Atlanta_GA1.jpg"
+  },
+  "images": [
+    "https://abload.de/img/f-105thunderchieflnjnb.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.6.10",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZwYzAZFt8eaX9FeF48jlV9xQNUIQonNOSX"
+      }
+    }
+  ]
+}

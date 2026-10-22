@@ -1,0 +1,53 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "eurofighter-typhoon-lechuzas-negras",
+  "name": "Eurofighter Typhoon (Lechuzas Negras)",
+  "summary": "Flyable Eurofighter Typhoon with a clickable cockpit, using Su-33 (FC3) avionics.",
+  "description": "Flyable Eurofighter Typhoon by Gonzalodesanta, EvilASV and Qbit of the Lechuzas Negras virtual squadron, built up from the VSN model. Clickable cockpit; uses Su-33 avionics, so Flaming Cliffs 3 is required. Forum thread lists v1.0.72 (flight model update); the team site titles its download V1.1.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "flyable",
+    "modern",
+    "europe"
+  ],
+  "authors": [
+    {
+      "name": "Lechuzas Negras",
+      "url": "https://lechuzasnegras.net/"
+    },
+    {
+      "name": "Gonzalodesanta"
+    },
+    {
+      "name": "EvilASV"
+    },
+    {
+      "name": "Qbit"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/290086-new-version-eurofighter-typhoon-by-lechuzas-negras-v1072/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CE.16-14_Eurofighter_Ej%C3%A9rcito_del_Aire_LEN.jpg?width=1920",
+    "credit": "Bene Riobó",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CE.16-14_Eurofighter_Ej%C3%A9rcito_del_Aire_LEN.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2021_12/Screen_211231_174213.png.e6804ccd5a9ede7162820bba2df490d7.png"
+  ],
+  "requires_modules": [
+    "Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "1.0.72",
+      "changelog": "Flight model performance update",
+      "download": {
+        "kind": "page",
+        "url": "https://lechuzasnegras.net/?page_id=19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "boeing-767-ai-western0221",
+  "name": "Boeing 767 AI Mod",
+  "summary": "AI-only Boeing 767-200 and -300 airliners with about 60 airline liveries.",
+  "description": "AI-only Boeing 767-200 and 767-300 with 30 and 31 liveries. All 3D and 2D work is by the author. No damage model, limited LODs. Built for DCS 2.9. A KC-46 is planned.",
+  "category": "aircraft",
+  "tags": [
+    "civil",
+    "airliner",
+    "ai",
+    "jet"
+  ],
+  "authors": [
+    {
+      "name": "western0221 (western_JPN)"
+    }
+  ],
+  "license": "Freeware - do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3342692/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Omni_Air_International_Boeing_767-300ER_N486AX_BWI_MD1.jpg?width=1920",
+    "credit": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Omni_Air_International_Boeing_767-300ER_N486AX_BWI_MD1.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/d9f/517gterw1nilebp3z32xt1swnq9ncofx/20250129DCSb767mod_3.jpg"
+  ],
+  "releases": [
+    {
+      "version": "0.1.1 beta",
+      "date": "2025-01-29",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3342692/"
+      }
+    }
+  ]
+}

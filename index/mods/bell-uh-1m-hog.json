@@ -1,0 +1,48 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "bell-uh-1m-hog",
+  "name": "Bell UH-1M (Huey Hog)",
+  "summary": "Free flyable Bell UH-1M 'Hog' Huey gunship with clickable cockpit and EFM for DCS World.",
+  "description": "Standalone flyable UH-1M gunship with a hi-res clickable cockpit (by Yakarov), simplified start-up, EFM and full armament; also adds Viet Cong infantry to the Mission Editor. Built for DCS 2.7; not meant to replace the official UH-1H.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "gunship",
+    "vietnam",
+    "flyable",
+    "cold war"
+  ],
+  "authors": [
+    {
+      "name": "Freddy"
+    },
+    {
+      "name": "Yakarov (cockpit)"
+    },
+    {
+      "name": "Numnuts / Dweeeeb (uploader)"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3318991/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bell_UH-1M_Iroquois_Huey_-_51167689853.jpg?width=1920",
+    "credit": "Eric Friedebach",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bell_UH-1M_Iroquois_Huey_-_51167689853.jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/iblock/e8e/5jj31c03go7fhinai6uecphspbddavrt/UH1M_Shark.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2022-03-03",
+      "date": "2022-03-03",
+      "changelog": "New download link with fix for landing on moving ships.",
+      "download": {
+        "kind": "page",
+        "url": "https://drive.google.com/file/d/1dglZauqLl1oXjf6FmsvJSua5qW-jpjdk/view?usp=sharing"
+      }
+    }
+  ]
+}

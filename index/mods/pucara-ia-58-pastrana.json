@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "pucara-ia-58-pastrana",
+  "name": "FMA IA-58 Pucará (Pastrana)",
+  "summary": "Free flyable FMA IA-58 Pucará twin-turboprop attack aircraft mod for DCS World (v0.12b, 2021).",
+  "description": "Flyable IA-58 Pucará by Pastrana with SFM, TACAN/ILS displays, two radios (SRS), damage visuals and liveries; README says it needs no other modules. Free build v0.12b dates from Aug 2021 (DCS 2.7 era). The newer v1.0 EFM (Oct 2026) is a Patreon subscription release, not free.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "attack",
+    "coin",
+    "argentina",
+    "flyable"
+  ],
+  "authors": [
+    {
+      "name": "Pastrana (pastranario3)",
+      "url": "https://github.com/PucaraPastrana"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/276647-new-full-efm-pucara-ia-58/",
+  "source": "https://github.com/PucaraPastrana/PucaraDCS",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/FMA_IA-58_Pucar%C3%A1_nueva_postal_de_Reconquista.jpg?width=1920",
+    "credit": "Marinafotoswiki",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FMA_IA-58_Pucar%C3%A1_nueva_postal_de_Reconquista.jpg"
+  },
+  "releases": [
+    {
+      "version": "v0.12b",
+      "date": "2021-08-08",
+      "changelog": "Engine start fix, rain canopy, TACAN/ILS/VOR displays, two radios, damage visuals, wing tanks, LODs, tutorial PDF.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/PucaraPastrana/PucaraDCS/releases/tag/v0.12b"
+      }
+    }
+  ]
+}

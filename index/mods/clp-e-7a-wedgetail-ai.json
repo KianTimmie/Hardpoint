@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "clp-e-7a-wedgetail-ai",
+  "name": "E-7A Wedgetail (AI only)",
+  "summary": "AI-only Boeing E-7A Wedgetail airborne early warning and control aircraft for DCS World.",
+  "description": "AI-only E-7A Wedgetail AEW&C aircraft from prcCOWBOY's \"Cowboy's Magic Collection\", based on the Boeing 737 NG. Five liveries (RAAF, ROKAF, Turkey, blank); appears in the Mission Editor as \"E-7a Wedgetail(CLP)\". Built for DCS World 2.7.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "awacs",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "prcCOWBOY"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3320838/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_E-7A_Wedgetail_(36161754901).jpg?width=1920",
+    "credit": "Ronnie Macdonald",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_E-7A_Wedgetail_(36161754901).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/24b/rajurolnobbullaty1z63dzkz0yp5lgk/Screen_220224_123102.jpg"
+  ],
+  "releases": [
+    {
+      "version": "v1.1.0317",
+      "date": "2022-02-26",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3320838/"
+      }
+    }
+  ]
+}

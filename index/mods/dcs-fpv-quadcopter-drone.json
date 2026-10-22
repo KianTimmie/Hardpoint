@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-fpv-quadcopter-drone",
+  "name": "FPV Quadcopter Drone",
+  "summary": "Flyable FPV quadcopter with Acro and Angle flight modes, an OSD and a detonating payload.",
+  "description": "Flyable FPV quadcopter drone (beta) with Acro and Angle modes, an arming key, tunable rates, a Betaflight-style OSD and a payload set off by the player. AI does not work and ground collision is unreliable. Open source under GPL-3.0.",
+  "category": "aircraft",
+  "tags": [
+    "drone",
+    "uav",
+    "flyable",
+    "fpv"
+  ],
+  "authors": [
+    {
+      "name": "nibbylot (CrudeCoder1)",
+      "url": "https://github.com/CrudeCoder1"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://forum.dcs.world/topic/374482-fpv-quadcopter-drone-v091-beta/",
+  "source": "https://github.com/CrudeCoder1/DCS-FPV-Drone",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_06/image.png.d9bec1c4bb197f528c0eb6dee3dcde7e.png"
+  ],
+  "releases": [
+    {
+      "version": "v0.9.1-beta",
+      "date": "2026-08-23",
+      "changelog": "Ground collision adjusted, more visible to AI, OSD improvements, VR camera fix.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/CrudeCoder1/DCS-FPV-Drone/releases/tag/v0.9.1-beta"
+      }
+    }
+  ]
+}

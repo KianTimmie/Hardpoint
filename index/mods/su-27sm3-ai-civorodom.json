@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "su-27sm3-ai-civorodom",
+  "name": "Su-27SM3 for AI",
+  "summary": "AI-only Su-27SM3 Flanker upgrade with N-001VEP radar and modern Russian munitions for DCS World.",
+  "description": "AI-only mid-life-upgrade Su-27SM3 with simulated N-001VEP radar, R-77-1, Kh-31A/P, Kh-29 and KAB-500 weapons. Built for DCS World 2.9.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "russia",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3344727/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Su-27SM3_in_flight,_Celebration_of_the_100th_anniversary_of_Russian_Air_Force.jpg?width=1920",
+    "credit": "Vitaly V. Kuzmin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Su-27SM3_in_flight,_Celebration_of_the_100th_anniversary_of_Russian_Air_Force.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/524/ulpm1pabgb2hsqas4c0asqjnoieqj686/su27sm3-1.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2025-05-16",
+      "date": "2025-05-16",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3344727/"
+      }
+    }
+  ]
+}

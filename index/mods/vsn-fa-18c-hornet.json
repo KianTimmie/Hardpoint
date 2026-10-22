@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-fa-18c-hornet",
+  "name": "VSN F/A-18C Hornet",
+  "summary": "VSN team's free FC3-style F/A-18C Hornet with air-to-air and air-to-ground versions.",
+  "description": "Free VSN mod providing FC3-style F/A-18C Hornet variants (A/A and A/G). Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "carrier",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://filedn.eu/lry92aiYXwlhFlDghoB2OEp/VSN_html_Links/VSN_MODS.html",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg?width=1920",
+    "credit": "PH3 Jonathan Chandler, U.S. Navy",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg"
+  },
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-25",
+      "changelog": "No version shown; date is when VSN refreshed the download links.",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZtYzAZWUN1sMytKuV9t2JvTXPhbpYNb0FX"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-4-phantom-standalone",
+  "name": "VSN F-4B/C Phantom II (standalone)",
+  "summary": "VSN team's free standalone F-4B/C Phantom II with EFM and its own clickable cockpit.",
+  "description": "Free standalone VSN F-4 Phantom II (F-4B/C) with an EFM by PeeJott and a custom clickable cockpit; supports carrier catapult launches (bind Launch Bar Toggle). Not dependent on the VSN F-4E mod.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "carrier",
+    "cold war",
+    "flyable",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "PeeJott (EFM)"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8349-f-4-phantom-ii/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McDonnell_F-4B_Phantom_II_of_VF-161_drops_M117_bomb_over_Vietnam,_circa_in_1970.jpg?width=1920",
+    "credit": "U.S. Navy",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:McDonnell_F-4B_Phantom_II_of_VF-161_drops_M117_bomb_over_Vietnam,_circa_in_1970.jpg"
+  },
+  "images": [
+    "https://s20.directupload.net/images/user/240501/hnjyavcg.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2.8.1.01",
+      "date": "2023-01-24",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZIQzAZlrghcGswELf3B7JQuoQksR8Bhv57"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-g-91y-yankee",
+  "name": "VSN Fiat G.91Y Yankee",
+  "summary": "VSN team's free Fiat/Aeritalia G.91Y light attack jet with selectable SFM or EFM.",
+  "description": "Free VSN mod adding the Fiat G.91Y with FC3/A-10A avionics; .cmd files switch between SFM and EFM flight models. Original 3D model by Enrico Gennari. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "attack",
+    "italy",
+    "cold war",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "Soulfreak"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8357-fiat-aeritalia-g-91y-yankee/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat_G.91Y_365_2.jpg?width=1920",
+    "credit": "Piergiuliano Chesi",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_G.91Y_365_2.jpg"
+  },
+  "images": [
+    "https://www.lockonforum.de/attachment/779-1-jpg-3a2f60d7c21d2cfebdfdd20529b08afc-jpg/"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.7.18.03",
+      "date": "2022-10-02",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZvYzAZxX5uxznPfby1oA5eOvh8IzESSTIV"
+      }
+    }
+  ]
+}

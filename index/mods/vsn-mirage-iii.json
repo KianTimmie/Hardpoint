@@ -1,0 +1,45 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-mirage-iii",
+  "name": "VSN Mirage III",
+  "summary": "VSN team's free Mirage III C/S (plus two-seat B/D) for DCS World.",
+  "description": "Free VSN mod adding the Dassault Mirage IIIC and IIIS, with two-seat B and D versions in the current build; FC3 SFM. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "france",
+    "cold war",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8294-mirage-iii-c-s/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Orange_-_84100_-_2024.01.16_-_Dassault_Mirage_IIIC_sur_un_rond-point_%C2%A9_Anthony_Levrot.jpg?width=1920",
+    "credit": "Anthony Levrot",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Orange_-_84100_-_2024.01.16_-_Dassault_Mirage_IIIC_sur_un_rond-point_%C2%A9_Anthony_Levrot.jpg"
+  },
+  "images": [
+    "https://abload.de/img/coverjhkqc.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.7.01",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZ5mzAZqeeRpohKHCBXHmqsK0QygQMOAPLy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-84g-thunderjet",
+  "name": "VSN F-84G Thunderjet",
+  "summary": "VSN team's free F-84G Thunderjet early jet for DCS World (work in progress).",
+  "description": "Free VSN mod adding the Republic F-84G Thunderjet; marked work in progress by the author. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "korea",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8321-f-84g-thunderjet/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Republic_F-84G-26-RE_Thunderjet_51-16719.jpg?width=1920",
+    "credit": "United States Air Force",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Republic_F-84G-26-RE_Thunderjet_51-16719.jpg"
+  },
+  "images": [
+    "https://abload.de/img/screen_210102_235133euk5b.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.7.01",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZ2YzAZnJWcYKtHNmukilvTf8a0HY9rgF9k"
+      }
+    }
+  ]
+}

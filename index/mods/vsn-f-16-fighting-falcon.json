@@ -1,0 +1,48 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-16-fighting-falcon",
+  "name": "VSN F-16 Fighting Falcon",
+  "summary": "VSN team's free FC3-style F-16 family (F-16A, MLU, Block 50/52) for DCS World.",
+  "description": "Free VSN F-16 pack with several variants (F-16A, F-16AM MLU, Block 50, Block 52 with Su-25T avionics), custom exterior model and FC3-style cockpit. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "multirole",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "razo+r"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/7645-f-16-fighting-falcon/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F-16_June_2008.jpg?width=1920",
+    "credit": "Master Sgt. Andy Dunaway, USAF",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:F-16_June_2008.jpg"
+  },
+  "images": [
+    "https://abload.de/img/vsn_f161ljnv.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.4.03",
+      "date": "2019-03-31",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZRYzAZBAfzSQaAPwXhjBqEb6uBV5PG43tk"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-100-super-sabre",
+  "name": "VSN F-100 Super Sabre",
+  "summary": "VSN team's free F-100 Super Sabre with EFM for DCS World.",
+  "description": "Free VSN mod adding the North American F-100 Super Sabre with an EFM and Lua systems by PeeJott (3D model data donated by Squeak). Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "cold war",
+    "vietnam",
+    "flyable",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "PeeJott (EFM)"
+    },
+    {
+      "name": "Urbi (skins)"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8378-f-100-super-sabre/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/615th_TFS_North_American_F-100D-45-NH_Super_Sabre_55-2946.jpg?width=1920",
+    "credit": "United States Air Force",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:615th_TFS_North_American_F-100D-45-NH_Super_Sabre_55-2946.jpg"
+  },
+  "images": [
+    "https://abload.de/img/screen_220921_0913335fdt9.png"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.7.18.01",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZTYzAZvz0KDCufa0VYAYmCinJD6hm9V8L7"
+      }
+    }
+  ]
+}

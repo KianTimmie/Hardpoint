@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f-16g-block-80-spino",
+  "name": "F-16G \"Block 80\" Super Viper (Spino)",
+  "summary": "Fictional F-16 Block 80 concept using F-15C (FC3) avionics and the F-16 models.",
+  "description": "Flyable fictional F-16G 'Block 80' by Spino: F-16C external model, F-16V-style cockpit, F-15C avionics, up to eight AIM-120s and conformal fuel tanks. Requires Flaming Cliffs 3. Version 1.02.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "flyable",
+    "fictional",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "Spino"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/387374-f-16g-block-80-super-viper-mod-by-spino/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Bahraini_Air_Force_F-16_Block_70_lands_at_Edwards_Air_Force_Base.jpg?width=1920",
+    "credit": "U.S. Air Force",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Bahraini_Air_Force_F-16_Block_70_lands_at_Edwards_Air_Force_Base.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2026_04/F-16XBlock80.png.48dff5dea962c6828ab7f6fce5efd824.png"
+  ],
+  "requires_modules": [
+    "Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "1.02",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/dz1ihgt570ocfdq/F-16XBL80_V1.02.7z/file"
+      }
+    }
+  ]
+}

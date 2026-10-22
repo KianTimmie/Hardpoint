@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "me-262-ai-halfscience",
+  "name": "Messerschmitt Me 262 AI Asset",
+  "summary": "Non-animated AI Messerschmitt Me 262 aircraft asset for DCS World missions.",
+  "description": "AI-controlled Messerschmitt Me 262 asset with an approximate flight model tuned to public performance data (no EFM). Technically player-controllable but has no animations or working cockpit. 3D model by helijah (Sketchfab), used with permission.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "ww2",
+    "germany"
+  ],
+  "authors": [
+    {
+      "name": "HalfScience"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3347658/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Messerschmitt_Me_262_A-1a_(cn_500071,_3%2BI_(ws))_2019-04-15_Andre_Gerwing_Collection_ID_011653.jpg?width=1920",
+    "credit": "André Gerwing",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262_A-1a_(cn_500071,_3%2BI_(ws))_2019-04-15_Andre_Gerwing_Collection_ID_011653.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/318/fmimfy52rjqx9ombs2mqe67ujqcemli7/4_me262_flight_015.png"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-14",
+      "date": "2025-11-14",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3347658/"
+      }
+    }
+  ]
+}

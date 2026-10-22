@@ -1,0 +1,51 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-106-delta-dart",
+  "name": "VSN F-106 Delta Dart",
+  "summary": "VSN team's free F-106A/B Delta Dart with GPL-3 EFM and custom cockpit.",
+  "description": "Free VSN F-106 Delta Dart: FC3-based mod with a GPL-3 EFM by PeeJott and a custom 3D cockpit (models licensed from VIRTAVIA).\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "interceptor",
+    "cold war",
+    "flyable",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "PeeJott (EFM)"
+    },
+    {
+      "name": "Urbi (skins)"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8415-f-106-delta-dart/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_F-106_%22Delta_Dart%22_on_display_at_the_Aerospace_Museum_of_California.jpg?width=1920",
+    "credit": "LEHarrison",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_F-106_%22Delta_Dart%22_on_display_at_the_Aerospace_Museum_of_California.jpg"
+  },
+  "images": [
+    "https://s20.directupload.net/images/user/240414/x26uzwqv.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.9.4.101",
+      "date": "2024-04-14",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZlYzAZCRgeA8RnAwVmhakIkEwpGX1B9Ney"
+      }
+    }
+  ]
+}

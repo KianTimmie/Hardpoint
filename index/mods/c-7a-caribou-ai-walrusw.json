@@ -1,0 +1,39 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "c-7a-caribou-ai-walrusw",
+  "name": "DHC-4 / C-7A Caribou AI Mod",
+  "summary": "AI-only de Havilland Canada C-7A Caribou STOL transport.",
+  "description": "AI-only C-7A Caribou transport (v0.1). 3D model and textures credited to Virtavia, used with permission.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "ai",
+    "transport",
+    "vietnam",
+    "stol"
+  ],
+  "authors": [
+    {
+      "name": "walrusw"
+    },
+    {
+      "name": "Virtavia (model, with permission)"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/351689-caribou-c-123k-and-an-12-ai-mods/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/De_Havilland_Canada_C-7A_Caribou_%E2%80%9960-767_-_KE%E2%80%99_(29735983133).jpg?width=1920",
+    "credit": "Alan Wilson",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:De_Havilland_Canada_C-7A_Caribou_%E2%80%9960-767_-_KE%E2%80%99_(29735983133).jpg"
+  },
+  "releases": [
+    {
+      "version": "0.1",
+      "download": {
+        "kind": "page",
+        "url": "https://drive.google.com/drive/folders/14gtv5enApPTeRvFOxSxTW9zNpw1zpyI3?usp=drive_link"
+      }
+    }
+  ]
+}

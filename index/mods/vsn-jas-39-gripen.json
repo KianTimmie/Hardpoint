@@ -1,0 +1,48 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-jas-39-gripen",
+  "name": "VSN JAS 39 Gripen",
+  "summary": "VSN team's free FC3-style JAS 39 Gripen for DCS World.",
+  "description": "Free VSN mod adding the Saab JAS 39 Gripen with a custom exterior model and FC3-style cockpit. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "multirole",
+    "sweden",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "razo+r"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8277-jas-39-gripen/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show,_June_2017_(altered)_copy.jpg?width=1920",
+    "credit": "Tuomo Salonen / Finnish Aviation Museum",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show,_June_2017_(altered)_copy.jpg"
+  },
+  "images": [
+    "https://abload.de/img/vsn_jas39gripencovergzjoh.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.6.02",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZcYzAZT9v1T11WweQdgi8lo63va54BoaPk"
+      }
+    }
+  ]
+}

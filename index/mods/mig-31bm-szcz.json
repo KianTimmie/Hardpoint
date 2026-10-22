@@ -1,0 +1,46 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mig-31bm-szcz",
+  "name": "MiG-31BM Mod by szcz",
+  "summary": "Flyable MiG-31BM Foxhound interceptor mod for DCS World with its own cockpit model and flight model.",
+  "description": "Flyable MiG-31BM using Su-27 (FC3) or free Su-25T avionics, with its own SFM and cockpit model; works on any map. Without the optional FC3 Fix it stays AI-controlled until a Su-27 has been loaded once in the session. The User Files entry contains a link to the actual download.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "flyable",
+    "interceptor",
+    "russia",
+    "fc3"
+  ],
+  "authors": [
+    {
+      "name": "szcz13",
+      "url": "https://forum.dcs.world/topic/370193-mig-31bm-mod-by-szcz/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3346479/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikoyan-Gurevich_MiG-31BM_%E2%80%98RF-92369_-_86_blue%E2%80%99_(36316541623).jpg?width=1920",
+    "credit": "Alan Wilson",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-31BM_%E2%80%98RF-92369_-_86_blue%E2%80%99_(36316541623).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/48c/qm6n2my0d0q0paa7g569bbjs8xv3szns/DCS2025-08-0417-46-32_238.png.7b31d9c1c492636f3628258b8006927b.jpg"
+  ],
+  "requires_modules": [
+    "Flaming Cliffs 3 (Su-27) recommended"
+  ],
+  "releases": [
+    {
+      "version": "v1.1.4",
+      "date": "2025-10-06",
+      "changelog": "Cockpit model fixes, corrected max fuel and countermeasure count, SFM tweaks.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3346479/"
+      }
+    }
+  ]
+}

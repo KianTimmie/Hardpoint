@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ai-warbirds-asset-pack-halfscience",
+  "name": "AI Warbirds Asset Pack (non animated)",
+  "summary": "AI-only pack of WWII aircraft: TBD Devastator, TBM Avenger, F6F Hellcat, P-38, P-39 and Me 262.",
+  "description": "AI-only, unanimated models of the TBD Devastator, TBM Avenger, F6F Hellcat, P-38 Lightning, P-39 Airacobra and Me 262, for use as opponents or targets. There is no cockpit. Flight data comes from public sources and was tuned in game. Models are by helijah (Sketchfab). Built for DCS 2.7.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "ai",
+    "ww2",
+    "warbird",
+    "pack"
+  ],
+  "authors": [
+    {
+      "name": "HalfScience"
+    },
+    {
+      "name": "helijah (3D models)"
+    }
+  ],
+  "license": "Freeware - do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3337446/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grumman_F6F_Hellcat_-_Chino_Airshow_2014_(16581440362).jpg?width=1920",
+    "credit": "Airwolfhound",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grumman_F6F_Hellcat_-_Chino_Airshow_2014_(16581440362).jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/userfiles/fe5/ilbtnapnqdxcfit9ztxbyjrpjp4tnb5k/claypigeon_5_2_f6f_imagepng.png"
+  ],
+  "releases": [
+    {
+      "version": "2024-05-15",
+      "date": "2024-05-15",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3337446/"
+      }
+    }
+  ]
+}

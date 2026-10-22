@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ai-cessna-caravan",
+  "name": "AI Cessna Caravan Mod",
+  "summary": "Free AI-only Cessna 208 Caravan family (civil C-208B plus AC-208, MC-208, U-27A) for DCS World.",
+  "description": "AI-only mod adding the Cessna C-208B Grand Caravan (civil) and military AC-208 Eliminator, MC-208 Guardian and U-27A Combat Caravan for the Mission Editor, with 30 liveries from 10 countries. Tested on DCS 2.7.5.",
+  "category": "aircraft",
+  "tags": [
+    "civil",
+    "prop",
+    "ai",
+    "utility",
+    "military"
+  ],
+  "authors": [
+    {
+      "name": "bns130"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3318245/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Procharter_Cessna_208B_9J-PCR_Lusaka_Jul23_R16_07457.jpg?width=1920",
+    "credit": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Procharter_Cessna_208B_9J-PCR_Lusaka_Jul23_R16_07457.jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/iblock/191/0miyxu9i27pmy0zdne76tvf1gqznsop0/MainMenulogo.png"
+  ],
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2021-09-02",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3318245/"
+      }
+    }
+  ]
+}

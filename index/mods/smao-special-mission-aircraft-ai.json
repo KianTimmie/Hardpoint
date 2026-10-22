@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "smao-special-mission-aircraft-ai",
+  "name": "Special Mission Aircraft and Operator's AI Mod",
+  "summary": "AI mod adding RC-135 and EC-130H ELINT aircraft, HC-130 Combat King and JTAC units to DCS World.",
+  "description": "Secret Squirrel Studios pack with RC-135 and EC-130H ELINT aircraft, HC-130P/N/H Combat King (six liveries), a JTAC unit and special-forces vehicles. V2.0 was tested with DCS 2.8.5 (MT); used by the Hound-ELINT script.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "elint",
+    "special mission",
+    "usaf"
+  ],
+  "authors": [
+    {
+      "name": "Secret Squirrel Studios (Eightball, bns130)"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3321706/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20190206_RC-135_Rivet_Joint_Kadena_AB-10.jpg?width=1920",
+    "credit": "Balon Greyjoy",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:20190206_RC-135_Rivet_Joint_Kadena_AB-10.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/78d/eme69nsdgp26hqd2r740cn9a0x4c4xgu/FAMILY_SHOT.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2.0",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/6lon4ml953eu3x6/SMAO_Version_2.0_31MAY23.zip/file"
+      }
+    }
+  ]
+}

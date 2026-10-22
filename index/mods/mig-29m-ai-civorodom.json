@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mig-29m-ai-civorodom",
+  "name": "MiG-29M (AI only)",
+  "summary": "AI-only MiG-29M Fulcrum with Zhuk-M radar and R-77-1 missiles for DCS World.",
+  "description": "AI-only MiG-29M with composite airframe, RD-33MK engines, simulated Zhuk-M radar and R-73M/R-77-1; AI can fly CAP, escort, SEAD, anti-ship and strike tasks. Converted to AI-only after DCS 2.9.6.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "russia",
+    "modern"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3333606/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikoyan_MiG-29M-2_Fulcrum_-_Zhukovsky_2012_(8730069581).jpg?width=1920",
+    "credit": "Alan Wilson",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mikoyan_MiG-29M-2_Fulcrum_-_Zhukovsky_2012_(8730069581).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/c40/tcapq3kmltmf9wg51bt23bfv53xeyz3h/Screen_231021_004045.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2023-10-21",
+      "date": "2023-10-21",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3333606/"
+      }
+    }
+  ]
+}

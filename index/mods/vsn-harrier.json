@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-harrier",
+  "name": "VSN Harrier",
+  "summary": "VSN team's free FC3-style Harrier using the RAZBAM AV-8B model.",
+  "description": "Free VSN mod making an FC3-style flyable Harrier based on the RAZBAM AV-8B model in DCS. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "attack",
+    "vtol",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://filedn.eu/lry92aiYXwlhFlDghoB2OEp/VSN_html_Links/VSN_MODS.html",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BAE-McDonnell-Douglas_AV8B_edit5.jpg?width=1920",
+    "credit": "Paul Maritz",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BAE-McDonnell-Douglas_AV8B_edit5.jpg"
+  },
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-25",
+      "changelog": "No version shown; date is when VSN refreshed the download links.",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZiYzAZqNFVi99MQmYGULXWg356YzVjyX5k"
+      }
+    }
+  ]
+}

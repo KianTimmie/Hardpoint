@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "c-123k-provider-ai-walrusw",
+  "name": "Fairchild C-123K Provider AI Mod",
+  "summary": "AI-only Fairchild C-123K Provider tactical transport for Vietnam-era missions.",
+  "description": "AI-only C-123K Provider transport (v0.1).",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "ai",
+    "transport",
+    "vietnam",
+    "cold war"
+  ],
+  "authors": [
+    {
+      "name": "walrusw"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/351689-caribou-c-123k-and-an-12-ai-mods/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fairchild_C-123K_Provider_USAF.jpg?width=1920",
+    "credit": "United States Air Force",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Fairchild_C-123K_Provider_USAF.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2024_06/image.png.b5377d29cb09f4fe54ead7e169d9543f.png"
+  ],
+  "releases": [
+    {
+      "version": "0.1",
+      "date": "2024-06-24",
+      "download": {
+        "kind": "page",
+        "url": "https://drive.google.com/drive/folders/1hdhq_QdRG9XG1o_nHLhBDCj3IGEnD_Fo?usp=sharing"
+      }
+    }
+  ]
+}

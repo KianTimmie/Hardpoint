@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "tttwj-erj145-erj135bj-ai",
+  "name": "T-Tail Twin Jets: ERJ-145 & ERJ-135BJ AI Mod",
+  "summary": "AI-only Embraer ERJ-145 regional jet and ERJ-135BJ Legacy business jet with 45 liveries.",
+  "description": "AI-only Embraer ERJ-145 and ERJ-135BJ (Legacy 600/650) with 21 and 24 liveries, LODs, collision models and night lighting. Built for DCS 2.9.",
+  "category": "aircraft",
+  "tags": [
+    "civil",
+    "airliner",
+    "bizjet",
+    "ai",
+    "jet"
+  ],
+  "authors": [
+    {
+      "name": "western0221 (western_JPN)"
+    }
+  ],
+  "license": "Freeware - do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3329489/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alitalia_Express_-_Embraer_ERJ-145_(I-EXMF).jpg?width=1920",
+    "credit": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alitalia_Express_-_Embraer_ERJ-145_(I-EXMF).jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/75b/zh9n52hkazkze27xlzvu63hmzg5xc6ql/20230304DCSerj145135ss1.jpg"
+  ],
+  "releases": [
+    {
+      "version": "0.0.2",
+      "date": "2023-10-21",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3329489/"
+      }
+    }
+  ]
+}

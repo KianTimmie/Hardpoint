@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-hawker-hunter-t68",
+  "name": "VSN Hawker Hunter T.68",
+  "summary": "VSN team's free two-seat Hawker Hunter T.68 for DCS World.",
+  "description": "Free VSN mod adding the two-seat Hawker Hunter T Mk 68 trainer. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "trainer",
+    "two-seat",
+    "cold war",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://filedn.eu/lry92aiYXwlhFlDghoB2OEp/VSN_html_Links/VSN_MODS.html",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hawker_Hunter_T68_(cn_41HR-003206,_HB-RVP)_2010-06-11_Andre_Gerwing_Collection_ID_009197.jpg?width=1920",
+    "credit": "André Gerwing",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hawker_Hunter_T68_(cn_41HR-003206,_HB-RVP)_2010-06-11_Andre_Gerwing_Collection_ID_009197.jpg"
+  },
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-25",
+      "changelog": "No version shown; date is when VSN refreshed the download links.",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZ8mzAZNt1QxTxbDlF5e3ItqOlQ7Llf74yV"
+      }
+    }
+  ]
+}

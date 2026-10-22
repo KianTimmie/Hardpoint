@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "an-12-ai-walrusw",
+  "name": "Antonov An-12 AI Mod",
+  "summary": "AI-only Antonov An-12 four-turboprop transport based on helijah's CC-BY model.",
+  "description": "AI-only An-12 'Cub' turboprop transport. Based on Emmanuel Baranger (helijah)'s CC-BY Sketchfab model, with animations and roughness/metallic maps added by walrusw. v0.2 adds model and texture fixes, new animations and a collision shell.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "ai",
+    "transport",
+    "cold war",
+    "turboprop"
+  ],
+  "authors": [
+    {
+      "name": "walrusw"
+    },
+    {
+      "name": "Emmanuel Baranger (helijah)"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/351689-caribou-c-123k-and-an-12-ai-mods/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby_Star_Antonov_An-12_EW-275TI_at_PRG_airport_02.JPG?width=1920",
+    "credit": "Sefjo",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ruby_Star_Antonov_An-12_EW-275TI_at_PRG_airport_02.JPG"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2024_06/DCS2024-06-2515-18-41.png.1027c250329249d5e87987cbbfdf6d92.png"
+  ],
+  "releases": [
+    {
+      "version": "0.2",
+      "date": "2024-07-03",
+      "download": {
+        "kind": "page",
+        "url": "https://drive.google.com/drive/folders/1cexvpKggz1ZgR6bh4CSu8G8VMo5zvfcJ?usp=drive_link"
+      }
+    }
+  ]
+}

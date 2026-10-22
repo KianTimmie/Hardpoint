@@ -1,0 +1,48 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-eurofighter-typhoon",
+  "name": "VSN Eurofighter Typhoon",
+  "summary": "VSN team's free Eurofighter Typhoon for DCS World using FC3-style avionics.",
+  "description": "Free VSN mod adding the Eurofighter Typhoon with a custom exterior model (based on purchased Turbosquid data) and FC3-style cockpit. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "multirole",
+    "modern",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    },
+    {
+      "name": "razo+r"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/7633-eurofighter-typhoon/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/30%2B68_German_Air_Force_Eurofighter_Typhoon_EF2000_ILA_Berlin_2016_06.jpg?width=1920",
+    "credit": "Julian Herzog",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:30%2B68_German_Air_Force_Eurofighter_Typhoon_EF2000_ILA_Berlin_2016_06.jpg"
+  },
+  "images": [
+    "https://abload.de/img/screen_181210_2104416kdn2.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.4.05",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZUQzAZSyi99KPDNSuxo4pUQfiy5Qa9yS1X"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ki-61-hien-ai-halfscience",
+  "name": "Kawasaki Ki-61 Hien AI Asset (non animated)",
+  "summary": "AI-only, unanimated Kawasaki Ki-61 'Hien' WWII fighter for missions.",
+  "description": "AI-only Kawasaki Ki-61 'Hien' with an SFM flight model tuned to public performance data. It has no animations and no working cockpit. Model by helijah (Sketchfab), used with permission.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "ai",
+    "ww2",
+    "warbird",
+    "fighter"
+  ],
+  "authors": [
+    {
+      "name": "HalfScience"
+    },
+    {
+      "name": "helijah (3D model)"
+    }
+  ],
+  "license": "Freeware - do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3347592/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawasaki_Ki-61-II_Kai,_Hien_02.jpg?width=1920",
+    "credit": "Motokoka",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ki-61-II_Kai,_Hien_02.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/bdf/ajn2cw5h0aqx2pwugmdtpa98txt83md2/1_base-menu-window.png"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-03",
+      "date": "2025-11-03",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3347592/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mig-29ub-zhmykh",
+  "name": "MiG-29UB (Zhmykh)",
+  "summary": "Two-seat MiG-29UB trainer mod with paintkit.",
+  "description": "MiG-29UB two-seat trainer mod posted by Жмых (December 2025), flyable from the rear seat according to users; paintkit provided separately. Support via the developer's Discord.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "trainer",
+    "flyable",
+    "russia",
+    "cold war"
+  ],
+  "authors": [
+    {
+      "name": "Жмых"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/383112-mig-29ub-mod-release/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/28375_Bangladesh_Air_Force_Mikoyan-Gurevich_Mig-29UB_Fulcrum_VGHS.jpg?width=1920",
+    "credit": "Md Shaifuzzaman Ayon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:28375_Bangladesh_Air_Force_Mikoyan-Gurevich_Mig-29UB_Fulcrum_VGHS.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_12/Screen_250527_142229.png.f1a1751d910bbde877d20cdd7e7379b8.png"
+  ],
+  "releases": [
+    {
+      "version": "2025-12-15",
+      "date": "2025-12-15",
+      "download": {
+        "kind": "page",
+        "url": "https://drive.google.com/file/d/1OoriCIRjUpJiAs_ipvFR8b3ZY9KDPpMD/view?usp=sharing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-fa-18d-hornet",
+  "name": "VSN F/A-18D Hornet",
+  "summary": "VSN team's free FC3-style two-seat F/A-18D Hornet (uscstaylor model).",
+  "description": "Free VSN mod adding an FC3-style two-seat F/A-18D Hornet using a model by uscstaylor. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "two-seat",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://filedn.eu/lry92aiYXwlhFlDghoB2OEp/VSN_html_Links/VSN_MODS.html",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McDonnell_Douglas_F_A-18D_Hornet_VMFA(AW)-225_%22Vikings%22_(28889027568).jpg?width=1920",
+    "credit": "Tomás Del Coro",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_F_A-18D_Hornet_VMFA(AW)-225_%22Vikings%22_(28889027568).jpg"
+  },
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2025-11-25",
+      "changelog": "No version shown; date is when VSN refreshed the download links.",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZAYzAZl4m1Dez9TV4N3t2NIIDSofzNULok"
+      }
+    }
+  ]
+}

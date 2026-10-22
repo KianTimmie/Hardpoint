@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "cjs-super-hornet",
+  "name": "CJS Super Hornet Community Mod",
+  "summary": "Free F/A-18E/F and EA-18G Super Hornet mod built on the official DCS F/A-18C Hornet.",
+  "description": "Chiller Juice Studios' mod adding F/A-18E, F/A-18F and EA-18G slots based on the DCS F/A-18C systems. Requires the F/A-18C module; it installs into the main DCS folder, replaces some Hornet files and breaks the integrity check (OVGME compatible).\n\nRequires: Overwrites files in the DCS install directory (not Saved Games); breaks integrity check / multiplayer IC.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "carrier",
+    "modern",
+    "flyable"
+  ],
+  "authors": [
+    {
+      "name": "Chiller Juice Studios (CJS)"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/316971-cjs-super-hornet-community-mod-v21-official-thread/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_FA-18F_Super_Hornet_at_take_off_Danish_Air_Show_2014-06-22_aligned.jpg?width=1920",
+    "credit": "Slaunger",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_FA-18F_Super_Hornet_at_take_off_Danish_Air_Show_2014-06-22_aligned.jpg"
+  },
+  "requires_modules": [
+    "DCS: F/A-18C Hornet"
+  ],
+  "installable": false,
+  "releases": [
+    {
+      "version": "2.1",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/316971-cjs-super-hornet-community-mod-v21-official-thread/"
+      }
+    }
+  ]
+}

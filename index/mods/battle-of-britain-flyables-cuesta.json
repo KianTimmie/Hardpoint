@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "battle-of-britain-flyables-cuesta",
+  "name": "Hurricane, Stuka and D.520 Flyables (Cuesta brothers)",
+  "summary": "Flyable Hurricane, Ju 87 Stuka and Dewoitine D.520 that use the P-51D cockpit and avionics.",
+  "description": "Three flyable 1940 aircraft (Hawker Hurricane, Ju 87 Stuka, Dewoitine D.520) that reuse the P-51D cockpit and avionics. Install them one at a time with JSGME. Built for DCS 2.8.1 (also said to work with 2.7).\n\nRequires: Requires the paid P-51D module (the TF-51D does not work, per the authors). Use only one flyable at a time via JSGME.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "flyable",
+    "ww2",
+    "warbird"
+  ],
+  "authors": [
+    {
+      "name": "Eric Cuesta"
+    },
+    {
+      "name": "Patrick Cuesta"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/269703-pack-ai-1940-battle-of-britain-with-3-flyable-planes-eric-et-patrick-cuesta/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hawker_Hurricane_Mk_I_Replica_3_(29117584845).jpg?width=1920",
+    "credit": "Ronnie Macdonald",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hawker_Hurricane_Mk_I_Replica_3_(29117584845).jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2021_04/00.jpg.c48f064e83c1636236d1c5f2012ed800.jpg"
+  ],
+  "requires_modules": [
+    "P-51D Mustang"
+  ],
+  "releases": [
+    {
+      "version": "2.8.1",
+      "download": {
+        "kind": "page",
+        "url": "https://www.mediafire.com/file/abugc1c56uvzn97/HURRI+STUKA+DEWOIT+520+FLYABLE+JSGME+2.8.1.7z/file"
+      }
+    }
+  ]
+}

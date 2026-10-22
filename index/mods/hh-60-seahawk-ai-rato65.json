@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "hh-60-seahawk-ai-rato65",
+  "name": "HH-60 / MH-60 Seahawk Mod (AI only)",
+  "summary": "AI-only HH-60/MH-60 Seahawk family with folded-blade statics and multiple liveries.",
+  "description": "AI-only HH-60/MH-60 Seahawk helicopters for missions, including folded statics. Tested on DCS 2.9.2. Installs a `tech` folder into Mods and a Liveries folder; a March 2025 fix replaces a Database file and adds a payload file.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "ai",
+    "naval",
+    "military"
+  ],
+  "authors": [
+    {
+      "name": "rato65"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/286877-hh-60-mh-60-seahawk-mod-ai-only/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HH-60H_Seahawk_Iraq.jpg?width=1920",
+    "credit": "U.S. Navy",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:HH-60H_Seahawk_Iraq.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2021_11/HH-60_4.jpg.438486670c6ee08a142bf9c0192a0498.jpg"
+  ],
+  "releases": [
+    {
+      "version": "0.3",
+      "date": "2025-03-05",
+      "changelog": "Fix for a crash with folded statics and a payload terminate error (fix files posted separately in the thread).",
+      "download": {
+        "kind": "page",
+        "url": "https://www.dropbox.com/s/zkmw46spdux69vc/HH-60%20Seahawk%20Mod%20v03.zip?dl=0"
+      }
+    }
+  ]
+}

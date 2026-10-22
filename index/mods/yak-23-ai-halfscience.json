@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "yak-23-ai-halfscience",
+  "name": "Yakovlev Yak-23 AI Asset",
+  "summary": "Non-animated AI Yakovlev Yak-23 aircraft asset for DCS World missions.",
+  "description": "AI-controlled Yakovlev Yak-23 asset with an approximate flight model tuned to public performance data (no EFM). Technically player-controllable but has no animations or working cockpit. 3D model by helijah (Sketchfab), used with permission.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "early jet",
+    "ussr"
+  ],
+  "authors": [
+    {
+      "name": "HalfScience"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3344973/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakovlev_Yak-23_Monino.jpg?width=1920",
+    "credit": "Maarten",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yakovlev_Yak-23_Monino.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/9da/hrw67wxvqog22gewqr5fw1pd1eu8mao6/yak23_image_1.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2025-05-26",
+      "date": "2025-05-26",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3344973/"
+      }
+    }
+  ]
+}

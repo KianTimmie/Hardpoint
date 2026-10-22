@@ -1,0 +1,50 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f8f-bearcat-pto",
+  "name": "Grumman F8F Bearcat PTO",
+  "summary": "Flyable F8F-2 Bearcat carrier fighter that uses the P-51D cockpit, with bomb pylons.",
+  "description": "Flyable F8F-2 Bearcat (beta) that uses P-51D cockpit and controls, has a historical loadout with working wing bomb pylons, Lua by Stonehouse and model by Markindel. Part of the Community PTO effort.\n\nRequires: Uses the P-51D cockpit and controls; the page does not say whether the P-51D module is required.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "flyable",
+    "ww2",
+    "naval",
+    "fighter"
+  ],
+  "authors": [
+    {
+      "name": "Markindel"
+    },
+    {
+      "name": "Hawkeye60"
+    },
+    {
+      "name": "Stonehouse"
+    },
+    {
+      "name": "Eric & Patrick Cuesta"
+    }
+  ],
+  "license": "Freeware - do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3351081/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grumman_F8F_Bearcat,_Chino,_California.jpg?width=1920",
+    "credit": "Greg Goebel",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grumman_F8F_Bearcat,_Chino,_California.jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/userfiles/19b/6tdbxm13ywg2abq2n1xkmounxbddmwfj/Screen_260815_010158.jpg"
+  ],
+  "releases": [
+    {
+      "version": "BETA (2026-08-15)",
+      "date": "2026-08-15",
+      "download": {
+        "kind": "page",
+        "url": "https://drive.google.com/drive/folders/1QUlrRQZ7ACklXxMXPWHjqObNXGeV53Vb?usp=sharing"
+      }
+    }
+  ]
+}

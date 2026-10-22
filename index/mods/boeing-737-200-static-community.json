@@ -1,0 +1,47 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "boeing-737-200-static-community",
+  "name": "Static Boeing 737-200 with Skin Template",
+  "summary": "Low-poly static Boeing 737-200 airliner with a livery template; can also fly as AI.",
+  "description": "Low-poly Boeing 737-200, mainly a static object but able to take off, fly and land. Comes with a livery template for custom airline schemes. Model by helijah (FlightGear), converted by Hawkeye60.",
+  "category": "aircraft",
+  "tags": [
+    "civil",
+    "airliner",
+    "static",
+    "ai",
+    "jet"
+  ],
+  "authors": [
+    {
+      "name": "Hawkeye60"
+    },
+    {
+      "name": "helijah (model)"
+    },
+    {
+      "name": "Stratos"
+    }
+  ],
+  "license": "Freeware - unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3349441/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EAS_Airlines_B737-200_at_Lagos.jpg?width=1920",
+    "credit": "Sm105",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:EAS_Airlines_B737-200_at_Lagos.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/68a/dkwip1z09qg3f0ez71tkcyyafyee984n/486613123_673116918801375_1564782531061595912_n.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2026-04-03",
+      "date": "2026-04-03",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3349441/"
+      }
+    }
+  ]
+}

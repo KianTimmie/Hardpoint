@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mh-60r-seahawk-tanuki44",
+  "name": "MH-60R Seahawk (Tanuki44)",
+  "summary": "Flyable and AI MH-60R naval helicopter with ASW and CSAR functions such as sonobuoys.",
+  "description": "Flyable MH-60R Seahawk that can also be used as AI, with ASW and CSAR features (sonobuoys and similar) that run from the CSAR/ASW mission templates in its Missions folder. Its cockpit and start-up match the UH-60L mod. Version 4.x is not compatible with versions before 4.0.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "flyable",
+    "ai",
+    "naval",
+    "asw"
+  ],
+  "authors": [
+    {
+      "name": "Tanuki44"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/385987-mh-60r-update-v4x/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seahawk_N-978_MG_0052.jpg?width=1920",
+    "credit": "Ronnie Robertson",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Seahawk_N-978_MG_0052.jpg"
+  },
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2026_03/4.2.png.83cb8aa1e1947057f9de0177c32c1ae7.png"
+  ],
+  "releases": [
+    {
+      "version": "4.25",
+      "changelog": "Fixes sonobuoys in UnitPayloads.",
+      "download": {
+        "kind": "page",
+        "url": "https://drive.google.com/file/d/1tLMq2RMYKdVH862NfhsgJAU3aIqkVnEp/view?usp=sharing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "tornado-f3-adv-civorodom",
+  "name": "Tornado F3 ADV",
+  "summary": "Panavia Tornado F3 air defence variant mod for DCS World with UK, Italian and Saudi liveries.",
+  "description": "Tornado ADV long-range interceptor mod, flyable in the Su-27 cockpit, with UK, Italian and Saudi liveries. Needs FC3 or the Su-27 module to fly; the Community JAS-39 Gripen mod provides its AIM-132 ASRAAM.\n\nRequires: Community JAS-39C Gripen mod for the AIM-132 ASRAAM.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "flyable",
+    "interceptor",
+    "cold war",
+    "fc3"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3335869/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/London_RAF_Museum_Hendon_Panavia_Tornado_F3_02.jpg?width=1920",
+    "credit": "Ad Meskens",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:London_RAF_Museum_Hendon_Panavia_Tornado_F3_02.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/537/r1q3d948n6lm2jhwledfsetft2w7zlpe/Screen_240220_215225_00.jpg"
+  ],
+  "requires_modules": [
+    "Flaming Cliffs 3 or Su-27 (to fly)"
+  ],
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2024-02-22",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3335869/"
+      }
+    }
+  ]
+}

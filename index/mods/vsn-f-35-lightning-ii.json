@@ -1,0 +1,45 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vsn-f-35-lightning-ii",
+  "name": "VSN F-35A/B/C Lightning II",
+  "summary": "VSN team's free F-35A, F-35B and F-35C for DCS World with FC3-style cockpit.",
+  "description": "Free VSN mod adding the F-35A, F-35B and F-35C with custom exterior models and FC3-style (F-15C/Su-27) cockpit; a later build added an EFM. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "stealth",
+    "modern",
+    "flyable",
+    "ai"
+  ],
+  "authors": [
+    {
+      "name": "VSN (cdpkobra)",
+      "url": "https://www.lockonforum.de/community/thread/6667-flyable-fc3-flieger-mit-3d-f-15c-cockpit/"
+    }
+  ],
+  "license": "Free, private use only, commercial use prohibited (VSN terms)",
+  "homepage": "https://www.lockonforum.de/community/thread/8266-f-35-lightning-ii/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CF-1_flight_test.jpg?width=1920",
+    "credit": "Andy Wolfe",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:CF-1_flight_test.jpg"
+  },
+  "images": [
+    "https://abload.de/img/f-35alightningii1djvu.jpg"
+  ],
+  "requires_modules": [
+    "DCS: Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "2.5.5.08",
+      "download": {
+        "kind": "page",
+        "url": "https://e.pcloud.link/publink/show?code=kZhYzAZxwGCHKO2zn7HbvmVvfv0uyyVvQy0"
+      }
+    }
+  ]
+}

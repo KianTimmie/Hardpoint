@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mig-21-bison-ai-civorodom",
+  "name": "MiG-21 UPG 'Bison' (AI only)",
+  "summary": "AI-only MiG-21 Bison upgrade with Kopyo radar and R-77 missiles for DCS World.",
+  "description": "AI-only MiG-21 UPG Bison (MiG-21-93 programme) with simulated Kopyo radar, R-73E, R-27 and R-77 missiles and integrated ECM. Converted to AI-only after DCS 2.9.6.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "ai",
+    "fighter",
+    "india"
+  ],
+  "authors": [
+    {
+      "name": "civorodom",
+      "url": "https://forum.dcs.world/profile/143036-civorodom/"
+    }
+  ],
+  "license": "Freeware - free version, do not redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3331533/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mig21atkalai.jpg?width=1920",
+    "credit": "Jyotirmoy895",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mig21atkalai.jpg"
+  },
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/143/vgarxmip195sgogwi7v1qxbshkiqnr5u/Screen_230612_212531.jpg"
+  ],
+  "releases": [
+    {
+      "version": "2023-06-20",
+      "date": "2023-06-20",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3331533/"
+      }
+    }
+  ]
+}

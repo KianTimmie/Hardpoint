@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "tu-95-enhanced-sanikkat",
+  "name": "TU-95 Enhanced (Tu-95MS Model Replacement)",
+  "summary": "Replacement 3D model for DCS's stock Tu-95MS bomber, with a paint kit.",
+  "description": "New external model for the stock AI Tu-95MS turboprop bomber, with a paint kit; it keeps most stock features. Installs into the main DCS folder (`bazar`) and does not pass integrity check. Built for DCS 2.7.\n\nRequires: Overwrites stock files in the DCS install folder (bazar), not Saved Games; fails integrity check on servers that enforce it.",
+  "category": "aircraft",
+  "tags": [
+    "prop",
+    "ai",
+    "bomber",
+    "cold war",
+    "model replacement"
+  ],
+  "authors": [
+    {
+      "name": "Sanikkat"
+    }
+  ],
+  "license": "Free - unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3321032/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McDonnell_Douglas_F-15C_Eagle_of_the_12th_FS_escorts_a_Russian_Tupolev_Tu-95MS_off_Alaska_(USA),_28_September_2006_(060928-F-0000X-104).jpg?width=1920",
+    "credit": "U.S. Air Force",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_F-15C_Eagle_of_the_12th_FS_escorts_a_Russian_Tupolev_Tu-95MS_off_Alaska_(USA),_28_September_2006_(060928-F-0000X-104).jpg"
+  },
+  "images": [
+    "https://www.digitalcombatsimulator.com/upload/iblock/1b5/d422trt80eeec13t0y38wp5tjxzfonzj/11.png"
+  ],
+  "releases": [
+    {
+      "version": "2022-03-15",
+      "date": "2022-03-15",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3321032/"
+      }
+    }
+  ]
+}
