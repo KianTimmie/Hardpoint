@@ -5,6 +5,7 @@
   "summary": "Freeware JASDF F-15J Eagle variant with Japanese missiles and liveries.",
   "description": "JASDF F-15J based on the author's F-15C Golden Eagle mod, with AAM-3/4/5 missiles and JASDF liveries. Listed for DCS 2.9; download is hosted on MediaFire.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",
@@ -26,6 +27,9 @@
   },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/86a/s78kdyyziqbncvw9rtd31oeg2twvvwfv/DCS_F-15J.jpg"
+  ],
+  "requires_modules": [
+    "F-15C or Flaming Cliffs 3"
   ],
   "releases": [
     {

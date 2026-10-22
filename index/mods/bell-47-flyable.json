@@ -5,6 +5,7 @@
   "summary": "Freeware flyable Bell 47 light helicopter with EFM, updated for DCS World 2.9.",
   "description": "Flyable Bell 47 with an external flight model, cold start, night-vision goggles (N), flashlight (LAlt+L), pilot and copilot seats (1 and 2), and a door gunner who fires where the pilot looks once you click \"Cleared To Fire\".\n\nVersion 2.0 is built for DCS 2.9 and fixes the inverted control-stick animation. The gunner seat isn't selectable, and the floats are for show: it can't land on water.\n\nThe download on ED User Files is a small zip that points to the full mod.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "helicopter",
     "vintage",

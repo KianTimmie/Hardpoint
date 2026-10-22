@@ -5,6 +5,7 @@
   "summary": "AI-only Su-27SM3 Flanker upgrade with N-001VEP radar and modern Russian munitions for DCS World.",
   "description": "AI-only mid-life-upgrade Su-27SM3 with simulated N-001VEP radar, R-77-1, Kh-31A/P, Kh-29 and KAB-500 weapons. Built for DCS World 2.9.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

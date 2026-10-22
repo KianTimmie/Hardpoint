@@ -5,6 +5,7 @@
   "summary": "VSN team's free F-106A/B Delta Dart with GPL-3 EFM and custom cockpit.",
   "description": "Free VSN F-106 Delta Dart: FC3-based mod with a GPL-3 EFM by PeeJott and a custom 3D cockpit (models licensed from VIRTAVIA).\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "interceptor",

@@ -5,6 +5,7 @@
   "summary": "Free flyable Zivko Edge 540 air-racing aerobatic aircraft by the Virtual Air Racing Series.",
   "description": "Flyable Edge 540 race plane made by the VARS (Virtual Air Racing Series) community for DCS air racing, used with the VARS pylons mod. v1.0 released June 2020 (DCS 2.5 era); a paint kit is on ED User Files.\n\nRequires: Optional: Virtual Air Racing Pylons mod (ED User Files 3196986) for race gates.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "civil",
     "prop",

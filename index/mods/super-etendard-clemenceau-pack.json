@@ -5,6 +5,7 @@
   "summary": "Flyable Super Etendard and Super Etendard Modernise with a Clemenceau-class carrier.",
   "description": "Pack by Eric and Patrick Cuesta with flyable Super Etendard and Super Etendard Modernise (SEM), Exocet and AS-30 for player and AI, and a Clemenceau-class aircraft carrier. A commenter says the MiG-29 is needed for the cockpit. Version 2.9.28.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "attack",

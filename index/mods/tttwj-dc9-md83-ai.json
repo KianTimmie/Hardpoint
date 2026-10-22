@@ -5,6 +5,7 @@
   "summary": "AI-only McDonnell Douglas DC-9-30 and MD-83 airliners with selectable tails.",
   "description": "AI-only DC-9-30 and MD-83 (MD-81/82/88 share its shape) with a selectable tail feature, plus BAC 1-11 and Boeing 717 look-alike liveries. Original work by the author. Built for DCS 2.9. Listed in the Mission Editor under 'T'.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "civil",
     "airliner",

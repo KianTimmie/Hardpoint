@@ -1,11 +1,11 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 import type { Actions } from "../App";
 import type { HubMod, IndexResult, Overview, ProgressEvent } from "../types";
-import { CATEGORIES, compareVersions, delivery, downloadOnlyKind, formatBytes, latestRelease, writesInstallDir } from "../types";
+import { AIRCRAFT_TYPES, CATEGORIES, aircraftTypeInfo, compareVersions, delivery, downloadOnlyKind, formatBytes, latestRelease, writesInstallDir } from "../types";
 import { ProgressBar, humanTarget } from "../components/ui";
-import { CardGrid, ModCard, PhotoGallery } from "../../../../packages/ui/ModCard.tsx";
+import { AircraftTypePill, CardGrid, ModCard, PhotoGallery } from "../../../../packages/ui/ModCard.tsx";
 import { categoryLabel } from "../types";
 
 type Busy = Record<string, ProgressEvent | true>;
@@ -19,17 +19,20 @@ export function Hub({ index, indexError, overview, busy, actions, q, cat, setCat
   const mods = index?.index.mods ?? [];
   const installed = (id: string) => overview?.mods.find((m) => m.id === id);
   const updateIds = new Set((index?.updates ?? []).map((u) => u.id));
+  const [atype, setAtype] = useState("");
+  useEffect(() => { if (cat !== "aircraft") setAtype(""); }, [cat]);
   const list = useMemo(() => {
     const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
     return mods.filter((m) => {
       if (cat && m.category !== cat) return false;
+      if (atype && m.aircraft_type !== atype) return false;
       if (filter === "oneclick" && delivery(m) !== "one-click") return false;
       if (filter === "installed" && !installed(m.id)) return false;
       if (filter === "updates" && !updateIds.has(m.id)) return false;
       const hay = `${m.name} ${m.summary} ${m.tags.join(" ")} ${m.authors.map((a) => a.name).join(" ")}`.toLowerCase();
       return terms.every((t) => hay.includes(t));
     }).sort((a, b) => Number(!!(b.cover || b.images.length)) - Number(!!(a.cover || a.images.length)) || a.name.localeCompare(b.name));
-  }, [mods, q, cat, filter, overview]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [mods, q, cat, atype, filter, overview]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!index) {
     return (
@@ -47,7 +50,7 @@ export function Hub({ index, indexError, overview, busy, actions, q, cat, setCat
     <section className="view hub">
       <header className="view-head">
         <div>
-          <h1>{q ? `Results for “${q}”` : cat ? CATEGORIES.find((c) => c.id === cat)?.plural : "Browse mods"}</h1>
+          <h1>{q ? `Results for “${q}”` : atype ? aircraftTypeInfo(atype as never)?.label : cat ? CATEGORIES.find((c) => c.id === cat)?.plural : "Browse mods"}</h1>
           <p className="muted">{list.length} of {mods.length} mods</p>
         </div>
         <div className="seg" role="group" aria-label="Show">
@@ -66,6 +69,18 @@ export function Hub({ index, indexError, overview, busy, actions, q, cat, setCat
           </button>
         ))}
       </div>
+
+      {cat === "aircraft" && (
+        <div className="chips sub" role="group" aria-label="Aircraft type">
+          <button className="chip" aria-pressed={!atype} onClick={() => setAtype("")}>All aircraft</button>
+          {AIRCRAFT_TYPES.map((t) => (
+            <button key={t.id} className={`chip type t-${t.id}`} aria-pressed={atype === t.id} title={t.help} onClick={() => setAtype(atype === t.id ? "" : t.id)}>
+              {t.label} <span>{mods.filter((m) => m.aircraft_type === t.id).length}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      {atype && <p className="muted type-help">{aircraftTypeInfo(atype as never)?.help}</p>}
 
       {list.length ? (
         <CardGrid compact>
@@ -88,7 +103,7 @@ export function Hub({ index, indexError, overview, busy, actions, q, cat, setCat
         <div className="empty-state">
           <h2>Nothing matches</h2>
           <p>Try another search or clear the filters.</p>
-          <button className="btn" onClick={() => { setCat(""); setFilter(""); }}>Clear filters</button>
+          <button className="btn" onClick={() => { setCat(""); setFilter(""); setAtype(""); }}>Clear filters</button>
         </div>
       )}
     </section>
@@ -175,6 +190,7 @@ function Detail({ mod, installed, busy, actions }: { mod: HubMod; installed?: st
       <div className="detail-action"><ModAction mod={mod} installed={installed} busy={busy} actions={actions} /></div>
       <WhatHappens mod={mod} />
       <dl className="facts">
+        {mod.aircraft_type && <><dt>Type</dt><dd><AircraftTypePill mod={mod} long /><div className="muted small">{aircraftTypeInfo(mod.aircraft_type)?.help}</div></dd></>}
         {r && <><dt>Version</dt><dd>{r.version}{installed ? <span className="muted"> (you have {installed})</span> : null}</dd></>}
         {r?.date && <><dt>Released</dt><dd>{new Date(r.date + "T00:00:00").toLocaleDateString(undefined, { dateStyle: "medium" })}</dd></>}
         <dt>By</dt><dd>{mod.authors.map((a) => a.name).join(", ")}</dd>

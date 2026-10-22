@@ -5,6 +5,7 @@
   "summary": "Pack of Dassault Rafale A, S, B, C and M variants plus a tanker, flyable and AI.",
   "description": "Rafale pack by the Cuesta brothers (Eric and Patrick): Rafale A, S, B, C, M and a 'Nounou' tanker variant, with player and AI weapon updates (SCALP, Exocet, AASM). Thread reports the Su-33 is needed (C/M variants); AS-30 use needs the Super Etendard pack. File named for DCS 2.9.28.\n\nRequires: Super Etendard et Class Clemenceau pack needed for AS-30 use.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

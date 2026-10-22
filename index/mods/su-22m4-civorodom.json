@@ -5,6 +5,7 @@
   "summary": "Free flyable Su-22M4 swing-wing fighter-bomber for DCS World, flown from the Su-25T cockpit.",
   "description": "Adds the Su-17/Su-22M4 Fitter with bombs, rockets, Kh-25/Kh-29 and SEAD (Kh-25MP/MPU with ELINT pod). Flyable using the free Su-25T cockpit; since DCS 2.9.6 it needs the author's FC3 fix patch.\n\nRequires: Since DCS 2.9.6 an FC3 fix patch is needed (per the file page).",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "attack",

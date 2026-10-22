@@ -5,6 +5,7 @@
   "summary": "Free community UH-60L Black Hawk utility helicopter mod for DCS World.",
   "description": "Flyable UH-60L with its own flight model. Version 2.0 and its guide are distributed free via a Patreon post; the older v1.x builds on GitHub are marked deprecated.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "helicopter",
     "utility",

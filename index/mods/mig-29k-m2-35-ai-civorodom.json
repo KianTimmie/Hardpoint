@@ -5,6 +5,7 @@
   "summary": "AI-only MiG-29K naval, MiG-29M2 and MiG-35 Fulcrum variants for DCS World.",
   "description": "AI-only pack of second-generation Fulcrums: the carrier-capable MiG-29K, land-based MiG-29M2 and the MiG-35. Converted to AI-only after the DCS 2.9.6 update. Based on an early version by NINO.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

@@ -5,6 +5,7 @@
   "summary": "Community F-22A Raptor mod with thrust-vectoring EFM and interactive cockpit, relying on F-15C avionics.",
   "description": "Flyable F-22A with EFM, 6-DoF clickable cockpit, PBR textures and a paint kit. Needs DCS F-15C or Flaming Cliffs 3, and `load_immediately = true` added to `Mods/aircraft/F-15C/entry.lua` (this breaks the integrity check).\n\nNeeds the F-15C (or Flaming Cliffs 3) and a manual edit to the F-15C's `entry.lua`, which breaks the multiplayer integrity check. Follow the author's instructions on the release page.\n\nRequires: Requires editing the official F-15C entry.lua (load_immediately = true); fails DCS integrity check.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

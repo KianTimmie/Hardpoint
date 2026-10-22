@@ -5,6 +5,7 @@
   "summary": "Two-seat MiG-29UB trainer mod with paintkit.",
   "description": "MiG-29UB two-seat trainer mod posted by Жмых (December 2025), flyable from the rear seat according to users; paintkit provided separately. Support via the developer's Discord.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "jet",
     "trainer",

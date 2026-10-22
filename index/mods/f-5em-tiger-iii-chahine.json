@@ -5,6 +5,7 @@
   "summary": "Modernised F-5E variants inspired by Brazilian, Chilean and Moroccan upgrades.",
   "description": "Flyable F-5EM upgrade by Chahine on the DCS F-5E (2024/Remastered), with Python-5/Derby missiles, DASH helmet and Reccelite pod; a Tiger III variant was announced. Distributed via the author's Discord.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

@@ -5,6 +5,7 @@
   "summary": "AI-only pack of WWII aircraft: TBD Devastator, TBM Avenger, F6F Hellcat, P-38, P-39 and Me 262.",
   "description": "AI-only, unanimated models of the TBD Devastator, TBM Avenger, F6F Hellcat, P-38 Lightning, P-39 Airacobra and Me 262, for use as opponents or targets. There is no cockpit. Flight data comes from public sources and was tuned in game. Models are by helijah (Sketchfab). Built for DCS 2.7.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "prop",
     "ai",

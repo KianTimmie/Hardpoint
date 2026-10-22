@@ -5,6 +5,7 @@
   "summary": "Low-poly static Boeing 737-200 airliner with a livery template; can also fly as AI.",
   "description": "Low-poly Boeing 737-200, mainly a static object but able to take off, fly and land. Comes with a livery template for custom airline schemes. Model by helijah (FlightGear), converted by Hawkeye60.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "civil",
     "airliner",

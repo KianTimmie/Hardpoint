@@ -5,6 +5,7 @@
   "summary": "AI-only de Havilland Canada C-7A Caribou STOL transport.",
   "description": "AI-only C-7A Caribou transport (v0.1). 3D model and textures credited to Virtavia, used with permission.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "prop",
     "ai",

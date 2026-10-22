@@ -5,6 +5,7 @@
   "summary": "AI-only pack of 1940 Battle of Britain era aircraft for DCS missions.",
   "description": "AI-only pack of 1940-era aircraft from Eric and Patrick Cuesta for Battle of Britain missions. The 2026 post does not list the aircraft; earlier versions included a Ju 87 Stuka, He 111 and others. Version named for DCS 2.9.24.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "prop",
     "ai",

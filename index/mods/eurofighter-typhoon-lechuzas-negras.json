@@ -5,6 +5,7 @@
   "summary": "Flyable Eurofighter Typhoon with a clickable cockpit, using Su-33 (FC3) avionics.",
   "description": "Flyable Eurofighter Typhoon by Gonzalodesanta, EvilASV and Qbit of the Lechuzas Negras virtual squadron, built up from the VSN model. Clickable cockpit; uses Su-33 avionics, so Flaming Cliffs 3 is required. Forum thread lists v1.0.72 (flight model update); the team site titles its download V1.1.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

@@ -5,6 +5,7 @@
   "summary": "Boeing 707 airliner built as a static object that can also fly as AI, with classic liveries.",
   "description": "Boeing 707 with classic liveries. Mainly a static object but can take off, fly and land as AI (set the first and last waypoints to Immortal to avoid tailstrike explosions). Model by helijah from FlightGear (open source), converted by Hawkeye60.\n\nRequires: Separate livery/texture packs: ED files 3350381 and 3350382.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "civil",
     "airliner",

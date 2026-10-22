@@ -5,6 +5,7 @@
   "summary": "AI mod adding RC-135 and EC-130H ELINT aircraft, HC-130 Combat King and JTAC units to DCS World.",
   "description": "Secret Squirrel Studios pack with RC-135 and EC-130H ELINT aircraft, HC-130P/N/H Combat King (six liveries), a JTAC unit and special-forces vehicles. V2.0 was tested with DCS 2.8.5 (MT); used by the Hound-ELINT script.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

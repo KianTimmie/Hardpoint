@@ -5,6 +5,7 @@
   "summary": "AI-only Boeing 767-200 and -300 airliners with about 60 airline liveries.",
   "description": "AI-only Boeing 767-200 and 767-300 with 30 and 31 liveries. All 3D and 2D work is by the author. No damage model, limited LODs. Built for DCS 2.9. A KC-46 is planned.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "civil",
     "airliner",

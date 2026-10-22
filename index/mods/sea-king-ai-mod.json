@@ -5,6 +5,7 @@
   "summary": "AI-only SH-3G/SH-3H Sea King naval helicopter mod for DCS World.",
   "description": "Adds AI SH-3G and SH-3H Sea King helicopters for missions, with a paint kit. Downloads are on Mega via the ED forum thread.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "helicopter",
     "ai",

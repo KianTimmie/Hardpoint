@@ -5,6 +5,7 @@
   "summary": "Open-beta community Su-35S Flanker-E fighter mod for DCS World.",
   "description": "Flyable Su-35S in open beta, distributed through Google Drive mirrors on the ED forum. Remove any old version before installing; the CWS weapon-system add-on is a separate GitLab download.\n\nRequires: Optional CWS add-on from https://gitlab.com/codenameflanker/su-35_cws, copied over the mod folder.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

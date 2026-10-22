@@ -5,6 +5,7 @@
   "summary": "Panavia Tornado F3 air defence variant mod for DCS World with UK, Italian and Saudi liveries.",
   "description": "Tornado ADV long-range interceptor mod, flyable in the Su-27 cockpit, with UK, Italian and Saudi liveries. Needs FC3 or the Su-27 module to fly; the Community JAS-39 Gripen mod provides its AIM-132 ASRAAM.\n\nRequires: Community JAS-39C Gripen mod for the AIM-132 ASRAAM.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "flyable",

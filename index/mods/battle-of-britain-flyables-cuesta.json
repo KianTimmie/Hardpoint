@@ -5,6 +5,7 @@
   "summary": "Flyable Hurricane, Ju 87 Stuka and Dewoitine D.520 that use the P-51D cockpit and avionics.",
   "description": "Three flyable 1940 aircraft (Hawker Hurricane, Ju 87 Stuka, Dewoitine D.520) that reuse the P-51D cockpit and avionics. Install them one at a time with JSGME. Built for DCS 2.8.1 (also said to work with 2.7).\n\nRequires: Requires the paid P-51D module (the TF-51D does not work, per the authors). Use only one flyable at a time via JSGME.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "prop",
     "flyable",

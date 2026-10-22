@@ -5,6 +5,7 @@
   "summary": "Add-on that gives the community UH-60L mod armed Black Hawk weapons and variant features.",
   "description": "Copies over the UH-60L mod folder to add armed Black Hawk attack capability; Seahawk/Jayhawk features are temporarily disabled since UH-60L v2. Requires the UH-60L mod v2 installed first.\n\nRequires: Requires the UH-60L Black Hawk mod v2 (Kinkkujuustovoileipä); ANDR0ID weapon pack needed for all features.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "helicopter",
     "addon",
@@ -26,6 +27,11 @@
   },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/iblock/290/ojawd9r310962wfbdfj03p7xspbj47ed/ArmedBlackhawkv2.0.jpg"
+  ],
+  "dependencies": [
+    {
+      "id": "uh-60l-black-hawk"
+    }
   ],
   "releases": [
     {

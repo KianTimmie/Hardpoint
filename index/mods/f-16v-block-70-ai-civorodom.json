@@ -5,6 +5,7 @@
   "summary": "AI F-16 Block 70 with APG-83 AESA radar, AIM-9X and AIM-120D for DCS World.",
   "description": "F-16V Block 70 designed for AI, with simulated AN/APG-83 radar, reduced RCS, AIM-9X/AIM-120D and Paveway, JDAM, HARM and Maverick weapons. Built for DCS World 2.9.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

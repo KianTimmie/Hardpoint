@@ -5,6 +5,7 @@
   "summary": "Free flyable Bell UH-1M 'Hog' Huey gunship with clickable cockpit and EFM for DCS World.",
   "description": "Standalone flyable UH-1M gunship with a hi-res clickable cockpit (by Yakarov), simplified start-up, EFM and full armament; also adds Viet Cong infantry to the Mission Editor. Built for DCS 2.7; not meant to replace the official UH-1H.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "helicopter",
     "gunship",

@@ -5,6 +5,7 @@
   "summary": "AI-only HH-60/MH-60 Seahawk family with folded-blade statics and multiple liveries.",
   "description": "AI-only HH-60/MH-60 Seahawk helicopters for missions, including folded statics. Tested on DCS 2.9.2. Installs a `tech` folder into Mods and a Liveries folder; a March 2025 fix replaces a Database file and adds a payload file.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "helicopter",
     "ai",

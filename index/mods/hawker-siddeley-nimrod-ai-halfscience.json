@@ -5,6 +5,7 @@
   "summary": "Non-animated AI Hawker Siddeley Nimrod aircraft asset for DCS World missions.",
   "description": "AI-controlled Hawker Siddeley Nimrod asset with an approximate flight model tuned to public performance data (no EFM). Technically player-controllable but has no animations or working cockpit. 3D model by helijah (Sketchfab), used with permission.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "jet",
     "ai",

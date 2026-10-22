@@ -5,6 +5,7 @@
   "summary": "Fictional F-16 Block 80 concept using F-15C (FC3) avionics and the F-16 models.",
   "description": "Flyable fictional F-16G 'Block 80' by Spino: F-16C external model, F-16V-style cockpit, F-15C avionics, up to eight AIM-120s and conformal fuel tanks. Requires Flaming Cliffs 3. Version 1.02.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

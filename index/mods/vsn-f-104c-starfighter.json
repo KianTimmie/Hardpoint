@@ -5,6 +5,7 @@
   "summary": "VSN team's free standalone F-104C Starfighter with custom EFM and clickable cockpit.",
   "description": "Free standalone VSN F-104C Starfighter with a custom flight model and clickable cockpit, released as early access (V0.99) in June 2025.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "jet",
     "fighter",

@@ -68,10 +68,23 @@ export interface HubMod {
   requires_modules: string[];
   dependencies: { id: string; min_version?: string }[];
   installable: boolean;
+  /** Aircraft only: how it can be used. */
+  aircraft_type?: AircraftType;
   releases: Release[];
   /** Latest release date (added by the index build). */
   updated?: string;
 }
+
+export type AircraftType = "flyable" | "flyable-module" | "vsn" | "ai-static" | "ai-animated";
+
+export const AIRCRAFT_TYPES: { id: AircraftType; label: string; short: string; help: string }[] = [
+  { id: "flyable", label: "Flyable, standalone", short: "Flyable", help: "Its own cockpit and flight model. No other module needed." },
+  { id: "flyable-module", label: "Flyable, needs a module", short: "Needs module", help: "Flyable, but borrows the cockpit or systems of a DCS module (or another mod) you must own or install." },
+  { id: "vsn", label: "VSN (no cockpit)", short: "VSN", help: "VSN-style: flies with the Flaming Cliffs 3 HUD and instruments, no clickable cockpit. Also works as AI." },
+  { id: "ai-static", label: "AI, static", short: "AI static", help: "For missions only. No moving parts: gear, flaps and props don't animate." },
+  { id: "ai-animated", label: "AI, animated", short: "AI animated", help: "For missions only, with animated gear, control surfaces or rotors." },
+];
+export const aircraftTypeInfo = (t?: AircraftType) => AIRCRAFT_TYPES.find((x) => x.id === t);
 
 export interface HubIndex { schema: number; generated?: string; mods: HubMod[] }
 

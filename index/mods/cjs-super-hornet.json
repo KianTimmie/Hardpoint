@@ -5,6 +5,7 @@
   "summary": "Free F/A-18E/F and EA-18G Super Hornet mod built on the official DCS F/A-18C Hornet.",
   "description": "Chiller Juice Studios' mod adding F/A-18E, F/A-18F and EA-18G slots based on the DCS F/A-18C systems. Requires the F/A-18C module; it installs into the main DCS folder, replaces some Hornet files and breaks the integrity check (OVGME compatible).\n\nRequires: Overwrites files in the DCS install directory (not Saved Games); breaks integrity check / multiplayer IC.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

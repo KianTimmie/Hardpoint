@@ -5,6 +5,7 @@
   "summary": "Free flyable FMA IA-58 Pucará twin-turboprop attack aircraft mod for DCS World (v0.12b, 2021).",
   "description": "Flyable IA-58 Pucará by Pastrana with SFM, TACAN/ILS displays, two radios (SRS), damage visuals and liveries; README says it needs no other modules. Free build v0.12b dates from Aug 2021 (DCS 2.7 era). The newer v1.0 EFM (Oct 2026) is a Patreon subscription release, not free.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "prop",
     "attack",

@@ -5,6 +5,7 @@
   "summary": "VSN team's free Fiat/Aeritalia G.91Y light attack jet with selectable SFM or EFM.",
   "description": "Free VSN mod adding the Fiat G.91Y with FC3/A-10A avionics; .cmd files switch between SFM and EFM flight models. Original 3D model by Enrico Gennari. Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
   "category": "aircraft",
+  "aircraft_type": "vsn",
   "tags": [
     "jet",
     "attack",

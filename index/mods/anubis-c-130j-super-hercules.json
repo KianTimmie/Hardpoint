@@ -5,6 +5,7 @@
   "summary": "Free community C-130J-30 Super Hercules transport mod for DCS World by Anubis.",
   "description": "Flyable tactical airlifter with cargo and airdrop capability. Extract into `Saved Games\\DCS\\Mods\\aircraft`; liveries go in `Saved Games\\DCS\\Liveries\\Hercules`.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "transport",
     "turboprop",

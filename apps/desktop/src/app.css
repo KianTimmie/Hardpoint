@@ -352,3 +352,14 @@ input[type="search"].text { width: 280px; }
   .mod-row { grid-template-columns: 96px minmax(0, 1fr); }
   .mod-actions { grid-column: 1 / -1; justify-content: flex-end; }
 }
+
+/* Aircraft type sub-filter */
+.chips.sub { margin-top: -6px; padding-left: 12px; border-left: 2px solid var(--line); }
+.chip.type::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 6px; background: currentColor; vertical-align: 1px; }
+.chip.type.t-flyable::before { background: #2f7d4f; }
+.chip.type.t-flyable-module::before { background: #b5731b; }
+.chip.type.t-vsn::before { background: #2c5aa0; }
+.chip.type.t-ai-static::before { background: #6b7280; border-radius: 0; }
+.chip.type.t-ai-animated::before { background: #7a4fb0; }
+.type-help { margin: 0 0 12px; }
+.small { font-size: 0.85em; margin-top: 4px; }

@@ -5,6 +5,7 @@
   "summary": "AI-only Fairchild C-123K Provider tactical transport for Vietnam-era missions.",
   "description": "AI-only C-123K Provider transport (v0.1).",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "prop",
     "ai",

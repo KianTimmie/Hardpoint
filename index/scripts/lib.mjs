@@ -79,6 +79,11 @@ export function check(entries, { strict = false } = {}) {
         warnings.push(`${where}: ${r.version} is a livery with no livery_for or install rules; users will have to pick the aircraft`);
       }
     }
+    if (data.aircraft_type && data.category !== "aircraft") errors.push(`${where}: aircraft_type is only for the aircraft category`);
+    if (data.category === "aircraft" && !data.aircraft_type) warnings.push(`${where}: aircraft with no aircraft_type (flyable, flyable-module, vsn, ai-static or ai-animated)`);
+    if (data.aircraft_type === "flyable-module" && !data.requires_modules?.length && !data.dependencies?.length && !/requires|needs|uses/i.test(data.description ?? "")) {
+      warnings.push(`${where}: flyable-module but no requires_modules saying which module it needs`);
+    }
     if (!data.releases?.length && !data.homepage && !data.source) {
       errors.push(`${where}: a listing with no releases needs a homepage or source link`);
     }

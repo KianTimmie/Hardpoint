@@ -5,6 +5,7 @@
   "summary": "Freeware pack of AI civil airliners and light aircraft for DCS World missions.",
   "description": "Adds AI-only civil aircraft (A320, A380, 727, 737, 747, 757, Cessna 210 and liveries). Install into `Saved Games\\DCS\\Mods\\aircraft`; units appear under Insurgents with the period filter off.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "ai",
     "civil",

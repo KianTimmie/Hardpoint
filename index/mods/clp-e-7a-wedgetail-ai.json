@@ -5,6 +5,7 @@
   "summary": "AI-only Boeing E-7A Wedgetail airborne early warning and control aircraft for DCS World.",
   "description": "AI-only E-7A Wedgetail AEW&C aircraft from prcCOWBOY's \"Cowboy's Magic Collection\", based on the Boeing 737 NG. Five liveries (RAAF, ROKAF, Turkey, blank); appears in the Mission Editor as \"E-7a Wedgetail(CLP)\". Built for DCS World 2.7.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

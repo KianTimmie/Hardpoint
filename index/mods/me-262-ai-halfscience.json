@@ -5,6 +5,7 @@
   "summary": "Non-animated AI Messerschmitt Me 262 aircraft asset for DCS World missions.",
   "description": "AI-controlled Messerschmitt Me 262 asset with an approximate flight model tuned to public performance data (no EFM). Technically player-controllable but has no animations or working cockpit. 3D model by helijah (Sketchfab), used with permission.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "jet",
     "ai",

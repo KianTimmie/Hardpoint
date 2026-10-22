@@ -5,6 +5,7 @@
   "summary": "UAV pack with a repaired MQ-9 and a carrier-capable Bayraktar TB2 variant (TB2_S).",
   "description": "Drone pack with a repaired version of the older MQ-9 mod and the Bayraktar TB2_S, a naval TB2 variant that can take off from and land on a carrier. Both can be flown or used as AI. Built for DCS 2.8.7 to 2.9.12; reuses code from Pastrana's Pucará mod with permission.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "uav",
     "drone",

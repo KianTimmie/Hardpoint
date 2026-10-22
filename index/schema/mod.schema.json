@@ -159,6 +159,10 @@
         }
       }
     },
+    "aircraft_type": {
+      "description": "Aircraft only. flyable: flyable on its own; flyable-module: flyable but borrows the cockpit or systems of an official module (list it in requires_modules) or another mod; vsn: VSN-style FC3 cockpit with no clickable cockpit of its own; ai-static: AI or static object with no animations; ai-animated: AI with animated parts.",
+      "enum": ["flyable", "flyable-module", "vsn", "ai-static", "ai-animated"]
+    },
     "installable": {
       "description": "Set false for things that are not installed into DCS folders (e.g. Lua libraries loaded inside missions). The hub and app show a download link only.",
       "type": "boolean",

@@ -5,6 +5,7 @@
   "summary": "Open-source AH-6J Little Bird helicopter mod built as a blade-element EFM demo for DCS World.",
   "description": "Flyable AH-6J with a blade-element external flight model, radios, TACAN and weapons. Place the `AH-6j` folder in `Saved Games\\DCS\\Mods\\aircraft`. The author notes it is still in development and not designed as a polished end-user mod.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "helicopter",
     "light-attack",

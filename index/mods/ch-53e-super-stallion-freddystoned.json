@@ -5,6 +5,7 @@
   "summary": "Flyable CH-53E heavy-lift helicopter with a partly clickable cockpit and EFM files.",
   "description": "Flyable, standalone CH-53E with a partly clickable cockpit, animated door gunners, an opening tail ramp and a visual-only winch and cargo. Built from the FlightGear CH-53 model (used with permission) with an EFM derived from the CptSmiley and Nibbylots demos. Known issues: autorotation is incomplete and AI landing gear does not work.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "helicopter",
     "flyable",

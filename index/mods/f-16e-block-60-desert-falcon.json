@@ -5,6 +5,7 @@
   "summary": "UAE F-16E Block 60 variant built on the DCS F-16C, with conformal tanks.",
   "description": "Flyable F-16E Block 60 'Desert Falcon' by chahine037, using the standard DCS F-16C cockpit with Nightstorm-based conformal fuel tanks and UAE liveries.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

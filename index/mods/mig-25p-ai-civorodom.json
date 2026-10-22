@@ -5,6 +5,7 @@
   "summary": "AI-only MiG-25P Foxbat interceptor for DCS World with Soviet, Libyan, Iraqi and Algerian liveries.",
   "description": "AI-only MiG-25P interceptor with a simulated Smerch-A1 radar and R-40R/T or R-60 missiles. Earlier versions were flyable with FC3; converted to AI-only in May 2025 after DCS 2.9.6.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

@@ -128,6 +128,9 @@ pub struct HubMod {
     /// loaded inside missions. The hub and app then offer a download link only.
     #[serde(default = "yes")]
     pub installable: bool,
+    /// Aircraft only: flyable, flyable-module, vsn, ai-static or ai-animated.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub aircraft_type: Option<String>,
     #[serde(default)]
     pub releases: Vec<Release>,
 }

@@ -5,6 +5,7 @@
   "summary": "Flyable F8F-2 Bearcat carrier fighter that uses the P-51D cockpit, with bomb pylons.",
   "description": "Flyable F8F-2 Bearcat (beta) that uses P-51D cockpit and controls, has a historical loadout with working wing bomb pylons, Lua by Stonehouse and model by Markindel. Part of the Community PTO effort.\n\nRequires: Uses the P-51D cockpit and controls; the page does not say whether the P-51D module is required.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "prop",
     "flyable",
@@ -36,6 +37,9 @@
   },
   "images": [
     "https://www.digitalcombatsimulator.com/upload/userfiles/19b/6tdbxm13ywg2abq2n1xkmounxbddmwfj/Screen_260815_010158.jpg"
+  ],
+  "requires_modules": [
+    "P-51D Mustang"
   ],
   "releases": [
     {

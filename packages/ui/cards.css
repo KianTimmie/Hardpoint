@@ -193,3 +193,27 @@
   .hp-hero-shade { background: linear-gradient(0deg, rgb(12 17 24 / 0.9) 0%, rgb(12 17 24 / 0.4) 60%, rgb(12 17 24 / 0.1) 100%); }
 }
 @media (prefers-reduced-motion: reduce) { .hp-hero-media { animation: none; } }
+
+/* Aircraft type pill */
+.hp-type { display: inline-flex; align-items: center; gap: 5px; font: 600 0.78rem/1 var(--display, inherit); letter-spacing: 0.04em; text-transform: uppercase; padding: 3px 6px; border-radius: 2px; border: 1px solid currentColor; white-space: nowrap; }
+.hp-type::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.hp-type.t-flyable { color: #2f7d4f; }
+.hp-type.t-flyable-module { color: #b5731b; }
+.hp-type.t-vsn { color: #2c5aa0; }
+.hp-type.t-ai-static { color: #6b7280; }
+.hp-type.t-ai-animated { color: #7a4fb0; }
+.hp-type.t-ai-static::before { border-radius: 0; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .hp-type.t-flyable { color: #6fcf97; }
+  :root:not([data-theme="light"]) .hp-type.t-flyable-module { color: #f2b45a; }
+  :root:not([data-theme="light"]) .hp-type.t-vsn { color: #7fa8ea; }
+  :root:not([data-theme="light"]) .hp-type.t-ai-static { color: #a3a9b5; }
+  :root:not([data-theme="light"]) .hp-type.t-ai-animated { color: #b896e6; }
+}
+:root[data-theme="dark"] .hp-type.t-flyable { color: #6fcf97; }
+:root[data-theme="dark"] .hp-type.t-flyable-module { color: #f2b45a; }
+:root[data-theme="dark"] .hp-type.t-vsn { color: #7fa8ea; }
+:root[data-theme="dark"] .hp-type.t-ai-static { color: #a3a9b5; }
+:root[data-theme="dark"] .hp-type.t-ai-animated { color: #b896e6; }
+.hp-type-legend { display: grid; gap: 2px; }
+.hp-type-help { margin: 4px 0 0; font-size: 0.85rem; color: var(--ink-2, #666); }

@@ -5,6 +5,7 @@
   "summary": "AI-only, unanimated Kawasaki Ki-61 'Hien' WWII fighter for missions.",
   "description": "AI-only Kawasaki Ki-61 'Hien' with an SFM flight model tuned to public performance data. It has no animations and no working cockpit. Model by helijah (Sketchfab), used with permission.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "prop",
     "ai",

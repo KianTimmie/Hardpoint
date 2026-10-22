@@ -5,6 +5,7 @@
   "summary": "Free community Saab 105 / SK 60 jet trainer mod for DCS World with EFM.",
   "description": "Flyable Swedish SK 60 trainer with rebuilt 3D model, KNS-81 nav, radios and custom sounds (v2.x). Installs like any aircraft mod into `Saved Games\\DCS\\Mods\\aircraft`.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "jet",
     "trainer",

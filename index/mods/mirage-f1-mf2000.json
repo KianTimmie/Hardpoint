@@ -5,6 +5,7 @@
   "summary": "Moroccan MF2000 modernisation of the DCS Mirage F1 with new pods and weapons.",
   "description": "Mirage F1 MF2000 by AWAW / Virtual RMAF Spark SQN, based on the DCS Mirage F1EE: Moroccan skin, minor radar upgrade, Damocles pod, MICA, AASM and more countermeasures. V1.0 (October 2025); may break the stock version. Distributed via Discord.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

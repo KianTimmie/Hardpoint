@@ -5,6 +5,7 @@
   "summary": "AI-only Tupolev Tu-214 airliner and special-mission variants for DCS World.",
   "description": "AI-only Tu-214, Tu-214PU, Tu-214PU-SBUS, Tu-214ON and Tu-214R (ELINT/SIGINT) variants from prcCOWBOY's collection, with several liveries.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

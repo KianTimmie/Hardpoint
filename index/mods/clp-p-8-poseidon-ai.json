@@ -5,6 +5,7 @@
   "summary": "AI-only Boeing P-8 Poseidon maritime patrol aircraft for DCS World.",
   "description": "AI-only P-8 Poseidon from prcCOWBOY's collection, modified from the 737-800ERX, with 11 liveries (USA, Australia, UK, India, Norway, South Korea, Germany, blank). Carries AGM-84D/H and a placeholder LTF-5B torpedo loadout; listed in the Mission Editor as \"P-8 Poseidon (CLP)\". Built for DCS World 2.7.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

@@ -5,6 +5,7 @@
   "summary": "Community J-10 mod built on the JF-17 cockpit and avionics, with a J-10C beta release.",
   "description": "Flyable J-10 community mod by Cactus, Snowy Wolf, Yatsie and Whisky Actual, adapted from happy cavin's FC3 J-10 with permission. Uses the Deka JF-17 cockpit and avionics, so the JF-17 module is required. Latest GitHub release is the J-10C Community Beta (J-10C.rar, 1.01 GB).",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

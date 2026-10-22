@@ -5,6 +5,7 @@
   "summary": "Free open-source A-29B Super Tucano turboprop light-attack aircraft module for DCS World.",
   "description": "Independent community A-29B with FLIR, CCIP and its own systems; the README says it needs no other modules. Installs like other aircraft mods into `Saved Games\\DCS\\Mods\\aircraft`.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "turboprop",
     "light-attack",

@@ -5,6 +5,7 @@
   "summary": "AI-only MiG-29M Fulcrum with Zhuk-M radar and R-77-1 missiles for DCS World.",
   "description": "AI-only MiG-29M with composite airframe, RD-33MK engines, simulated Zhuk-M radar and R-73M/R-77-1; AI can fly CAP, escort, SEAD, anti-ship and strike tasks. Converted to AI-only after DCS 2.9.6.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

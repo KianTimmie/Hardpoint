@@ -5,6 +5,7 @@
   "summary": "Flyable MiG-31BM Foxhound interceptor mod for DCS World with its own cockpit model and flight model.",
   "description": "Flyable MiG-31BM using Su-27 (FC3) or free Su-25T avionics, with its own SFM and cockpit model; works on any map. Without the optional FC3 Fix it stays AI-controlled until a Su-27 has been loaded once in the session. The User Files entry contains a link to the actual download.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "flyable",

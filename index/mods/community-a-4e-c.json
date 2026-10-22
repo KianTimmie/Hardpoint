@@ -5,6 +5,7 @@
   "summary": "Free, community-built A-4E Skyhawk for DCS World, with a clickable cockpit and carrier operations.",
   "description": "A free A-4E Skyhawk module built by the Community A-4E-C team. It installs into **Saved Games**, so it does not affect the multiplayer integrity check.\n\nThe download is large (about 1 GB).",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "attack",
     "carrier",

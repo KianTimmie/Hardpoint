@@ -1,7 +1,7 @@
 // Shared mod card and photo, used by the hub website and the desktop app.
 import { useEffect, useState, type ReactNode } from "react";
 import type { HubMod } from "../hub-types/index.ts";
-import { cardPhoto, categoryLabel, latestRelease } from "../hub-types/index.ts";
+import { aircraftTypeInfo, cardPhoto, categoryLabel, latestRelease } from "../hub-types/index.ts";
 import { CategoryGlyph } from "./glyphs.tsx";
 
 /** A photo for a mod: by default its card photo (real-world cover, else the author's first
@@ -67,7 +67,7 @@ export function ModCard({ mod, href, onOpen, badge, corner, selected }: {
         <h3 className="hp-card-title">{mod.name}</h3>
         <p className="hp-card-sum">{mod.summary}</p>
         <div className="hp-card-meta">
-          <span>{categoryLabel(mod.category)}</span>
+          {mod.aircraft_type ? <AircraftTypePill mod={mod} /> : <span>{categoryLabel(mod.category)}</span>}
           {r && <span className="hp-card-ver">{/^\d/.test(r.version) ? `v${r.version}` : r.version}</span>}
         </div>
       </div>
@@ -83,6 +83,14 @@ export function ModCard({ mod, href, onOpen, badge, corner, selected }: {
       {badge && <div className="hp-card-foot">{badge}</div>}
     </article>
   );
+}
+
+/** Aircraft type ("Flyable", "Needs module", "VSN", "AI static", "AI animated"). */
+export function AircraftTypePill({ mod, long = false }: { mod: HubMod; long?: boolean }) {
+  const t = aircraftTypeInfo(mod.aircraft_type);
+  if (!t) return null;
+  const needs = t.id === "flyable-module" && mod.requires_modules.length ? ` Needs: ${mod.requires_modules.join(", ")}.` : "";
+  return <span className={`hp-type t-${t.id}`} title={t.help + needs}>{long ? t.label : t.short}</span>;
 }
 
 export function CardGrid({ children, compact }: { children: ReactNode; compact?: boolean }) {

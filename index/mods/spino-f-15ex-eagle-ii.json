@@ -5,6 +5,7 @@
   "summary": "Freeware F-15EX Eagle II mod using the F-15C cockpit and PFM with expanded weapons loadout.",
   "description": "Adds a flyable F-15EX with modernised radar/weapons and up to 12 air-to-air missiles, built on the F-15C cockpit and flight model. Listed for DCS 2.9.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",
@@ -24,6 +25,9 @@
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:F-15EX_Eagle_II.jpg"
   },
+  "requires_modules": [
+    "F-15C or Flaming Cliffs 3"
+  ],
   "releases": [
     {
       "version": "1.8.7",

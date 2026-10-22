@@ -5,6 +5,7 @@
   "summary": "AI-only RQ-4 Global Hawk and MQ-4C Triton high-altitude drones for DCS World.",
   "description": "AI-only RQ-4 Global Hawk with MQ-4C Triton, NATO Block 40 and RAAF liveries/variants, from prcCOWBOY's collection.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

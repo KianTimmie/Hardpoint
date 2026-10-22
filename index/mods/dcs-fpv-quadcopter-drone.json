@@ -5,6 +5,7 @@
   "summary": "Flyable FPV quadcopter with Acro and Angle flight modes, an OSD and a detonating payload.",
   "description": "Flyable FPV quadcopter drone (beta) with Acro and Angle modes, an arming key, tunable rates, a Betaflight-style OSD and a payload set off by the player. AI does not work and ground collision is unreliable. Open source under GPL-3.0.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "drone",
     "uav",

@@ -1,9 +1,9 @@
 import { useMemo } from "react";
-import { PhotoGallery } from "../../../../packages/ui/ModCard.tsx";
+import { AircraftTypePill, PhotoGallery } from "../../../../packages/ui/ModCard.tsx";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 import type { HubIndex, HubMod, Release } from "../types";
-import { categoryLabel, delivery, downloadOnlyKind, formatBytes, installLink, latestRelease, writesInstallDir } from "../types";
+import { aircraftTypeInfo, categoryLabel, delivery, downloadOnlyKind, formatBytes, installLink, latestRelease, writesInstallDir } from "../types";
 import { browseHref, modHref } from "../router";
 import { DeliveryTag, IcTag } from "../components/Badges";
 import { formatDate } from "../components/StoresTable";
@@ -81,6 +81,7 @@ export function Mod({ index, id }: { index: HubIndex; id: string }) {
       <article>
         <nav className="crumbs" aria-label="Breadcrumb">
           <a href="#/browse">Mods</a> › <a href={browseHref({ cat: mod.category })}>{categoryLabel(mod.category)}</a>
+          {mod.aircraft_type && <> › <a href={browseHref({ cat: "aircraft", type: mod.aircraft_type })}>{aircraftTypeInfo(mod.aircraft_type)?.label}</a></>}
         </nav>
         <h1>{mod.name}</h1>
         <p className="summary">{mod.summary}</p>
@@ -112,6 +113,7 @@ export function Mod({ index, id }: { index: HubIndex; id: string }) {
           <p className="warn">Changes files in the DCS install folder. A DCS update may undo it; Hardpoint can re-apply it.</p>
         )}
         <dl>
+          {mod.aircraft_type && (<><dt>Type</dt><dd><AircraftTypePill mod={mod} long /><p className="hp-type-help">{aircraftTypeInfo(mod.aircraft_type)?.help}</p></dd></>)}
           <dt>Version</dt><dd>{r?.version ?? "—"}</dd>
           {r?.date && (<><dt>Released</dt><dd>{formatDate(r.date)}</dd></>)}
           {r?.download.size != null && (<><dt>Size</dt><dd>{formatBytes(r.download.size)}</dd></>)}

@@ -5,6 +5,7 @@
   "summary": "AI-only Embraer ERJ-145 regional jet and ERJ-135BJ Legacy business jet with 45 liveries.",
   "description": "AI-only Embraer ERJ-145 and ERJ-135BJ (Legacy 600/650) with 21 and 24 liveries, LODs, collision models and night lighting. Built for DCS 2.9.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "civil",
     "airliner",

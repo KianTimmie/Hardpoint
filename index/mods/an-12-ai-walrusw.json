@@ -5,6 +5,7 @@
   "summary": "AI-only Antonov An-12 four-turboprop transport based on helijah's CC-BY model.",
   "description": "AI-only An-12 'Cub' turboprop transport. Based on Emmanuel Baranger (helijah)'s CC-BY Sketchfab model, with animations and roughness/metallic maps added by walrusw. v0.2 adds model and texture fixes, new animations and a collision shell.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "prop",
     "ai",

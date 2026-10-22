@@ -5,6 +5,7 @@
   "summary": "Community-built flyable Saab JAS-39C Gripen for DCS World with A/A and A/G variants.",
   "description": "Open community mod adding the JAS-39C Gripen with its own cockpit, liveries and weapons. Copy the `Mods` folder from the archive into `Saved Games\\DCS`. The A/A variants (F-15C / Su-33 based) need Flaming Cliffs 3; the A/G variant (Su-25T avionics) does not.\n\nRequires: A/A BVR (F-15C based) and A/A WVR (Su-33 based) variants require Flaming Cliffs 3; the A/G variant works without it.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "jet",
     "fighter",

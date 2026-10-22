@@ -5,6 +5,7 @@
   "summary": "Free carrier-capable T-45C Goshawk naval jet trainer mod by Virtual Naval Air Operations.",
   "description": "Flyable US Navy T-45C trainer with carrier operations. Download link (MediaFire) is in the official ED forum thread; a livery paint kit is on ED User Files.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "jet",
     "trainer",

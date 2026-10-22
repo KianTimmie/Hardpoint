@@ -5,6 +5,7 @@
   "summary": "Early work-in-progress Mi-28NE attack helicopter mod that borrows the Ka-50 cockpit and EFM.",
   "description": "Flyable Mi-28NE (v1.0, WIP). Unzip into `Saved Games\\DCS\\Mods\\aircraft`. Requires the official Ka-50 III module because it uses its cockpit and flight model.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "helicopter",
     "attack",

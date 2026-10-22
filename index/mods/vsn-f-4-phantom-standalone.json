@@ -5,6 +5,7 @@
   "summary": "VSN team's free standalone F-4B/C Phantom II with EFM and its own clickable cockpit.",
   "description": "Free standalone VSN F-4 Phantom II (F-4B/C) with an EFM by PeeJott and a custom clickable cockpit; supports carrier catapult launches (bind Launch Bar Toggle). Not dependent on the VSN F-4E mod.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "jet",
     "fighter",

@@ -5,6 +5,7 @@
   "summary": "VSN team's free FC3-style Saab 37 Viggen variant for DCS World.",
   "description": "Free VSN mod providing an FC3-style flyable Saab 37 Viggen (based on the Leatherneck/Heatblur model already in DCS). Flyable with the FC3 (F-15C/Su-27-style) cockpit, or as AI without FC3.\n\nVSN's downloads are on pCloud and ask for a password; VSN publishes it on their download index: `VSNROX`.\n\nRequires: Flyable only with Flaming Cliffs 3 installed; otherwise usable as AI.",
   "category": "aircraft",
+  "aircraft_type": "vsn",
   "tags": [
     "jet",
     "attack",

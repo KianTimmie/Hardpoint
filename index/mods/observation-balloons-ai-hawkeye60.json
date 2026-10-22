@@ -5,6 +5,7 @@
   "summary": "AI-only observation balloons: a basket balloon and a spy-camera balloon, nation-neutral.",
   "description": "Two AI-only observation balloons (basket and spy camera), not tied to any nation, built on the helicopter framework with a custom sound folder. Collision is untested. The ceiling is capped near 10 km.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "ai",
     "balloon",

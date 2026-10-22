@@ -5,6 +5,7 @@
   "summary": "Fictional AirWolf helicopter mod built on the UH-60L mod's EFM, made standalone.",
   "description": "Flyable fictional AirWolf helicopter based on Kinkkujuustovoileipä's UH-60L v1.4 EFM, modified to run standalone. Copy the `AirWolf` folder to `Saved Games\\DCS\\Mods\\Aircraft` and the `Config` folder into `Saved Games\\DCS`.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "helicopter",
     "fictional",

@@ -234,3 +234,5 @@ pre.code { background: var(--ink); color: var(--paper); padding: 16px; border-ra
 .btn.lg { padding: 13px 22px; font-size: 1.12rem; }
 .hp-shelf:first-child { margin-top: 0; }
 .hp-shelf-tools a { white-space: nowrap; margin-right: 6px; }
+.type-help { margin: -6px 0 16px; color: var(--ink-2); max-width: 70ch; }
+.plate dd .hp-type-help { margin-top: 6px; }

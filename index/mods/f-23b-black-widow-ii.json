@@ -5,6 +5,7 @@
   "summary": "What-if operational YF-23 with Hornet cockpit, internal bays and ten liveries.",
   "description": "Flyable fictional F-23B by Coookalo (Mile High Digital Works) using the F/A-18C clickable cockpit and avionics, sequenced internal weapon bays, MALICE and AIM-9X. Requires the F/A-18C module. v1.4 built for DCS 2.9.30.28738.",
   "category": "aircraft",
+  "aircraft_type": "flyable-module",
   "tags": [
     "jet",
     "fighter",

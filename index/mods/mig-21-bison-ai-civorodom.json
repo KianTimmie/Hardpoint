@@ -5,6 +5,7 @@
   "summary": "AI-only MiG-21 Bison upgrade with Kopyo radar and R-77 missiles for DCS World.",
   "description": "AI-only MiG-21 UPG Bison (MiG-21-93 programme) with simulated Kopyo radar, R-73E, R-27 and R-77 missiles and integrated ECM. Converted to AI-only after DCS 2.9.6.",
   "category": "aircraft",
+  "aircraft_type": "ai-animated",
   "tags": [
     "jet",
     "ai",

@@ -5,6 +5,7 @@
   "summary": "Non-animated AI Dassault Mystère aircraft asset for DCS World missions.",
   "description": "AI-controlled Dassault Mystère asset with an approximate flight model tuned to public performance data (no EFM). Technically player-controllable but has no animations or working cockpit. 3D model by helijah (Sketchfab), used with permission.",
   "category": "aircraft",
+  "aircraft_type": "ai-static",
   "tags": [
     "jet",
     "ai",

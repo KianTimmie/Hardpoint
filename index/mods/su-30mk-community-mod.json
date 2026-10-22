@@ -5,6 +5,7 @@
   "summary": "Community Su-30MK/SM family multirole fighter mod for DCS World with custom EFM.",
   "description": "Flyable Su-30 variants with a custom EFM, distributed via Google Drive links in the ED forum thread. An optional CWS add-on makes it standalone; without it some variants rely on Flaming Cliffs aircraft.\n\nRequires: Optional CWS add-on (separate download) for standalone weapon systems; without CWS the BVR variant reportedly needs FC3/Su-33.",
   "category": "aircraft",
+  "aircraft_type": "flyable",
   "tags": [
     "jet",
     "fighter",

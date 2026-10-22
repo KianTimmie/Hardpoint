@@ -22,6 +22,7 @@ export function Home({ index }: { index: HubIndex }) {
     .slice(0, 6);
   const oneClick = coverFirst(mods.filter((m) => delivery(m) === "one-click"));
   const aircraft = coverFirst(mods.filter((m) => m.category === "aircraft"));
+  const flyable = coverFirst(mods.filter((m) => m.aircraft_type === "flyable"));
   const recent = [...mods].sort((a, b) => (b.updated ?? "").localeCompare(a.updated ?? "")).slice(0, 12);
 
   return (
@@ -58,7 +59,10 @@ export function Home({ index }: { index: HubIndex }) {
               {oneClick.map(card)}
             </Shelf>
           )}
-          <Shelf title="Aircraft" subtitle="Free community-built aircraft and helicopters." more={<a href="#/browse?cat=aircraft">See all</a>}>
+          <Shelf title="Fly them yourself" subtitle="Aircraft with their own cockpit and flight model. No other module needed." more={<a href="#/browse?cat=aircraft&type=flyable">See all</a>}>
+            {flyable.map(card)}
+          </Shelf>
+          <Shelf title="Aircraft" subtitle="Everything: flyable, VSN, needs-a-module and AI." more={<a href="#/browse?cat=aircraft">See all</a>}>
             {aircraft.map(card)}
           </Shelf>
           <Shelf title="Recently updated" more={<a href="#/browse?sort=updated">See all</a>}>
