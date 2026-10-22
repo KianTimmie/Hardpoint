@@ -1,11 +1,17 @@
 import type { Actions } from "../App";
-import type { ModHealth, Overview, ProgressEvent, Update } from "../types";
+import type { HubMod, ModHealth, Overview, ProgressEvent, Update } from "../types";
+import { ModImage } from "../../../../packages/ui/ModCard.tsx";
 import { categoryLabel, formatBytes } from "../types";
 import { Toggle, humanTarget } from "../components/ui";
 
-export function Library({ overview, health, updates, busy, actions, onBrowse }: {
+export function Library({ overview, health, updates, busy, actions, onBrowse, hubMods }: {
   overview: Overview; health: ModHealth[]; updates: Update[]; busy: Record<string, ProgressEvent | true>; actions: Actions; onBrowse: () => void;
+  hubMods: HubMod[];
 }) {
+  // Local mods have no hub entry; give them a stand-in so they still get a category drawing.
+  const visual = (m: Overview["mods"][number]): HubMod =>
+    hubMods.find((h) => h.id === m.id) ??
+    ({ id: m.id, name: m.name, summary: "", category: m.category, tags: [], authors: [], images: [], requires_modules: [], dependencies: [], installable: true, releases: [] } as HubMod);
   const mods = overview.mods;
   const enabled = mods.filter((m) => m.enabled).length;
   const broken = health.filter((h) => h.missing.length || h.changed.length);
@@ -49,7 +55,7 @@ export function Library({ overview, health, updates, busy, actions, onBrowse }: 
       ) : (
         <table className="stores lib">
           <thead>
-            <tr><th scope="col"><span className="sr">Enabled</span></th><th scope="col">Mod</th><th scope="col">Category</th><th scope="col">Installs to</th><th scope="col" className="r">Size</th><th scope="col"><span className="sr">Actions</span></th></tr>
+            <tr><th scope="col"><span className="sr">Enabled</span></th><th scope="col"><span className="sr">Photo</span></th><th scope="col">Mod</th><th scope="col">Category</th><th scope="col">Installs to</th><th scope="col" className="r">Size</th><th scope="col"><span className="sr">Actions</span></th></tr>
           </thead>
           <tbody>
             {mods.map((m) => {
@@ -59,6 +65,7 @@ export function Library({ overview, health, updates, busy, actions, onBrowse }: 
               return (
                 <tr key={m.id} className={m.enabled ? "" : "off"}>
                   <td className="tcell"><Toggle on={m.enabled} label={`Enable ${m.name}`} busy={!!b} onChange={(v) => actions.toggle(m.id, v)} /></td>
+                  <td className="thumb"><ModImage mod={visual(m)} className="lib-thumb" /></td>
                   <td className="name">
                     <span className="n">{m.name}</span>
                     <span className="sum">

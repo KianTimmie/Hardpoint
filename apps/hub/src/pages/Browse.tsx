@@ -2,7 +2,7 @@ import type { HubIndex } from "../types";
 import { CATEGORIES } from "../types";
 import { browseHref, type Route } from "../router";
 import { search, isOneClick, isIcSafe } from "../data";
-import { StoresTable } from "../components/StoresTable";
+import { ModGrid } from "../components/ModGrid";
 
 type B = Extract<Route, { name: "browse" }>;
 
@@ -40,9 +40,10 @@ export function Browse({ index, route }: { index: HubIndex; route: B }) {
       </aside>
       <section aria-live="polite">
         <div className="toolbar">
-          <h1 style={{ fontSize: "2rem", marginRight: "auto" }}>
-            {route.q ? <>Results for “{route.q}”</> : catLabel ?? "All mods"}
-          </h1>
+          <div className="toolbar-title">
+            <h1>{route.q ? <>Results for “{route.q}”</> : catLabel ?? "All mods"}</h1>
+            <span className="muted">{mods.length} mod{mods.length === 1 ? "" : "s"}</span>
+          </div>
           <label className="muted" htmlFor="sort">Sort</label>
           <select id="sort" value={route.sort} onChange={(e) => go({ sort: e.target.value })}>
             <option value="name">{route.q ? "Best match" : "Name"}</option>
@@ -50,7 +51,7 @@ export function Browse({ index, route }: { index: HubIndex; route: B }) {
           </select>
         </div>
         {mods.length ? (
-          <StoresTable mods={mods} caption="Mods" />
+          <ModGrid mods={mods} />
         ) : (
           <div className="empty">
             <p>No mods match these filters.</p>

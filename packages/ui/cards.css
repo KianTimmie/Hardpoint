@@ -1,0 +1,111 @@
+/* Shared card + photo styles (hub website and desktop app). Uses tokens.css. */
+
+.hp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 248px), 1fr));
+  gap: 18px;
+}
+.hp-grid.is-compact { grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr)); gap: 14px; }
+
+.hp-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: var(--plate);
+  border: 1px solid var(--line-soft);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 140ms, transform 140ms, box-shadow 140ms;
+}
+.hp-card:hover { border-color: var(--line); transform: translateY(-2px); box-shadow: 0 6px 18px -10px rgb(20 27 36 / 0.45); }
+.hp-card.is-selected { border-color: var(--red); box-shadow: 0 0 0 1px var(--red); }
+.hp-card-hit {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  cursor: pointer;
+  color: var(--ink);
+}
+.hp-card-hit:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; border-radius: 6px; }
+
+.hp-card-body { display: grid; gap: 4px; padding: 12px 14px 4px; }
+.hp-card-title {
+  font: 600 1.14rem/1.15 var(--display);
+  letter-spacing: 0.005em;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.hp-card-sum {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.8em;
+}
+.hp-card-meta { display: flex; gap: 10px; align-items: baseline; font-size: 0.82rem; color: var(--ink-2); margin-top: 4px; }
+.hp-card-ver { font-variant-numeric: tabular-nums; }
+.hp-card-foot { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; padding: 8px 14px 14px; }
+.hp-card-corner { position: absolute; top: 10px; right: 10px; z-index: 1; pointer-events: none; }
+
+/* Photo with a drawn fallback */
+.hp-photo {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  overflow: hidden;
+  background: var(--panel);
+}
+.hp-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 220ms ease-out;
+}
+.hp-photo.is-loaded img { opacity: 1; }
+.hp-photo-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--blue);
+  /* Blueprint grid */
+  background-color: color-mix(in srgb, var(--blue) 9%, var(--plate));
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--blue) 14%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--blue) 14%, transparent) 1px, transparent 1px);
+  background-size: 16px 16px;
+  background-position: -1px -1px;
+}
+.hp-glyph { width: 58%; max-width: 220px; height: auto; opacity: 0.85; }
+
+/* Small status chips used on cards */
+.hp-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font: 600 0.78rem/1 var(--display);
+  letter-spacing: 0.03em;
+  padding: 5px 8px;
+  border-radius: 3px;
+  background: var(--plate);
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.hp-chip.ok { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); }
+.hp-chip.warn { background: var(--amber-bg); border-color: var(--amber); color: var(--amber); }
+.hp-chip.solid { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
+@media (prefers-reduced-motion: reduce) {
+  .hp-card, .hp-photo img { transition: none; }
+  .hp-card:hover { transform: none; }
+}

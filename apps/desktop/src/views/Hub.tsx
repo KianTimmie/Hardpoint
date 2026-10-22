@@ -1,10 +1,11 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 import type { Actions } from "../App";
 import type { HubMod, IndexResult, Overview, ProgressEvent } from "../types";
 import { CATEGORIES, categoryLabel, compareVersions, delivery, downloadOnlyKind, formatBytes, latestRelease, writesInstallDir } from "../types";
 import { ProgressBar, humanTarget } from "../components/ui";
+import { CardGrid, ModCard, ModImage } from "../../../../packages/ui/ModCard.tsx";
 
 type Busy = Record<string, ProgressEvent | true>;
 
@@ -24,6 +25,12 @@ export function Hub({ index, indexError, overview, busy, actions, focus, onFocus
     });
   }, [mods, q, cat]);
   const selected = mods.find((m) => m.id === focus) ?? null;
+  useEffect(() => {
+    if (!selected) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onFocus(null);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [selected, onFocus]);
   const installed = (id: string) => overview?.mods.find((m) => m.id === id);
 
   if (!index) {
@@ -47,34 +54,50 @@ export function Hub({ index, indexError, overview, busy, actions, focus, onFocus
         <div className="head-actions">
           <label className="sr" htmlFor="hubq">Search the hub</label>
           <input id="hubq" className="text" type="search" placeholder="Search the hub" value={q} onChange={(e) => setQ(e.target.value)} />
-          <label className="sr" htmlFor="hubcat">Category</label>
-          <select id="hubcat" className="text" value={cat} onChange={(e) => setCat(e.target.value)}>
-            <option value="">All categories</option>
-            {CATEGORIES.filter((c) => mods.some((m) => m.category === c.id)).map((c) => <option key={c.id} value={c.id}>{c.plural}</option>)}
-          </select>
         </div>
       </header>
       {index.offline && <div className="notice">The online hub couldn't be reached, so this is the list saved with the app. Installing still works for mods with direct downloads.</div>}
 
-      <div className="hub-split">
-        <ul className="hub-list" aria-label="Mods">
-          {list.map((m) => (
-            <li key={m.id} className={m.id === focus ? "sel" : ""}>
-              <button className="row-btn" onClick={() => onFocus(m.id)} aria-current={m.id === focus || undefined}>
-                <span className="n">{m.name}</span>
-                <span className="sum">{m.summary}</span>
-                <span className="meta">{categoryLabel(m.category)}{latestRelease(m) ? `, version ${latestRelease(m)!.version}` : ""}</span>
-              </button>
-              <div className="row-action"><ModAction mod={m} installed={installed(m.id)?.version} busy={busy[m.id]} actions={actions} compact /></div>
-            </li>
-          ))}
-          {!list.length && <li className="muted pad">No mods match “{q}”.</li>}
-        </ul>
-        <div className="hub-detail">
-          {selected ? <Detail mod={selected} installed={installed(selected.id)?.version} busy={busy[selected.id]} actions={actions} />
-            : <p className="muted pad">Select a mod to see its details.</p>}
-        </div>
+      <div className="chips" role="group" aria-label="Category">
+        <button className="chip" aria-pressed={!cat} onClick={() => setCat("")}>All <span>{mods.length}</span></button>
+        {CATEGORIES.filter((c) => mods.some((m) => m.category === c.id)).map((c) => (
+          <button key={c.id} className="chip" aria-pressed={cat === c.id} onClick={() => setCat(cat === c.id ? "" : c.id)}>
+            {c.plural} <span>{mods.filter((m) => m.category === c.id).length}</span>
+          </button>
+        ))}
       </div>
+
+      {list.length ? (
+        <CardGrid compact>
+          {list.map((m) => {
+            const have = installed(m.id)?.version;
+            const r = latestRelease(m);
+            const upd = have && r && compareVersions(r.version, have) > 0;
+            return (
+              <ModCard
+                key={m.id}
+                mod={m}
+                selected={m.id === focus}
+                onOpen={() => onFocus(m.id)}
+                corner={have ? <span className={`hp-chip ${upd ? "warn" : "ok"}`}>{upd ? "Update available" : "Installed"}</span> : undefined}
+                badge={<ModAction mod={m} installed={have} busy={busy[m.id]} actions={actions} compact />}
+              />
+            );
+          })}
+        </CardGrid>
+      ) : (
+        <div className="empty-state"><p>No mods match “{q}”{cat ? " in this category" : ""}.</p><button className="btn" onClick={() => { setQ(""); setCat(""); }}>Clear search</button></div>
+      )}
+
+      {selected && (
+        <>
+          <div className="scrim" onClick={() => onFocus(null)} aria-hidden="true" />
+          <aside className="drawer" aria-label={`${selected.name} details`}>
+            <button className="drawer-close" aria-label="Close details" onClick={() => onFocus(null)}>×</button>
+            <Detail mod={selected} installed={installed(selected.id)?.version} busy={busy[selected.id]} actions={actions} />
+          </aside>
+        </>
+      )}
     </section>
   );
 }
@@ -105,6 +128,8 @@ function Detail({ mod, installed, busy, actions }: { mod: HubMod; installed?: st
   const d = delivery(mod);
   return (
     <article className="detail">
+      <ModImage mod={mod} className="detail-photo" eager key={mod.id} />
+      <div className="detail-cat">{categoryLabel(mod.category)}</div>
       <h2>{mod.name}</h2>
       <p className="muted">{mod.summary}</p>
       <div className="detail-action"><ModAction mod={mod} installed={installed} busy={busy} actions={actions} /></div>

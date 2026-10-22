@@ -13,5 +13,5 @@
     "noEmit": true,
     "types": ["vite/client"]
   },
-  "include": ["src", "../../packages/hub-types"]
+  "include": ["src", "../../packages/hub-types", "../../packages/ui"]
 }

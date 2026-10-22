@@ -1,1 +1,1 @@
-{ "name": "@hardpoint/ui", "private": true, "files": ["tokens.css"] }
+{ "name": "@hardpoint/ui", "private": true, "files": ["tokens.css", "cards.css", "ModCard.tsx", "glyphs.tsx"] }

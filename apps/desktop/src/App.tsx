@@ -209,7 +209,7 @@ export function App({ backend }: { backend: Backend }) {
 
       <div className="main">
         {view === "library" && overview && (
-          <Library overview={overview} health={health} updates={updates} busy={busy} actions={actions} onBrowse={() => setView("hub")} />
+          <Library overview={overview} health={health} updates={updates} busy={busy} actions={actions} onBrowse={() => setView("hub")} hubMods={index?.index.mods ?? []} />
         )}
         {view === "hub" && (
           <Hub index={index} indexError={indexError} overview={overview} busy={busy} actions={actions} focus={hubFocus} onFocus={setHubFocus} />

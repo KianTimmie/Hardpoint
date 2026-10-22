@@ -169,3 +169,53 @@ pre.code { background: var(--ink); color: var(--paper); padding: 16px; border-ra
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ---------------------------------------------------------------- polish pass */
+.top { backdrop-filter: saturate(1.2) blur(6px); background: color-mix(in srgb, var(--paper) 88%, transparent); }
+.top .wrap { min-height: 64px; }
+.search input { border-radius: 6px; border-color: var(--line-soft); background: var(--plate); }
+.search input:hover { border-color: var(--line); }
+.nav a { padding: 6px 0; }
+
+.btn { border-radius: 4px; transition: background 120ms, border-color 120ms, color 120ms; }
+.btn-primary { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.btn-primary:hover { background: color-mix(in srgb, var(--ink) 85%, var(--paper)); }
+
+.hero { padding-block: 56px 24px; }
+.hero h1 { font-size: clamp(2.4rem, 5.2vw, 3.6rem); letter-spacing: -0.005em; }
+
+.section { padding-block: 36px; }
+.section-head { align-items: flex-end; margin-bottom: 18px; }
+.section-head p { margin: 4px 0 0; }
+.section-head > a { white-space: nowrap; }
+
+.band { background: var(--panel); border-block: 1px solid var(--line-soft); margin-top: 24px; padding-block: 48px; }
+.split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 40px; align-items: start; }
+.split h2 { font-size: 2rem; max-width: 16ch; text-wrap: balance; }
+.split .prose p:first-child { margin-top: 0; }
+
+.toolbar { margin-bottom: 18px; }
+.toolbar-title { margin-right: auto; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.toolbar-title h1 { font-size: 2.1rem; }
+.toolbar select { border-radius: 4px; }
+.filters { position: sticky; top: 84px; align-self: start; }
+.filters li button { border-radius: 0 4px 4px 0; }
+
+.empty { border-radius: 6px; }
+
+/* Mod detail */
+.detail h1 { letter-spacing: -0.005em; }
+.gallery { margin: 4px 0 28px; max-width: 760px; }
+.gallery-main { border-radius: 8px; border: 1px solid var(--line-soft); }
+.gallery-thumbs { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; padding-bottom: 4px; }
+.gallery-thumbs button { all: unset; cursor: pointer; flex: 0 0 104px; aspect-ratio: 16 / 9; border-radius: 4px; overflow: hidden; border: 2px solid transparent; background: var(--panel); }
+.gallery-thumbs button[aria-selected="true"] { border-color: var(--red); }
+.gallery-thumbs button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.gallery-thumbs img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.gallery-credit { font-size: 0.82rem; color: var(--ink-2); margin: 6px 0 0; }
+.plate { border-radius: 8px; border-width: 1px; border-color: var(--line); padding: 20px; }
+
+@media (max-width: 900px) {
+  .split { grid-template-columns: 1fr; gap: 12px; }
+  .filters { position: static; }
+}

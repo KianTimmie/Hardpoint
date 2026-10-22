@@ -6,6 +6,7 @@ const EXAMPLE = `{
   "authors": [{ "name": "You", "url": "https://github.com/you" }],
   "license": "Freeware",
   "source": "https://github.com/you/my-cool-jet",
+  "images": ["https://raw.githubusercontent.com/you/my-cool-jet/main/screenshot.jpg"],
   "releases": [
     {
       "version": "1.2.0",
@@ -46,6 +47,13 @@ export function Submit() {
           downloads it, checks the checksum and installs it in one click. Use <code>"kind": "page"</code> for ED User
           Files, forums, Patreon or anywhere that needs a click-through. Users download from your page and drop the
           file onto Hardpoint; if you include a <code>sha256</code>, it is matched to your listing automatically.
+        </p>
+
+        <h2>Photos</h2>
+        <p style={{ marginTop: 12 }}>
+          Add up to eight screenshot URLs under <code>images</code>; the first one is the photo on your mod's card.
+          Images are linked from where you host them, such as your GitHub repository or ED User Files page, and never
+          copied. If you'd rather your images weren't shown, open an issue and they'll be removed.
         </p>
 
         <h2>Install rules</h2>

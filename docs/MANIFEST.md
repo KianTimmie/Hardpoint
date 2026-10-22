@@ -16,6 +16,7 @@ One file per mod: `index/mods/<id>.json`. The JSON Schema is `index/schema/mod.s
   "license": "Freeware",
   "homepage": "https://forum.dcs.world/topic/…",
   "source": "https://github.com/you/my-cool-jet",
+  "images": ["https://raw.githubusercontent.com/you/my-cool-jet/main/docs/screenshot.jpg"],
   "requires_modules": ["Syria map"],
   "dependencies": [{ "id": "some-other-mod", "min_version": "1.2" }],
   "releases": [
@@ -46,6 +47,7 @@ One file per mod: `index/mods/<id>.json`. The JSON Schema is `index/schema/mod.s
 | `name`, `summary` | yes | Summary is one line (10–160 characters). |
 | `category` | yes | `aircraft`, `livery`, `terrain`, `mission`, `campaign`, `script`, `sound`, `tech`, `utility`, `other` |
 | `authors` | yes | `[{ "name", "url"? }]` |
+| `images` | no | Up to 8 `https://` image URLs of your own screenshots. The first is the card photo. They're linked, not copied, so keep them where they are. Without images, the hub shows a drawing for the category. |
 | `installable` | no | Default `true`. Set `false` for things used inside missions (Lua libraries). |
 | `releases` | no | May be empty for a listing-only entry (then `homepage` or `source` is required). |
 | `releases[].download.kind` | yes | `direct` (the URL is the file) or `page` (a page the user downloads from). |

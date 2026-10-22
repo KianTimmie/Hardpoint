@@ -9,6 +9,7 @@ import "@fontsource/barlow-condensed/latin-500.css";
 import "@fontsource/barlow-condensed/latin-600.css";
 import "@fontsource/barlow-condensed/latin-700.css";
 import "@fontsource/saira-stencil-one/latin-400.css";
+import "../../../packages/ui/cards.css";
 import "./app.css";
 
 getBackend().then((backend) =>
