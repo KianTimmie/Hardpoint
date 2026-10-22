@@ -16,6 +16,12 @@ One file per mod: `index/mods/<id>.json`. The JSON Schema is `index/schema/mod.s
   "license": "Freeware",
   "homepage": "https://forum.dcs.world/topic/…",
   "source": "https://github.com/you/my-cool-jet",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Example_jet.jpg?width=1920",
+    "credit": "U.S. Air Force photo by Jane Doe",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Example_jet.jpg"
+  },
   "images": ["https://raw.githubusercontent.com/you/my-cool-jet/main/docs/screenshot.jpg"],
   "requires_modules": ["Syria map"],
   "dependencies": [{ "id": "some-other-mod", "min_version": "1.2" }],
@@ -47,7 +53,8 @@ One file per mod: `index/mods/<id>.json`. The JSON Schema is `index/schema/mod.s
 | `name`, `summary` | yes | Summary is one line (10–160 characters). |
 | `category` | yes | `aircraft`, `livery`, `terrain`, `mission`, `campaign`, `script`, `sound`, `tech`, `utility`, `other` |
 | `authors` | yes | `[{ "name", "url"? }]` |
-| `images` | no | Up to 8 `https://` image URLs of your own screenshots. The first is the card photo. They're linked, not copied, so keep them where they are. Without images, the hub shows a drawing for the category. |
+| `cover` | no | Photo of the real aircraft or system for the card: `{ "url", "credit", "license", "source" }`. Must be public domain or Creative Commons (Wikimedia Commons is the usual source); `source` is the page that shows the licence. Credits are listed on the hub's Photo credits page. |
+| `images` | no | Up to 8 `https://` image URLs of your own screenshots, shown when the card is opened. The first is the card photo if there's no `cover`. They're linked, not copied, so keep them where they are. Without images, the hub shows a drawing for the category. |
 | `installable` | no | Default `true`. Set `false` for things used inside missions (Lua libraries). |
 | `releases` | no | May be empty for a listing-only entry (then `homepage` or `source` is required). |
 | `releases[].download.kind` | yes | `direct` (the URL is the file) or `page` (a page the user downloads from). |

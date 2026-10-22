@@ -7,6 +7,7 @@ export type Route =
   | { name: "mod"; id: string }
   | { name: "submit" }
   | { name: "app" }
+  | { name: "credits" }
   | { name: "notfound" };
 
 export function parse(hash: string): Route {
@@ -19,6 +20,7 @@ export function parse(hash: string): Route {
   if (parts[0] === "mod" && parts[1]) return { name: "mod", id: decodeURIComponent(parts[1]) };
   if (parts[0] === "submit") return { name: "submit" };
   if (parts[0] === "app") return { name: "app" };
+  if (parts[0] === "credits") return { name: "credits" };
   return { name: "notfound" };
 }
 

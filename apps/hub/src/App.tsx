@@ -6,6 +6,7 @@ import { Browse } from "./pages/Browse";
 import { Mod } from "./pages/Mod";
 import { Submit } from "./pages/Submit";
 import { GetApp } from "./pages/GetApp";
+import { Credits } from "./pages/Credits";
 
 export function App() {
   const route = useRoute();
@@ -30,6 +31,7 @@ export function App() {
       case "mod": body = <Mod index={index} id={route.id} />; break;
       case "submit": body = <Submit />; break;
       case "app": body = <GetApp />; break;
+      case "credits": body = <Credits index={index} />; break;
       default:
         body = <main className="wrap page"><h1>Page not found</h1><p style={{ marginTop: 12 }}><a href="#/">Go to the hub home page</a></p></main>;
     }

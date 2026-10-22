@@ -52,7 +52,7 @@ export function Footer({ generated }: { generated?: string }) {
         </p>
         <p>
           {generated && <>Index updated {new Date(generated).toLocaleDateString(undefined, { dateStyle: "medium" })}<br /></>}
-          <a href="https://github.com/KianTimmie/Hardpoint">Source on GitHub</a>
+          <a href="#/credits">Photo credits</a><br /><a href="https://github.com/KianTimmie/Hardpoint">Source on GitHub</a>
         </p>
       </div>
     </footer>

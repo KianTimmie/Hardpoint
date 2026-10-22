@@ -93,13 +93,44 @@
       "type": "string",
       "format": "uri"
     },
+    "cover": {
+      "description": "Cover photo of the real aircraft or system, shown on the mod's card. Must be freely licensed (public domain or Creative Commons) with its credit.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "credit",
+        "license",
+        "source"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "credit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license": {
+          "type": "string",
+          "minLength": 2
+        },
+        "source": {
+          "description": "Page the photo and its licence come from, e.g. the Wikimedia Commons file page.",
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
     "images": {
       "type": "array",
       "items": {
         "type": "string",
         "format": "uri"
       },
-      "maxItems": 8
+      "maxItems": 8,
+      "description": "Up to 8 screenshots from the mod author (in-game shots, renders). Shown when the card is opened."
     },
     "requires_modules": {
       "description": "Official DCS modules or maps needed, e.g. 'F-16C Viper', 'Syria map'.",

@@ -5,7 +5,7 @@ import type { Actions } from "../App";
 import type { HubMod, IndexResult, Overview, ProgressEvent } from "../types";
 import { CATEGORIES, categoryLabel, compareVersions, delivery, downloadOnlyKind, formatBytes, latestRelease, writesInstallDir } from "../types";
 import { ProgressBar, humanTarget } from "../components/ui";
-import { CardGrid, ModCard, ModImage } from "../../../../packages/ui/ModCard.tsx";
+import { CardGrid, ModCard, PhotoGallery } from "../../../../packages/ui/ModCard.tsx";
 
 type Busy = Record<string, ProgressEvent | true>;
 
@@ -128,7 +128,7 @@ function Detail({ mod, installed, busy, actions }: { mod: HubMod; installed?: st
   const d = delivery(mod);
   return (
     <article className="detail">
-      <ModImage mod={mod} className="detail-photo" eager key={mod.id} />
+      <PhotoGallery mod={mod} open={actions.open} className="detail-photo" />
       <div className="detail-cat">{categoryLabel(mod.category)}</div>
       <h2>{mod.name}</h2>
       <p className="muted">{mod.summary}</p>

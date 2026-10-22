@@ -45,6 +45,11 @@ export interface Release {
 
 export interface Author { name: string; url?: string }
 
+export interface Cover { url: string; credit: string; license: string; source: string }
+
+/** The photo for a mod's card: the real-world cover, else the author's first screenshot. */
+export const cardPhoto = (m: HubMod): string | undefined => m.cover?.url ?? m.images[0];
+
 export interface HubMod {
   id: string;
   name: string;
@@ -56,6 +61,9 @@ export interface HubMod {
   license?: string;
   homepage?: string;
   source?: string;
+  /** Freely licensed photo of the real aircraft or system (card cover). */
+  cover?: Cover;
+  /** Screenshots from the mod author, shown when the card is opened. */
   images: string[];
   requires_modules: string[];
   dependencies: { id: string; min_version?: string }[];

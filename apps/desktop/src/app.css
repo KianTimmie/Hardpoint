@@ -213,3 +213,7 @@ input[type="search"].text { width: 280px; }
 @keyframes slide-in { from { transform: translateX(40px); opacity: 0; } }
 @keyframes fade { from { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .drawer, .scrim { animation: none; } }
+
+.drawer .detail-photo .hp-gallery-main { border-radius: 0; border: 0; border-bottom: 1px solid var(--line-soft); }
+.drawer .detail-photo > :not(.hp-gallery-main) { margin-left: 22px; margin-right: 22px; }
+.drawer .detail-photo { margin-bottom: 18px; }

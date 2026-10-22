@@ -31,6 +31,15 @@ pub struct Author {
     pub url: Option<String>,
 }
 
+/// Freely licensed photo of the real aircraft or system, with its credit.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Cover {
+    pub url: String,
+    pub credit: String,
+    pub license: String,
+    pub source: String,
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Dependency {
     pub id: String,
@@ -105,6 +114,8 @@ pub struct HubMod {
     pub homepage: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub source: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub cover: Option<Cover>,
     #[serde(default)]
     pub images: Vec<String>,
     /// Official DCS modules the mod needs (e.g. "F/A-18C Hornet").

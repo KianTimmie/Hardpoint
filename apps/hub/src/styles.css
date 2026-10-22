@@ -219,3 +219,9 @@ pre.code { background: var(--ink); color: var(--paper); padding: 16px; border-ra
   .split { grid-template-columns: 1fr; gap: 12px; }
   .filters { position: static; }
 }
+
+.credits { list-style: none; padding: 0; margin: 24px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 14px; }
+.credits li { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 14px; align-items: center; background: var(--plate); border: 1px solid var(--line-soft); border-radius: 6px; padding: 10px; font-size: 0.9rem; }
+.credits-thumb { border-radius: 4px; }
+.credits-name { font: 600 1.05rem var(--display); color: var(--ink); text-decoration: none; }
+.gallery { max-width: 760px; margin: 4px 0 28px; }

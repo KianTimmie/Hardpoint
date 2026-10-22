@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
-import { ModImage } from "../../../../packages/ui/ModCard.tsx";
+import { useMemo } from "react";
+import { PhotoGallery } from "../../../../packages/ui/ModCard.tsx";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 import type { HubIndex, HubMod, Release } from "../types";
@@ -18,25 +18,6 @@ function humanTarget(t: string) {
   const [root, rel] = t.split(":");
   const base = root === "install" ? "DCS install folder" : "Saved Games\\DCS";
   return [base, ...(rel ? rel.split("/") : [])].join(" › ");
-}
-
-function Gallery({ mod }: { mod: HubMod }) {
-  const [i, setI] = useState(0);
-  return (
-    <div className="gallery">
-      <ModImage mod={mod} index={i} className="gallery-main" eager key={i} />
-      {mod.images.length > 1 && (
-        <div className="gallery-thumbs" role="tablist" aria-label="Screenshots">
-          {mod.images.map((src, n) => (
-            <button key={src} role="tab" aria-selected={n === i} aria-label={`Screenshot ${n + 1}`} onClick={() => setI(n)}>
-              <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" />
-            </button>
-          ))}
-        </div>
-      )}
-      {mod.images.length > 0 && <p className="gallery-credit">Image from the author's page.</p>}
-    </div>
-  );
 }
 
 function IcRow({ r }: { r?: Release }) {
@@ -108,7 +89,7 @@ export function Mod({ index, id }: { index: HubIndex; id: string }) {
           <IcTag mod={mod} />
           {mod.tags.map((t) => <a key={t} className="tag" href={browseHref({ q: t })} style={{ textDecoration: "none" }}>{t}</a>)}
         </div>
-        <Gallery mod={mod} />
+        <PhotoGallery mod={mod} className="gallery" />
         {html && <div className="prose" dangerouslySetInnerHTML={{ __html: html }} />}
 
         {mod.releases.length > 0 && (

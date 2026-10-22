@@ -109,3 +109,17 @@
   .hp-card, .hp-photo img { transition: none; }
   .hp-card:hover { transform: none; }
 }
+
+/* Credits and screenshot strip (opened card / mod page) */
+.hp-credit { font-size: 0.8rem; color: var(--ink-2); margin: 6px 0 0; line-height: 1.4; }
+.hp-credit a, .hp-linkish { color: var(--ink-2); text-decoration: underline; text-underline-offset: 2px; }
+.hp-linkish { all: unset; cursor: pointer; text-decoration: underline; }
+.hp-shots { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.hp-shot { all: unset; cursor: pointer; flex: 0 0 132px; border-radius: 5px; overflow: hidden; border: 2px solid transparent; }
+.hp-shot .hp-photo { border-radius: 3px; }
+.hp-shot[aria-pressed="true"] { border-color: var(--red); }
+.hp-shot:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.hp-section-label { font: 600 0.95rem var(--display); color: var(--ink-2); margin: 18px 0 8px; letter-spacing: 0.02em; }
+.hp-gallery-main { border-radius: 8px; border: 1px solid var(--line-soft); }
+.hp-shot { position: relative; }
+.hp-shot-tag { position: absolute; left: 6px; bottom: 6px; font: 600 0.7rem/1 var(--display); letter-spacing: 0.04em; padding: 3px 5px; border-radius: 2px; background: rgb(20 27 36 / 0.72); color: #fff; }
