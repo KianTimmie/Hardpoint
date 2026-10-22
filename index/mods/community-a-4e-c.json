@@ -5,8 +5,18 @@
   "summary": "Free, community-built A-4E Skyhawk for DCS World, with a clickable cockpit and carrier operations.",
   "description": "A free A-4E Skyhawk module built by the Community A-4E-C team. It installs into **Saved Games**, so it does not affect the multiplayer integrity check.\n\nThe download is large (about 1 GB).",
   "category": "aircraft",
-  "tags": ["attack", "carrier", "vietnam era", "free"],
-  "authors": [{ "name": "Community A-4E-C team", "url": "https://github.com/Community-A-4E" }],
+  "tags": [
+    "attack",
+    "carrier",
+    "vietnam era",
+    "free"
+  ],
+  "authors": [
+    {
+      "name": "Community A-4E-C team",
+      "url": "https://github.com/Community-A-4E"
+    }
+  ],
   "homepage": "https://forum.dcs.world/topic/207102-community-a-4e-c/",
   "source": "https://github.com/Community-A-4E/community-a4e-c",
   "releases": [
@@ -16,7 +26,9 @@
       "download": {
         "kind": "direct",
         "url": "https://github.com/Community-A-4E/community-a4e-c/releases/download/v2.3/Community_A-4E-C_v2.3.zip",
-        "file_name": "Community_A-4E-C_v2.3.zip"
+        "file_name": "Community_A-4E-C_v2.3.zip",
+        "sha256": "48d6240e443f22db40cb9d88874ffc33b6f0e8dda3181fbde34fa09d9a0417b0",
+        "size": 1057126353
       }
     }
   ]

@@ -238,6 +238,7 @@ fn dedup<T: PartialEq + Clone>(v: &mut Vec<T>) {
 
 /// DCS on Steam has app id 223750.
 const STEAM_DIR: &str = "DCSWorld";
+#[cfg_attr(windows, allow(dead_code))]
 const STEAM_APP_ID: &str = "223750";
 
 fn steam_library_dirs(steam_root: &Path) -> Vec<PathBuf> {

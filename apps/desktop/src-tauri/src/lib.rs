@@ -13,6 +13,9 @@ use serde::Serialize;
 use tauri::{AppHandle, Emitter, Manager, State};
 use tauri_plugin_deep_link::DeepLinkExt;
 
+/// Snapshot of the hub index taken at build time (`npm run build` in apps/desktop refreshes it).
+const BUNDLED_INDEX: &str = include_str!("../bundled-index.json");
+
 struct AppState {
     engine: Mutex<Engine>,
     /// Last successfully loaded hub index (used to match dropped archives).
@@ -97,9 +100,13 @@ async fn load_index(app: AppHandle) -> CmdResult<IndexResult> {
             let _ = util::write_json_atomic(&cache, &idx);
             (idx, false, None)
         }
+        // Offline or hub not published yet: last saved copy, then the list built into the app.
         Err(fetch_err) => match util::read_json::<HubIndex>(&cache) {
             Ok(Some(idx)) => (idx, true, Some(fetch_err.to_string())),
-            _ => return Err(err(fetch_err)),
+            _ => match HubIndex::parse(BUNDLED_INDEX) {
+                Ok(idx) => (idx, true, Some(fetch_err.to_string())),
+                Err(_) => return Err(err(fetch_err)),
+            },
         },
     };
     let updates = state.engine.lock().map_err(|_| other("engine lock poisoned"))?.updates(&index);

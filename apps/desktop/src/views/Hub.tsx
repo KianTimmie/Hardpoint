@@ -42,7 +42,7 @@ export function Hub({ index, indexError, overview, busy, actions, focus, onFocus
       <header className="view-head">
         <div>
           <h1>Hub</h1>
-          <p className="muted">{mods.length} mods in the index{index.offline ? ", showing the last saved copy" : ""}</p>
+          <p className="muted">{mods.length} mods in the index</p>
         </div>
         <div className="head-actions">
           <label className="sr" htmlFor="hubq">Search the hub</label>
@@ -54,7 +54,7 @@ export function Hub({ index, indexError, overview, busy, actions, focus, onFocus
           </select>
         </div>
       </header>
-      {index.offline && <div className="notice">Couldn't reach the hub ({indexError}). You can still install anything already downloaded.</div>}
+      {index.offline && <div className="notice">The online hub couldn't be reached, so this is the list saved with the app. Installing still works for mods with direct downloads.</div>}
 
       <div className="hub-split">
         <ul className="hub-list" aria-label="Mods">

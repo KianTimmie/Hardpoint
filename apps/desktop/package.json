@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "node ../../index/scripts/build.mjs --out src-tauri/bundled-index.json && tsc --noEmit && vite build",
     "demo": "node scripts/demo-index.mjs && vite",
     "tauri": "tauri"
   },
