@@ -117,3 +117,10 @@ export function formatBytes(n?: number): string {
   while (v >= 1024 && i < u.length - 1) { v /= 1024; i++; }
   return `${v.toFixed(v < 10 && i > 0 ? 1 : 0)} ${u[i]}`;
 }
+
+/** For mods that aren't installed into DCS folders: what they are, for labels and notes. */
+export function downloadOnlyKind(m: HubMod): { label: string; note: string } {
+  if (m.category === "script")
+    return { label: "Mission library", note: "Used inside missions, so there's nothing to install into DCS." };
+  return { label: "Separate program", note: "A separate program with its own installer, so it isn't installed into DCS folders." };
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "red-flag-training-missions-f16c",
+  "name": "Red Flag Training Missions - F-16C",
+  "summary": "Red Flag-style F-16C training missions over the Nevada Test and Training Range.",
+  "description": "F-16C training mission pack set around Nellis AFB / NTTR. The page gives no install path.",
+  "category": "mission",
+  "tags": [
+    "f-16c",
+    "training",
+    "nevada",
+    "red-flag"
+  ],
+  "authors": [
+    {
+      "name": "beppe_goodoldrebel"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3306532/",
+  "requires_modules": [
+    "F-16C Viper",
+    "Nevada map"
+  ],
+  "releases": [
+    {
+      "version": "2019-10-09",
+      "date": "2019-10-09",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3306532/"
+      }
+    }
+  ]
+}

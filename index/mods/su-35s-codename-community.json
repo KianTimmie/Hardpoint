@@ -1,0 +1,32 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "su-35s-codename-community",
+  "name": "Su-35S (Codename Community)",
+  "summary": "Open-beta community Su-35S Flanker-E fighter mod for DCS World.",
+  "description": "Flyable Su-35S in open beta, distributed through Google Drive mirrors on the ED forum. Remove any old version before installing; the CWS weapon-system add-on is a separate GitLab download.\n\nRequires: Optional CWS add-on from https://gitlab.com/codenameflanker/su-35_cws, copied over the mod folder.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "russia",
+    "beta"
+  ],
+  "authors": [
+    {
+      "name": "freebirddz (Codename Community)"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/361881-dcs-su-35s-mod-from-codename-community/",
+  "requires_modules": [
+    "Su-33 (Flaming Cliffs)"
+  ],
+  "releases": [
+    {
+      "version": "2.0.37b",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/361881-dcs-su-35s-mod-from-codename-community/"
+      }
+    }
+  ]
+}

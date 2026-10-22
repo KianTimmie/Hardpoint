@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dce-raf-harrier-over-caucasus",
+  "name": "DCE dynamic campaign RAF over Caucasus",
+  "summary": "Dynamic Campaign Engine (DCE) campaign for the AV-8B in RAF service on the Caucasus map.",
+  "description": "DCE campaign for the AV-8B. The `EN` folder goes into `Mods\\aircraft\\AV8BNA\\Missions` in the DCS install folder, and a DCE mission-script mod must be enabled with OvGME (re-enable after each DCS update).",
+  "category": "campaign",
+  "tags": [
+    "av-8b",
+    "harrier",
+    "caucasus",
+    "dynamic-campaign",
+    "dce"
+  ],
+  "authors": [
+    {
+      "name": "dave317"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3306180/",
+  "requires_modules": [
+    "AV-8B Night Attack",
+    "Caucasus map"
+  ],
+  "releases": [
+    {
+      "version": "2019-09-05",
+      "date": "2019-09-05",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3306180/"
+      }
+    }
+  ]
+}

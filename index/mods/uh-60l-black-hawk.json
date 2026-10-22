@@ -1,0 +1,32 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "uh-60l-black-hawk",
+  "name": "UH-60L Black Hawk",
+  "summary": "Free community UH-60L Black Hawk utility helicopter mod for DCS World.",
+  "description": "Flyable UH-60L with its own flight model. Version 2.0 and its guide are distributed free via a Patreon post; the older v1.x builds on GitHub are marked deprecated.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "utility",
+    "us-army",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "Kinkkujuustovoileipä",
+      "url": "https://github.com/Kinkkujuustovoileipa"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/293813-uh-60l-black-hawk-mod-official-thread/",
+  "source": "https://github.com/Kinkkujuustovoileipa/uh-60l",
+  "releases": [
+    {
+      "version": "2.0",
+      "date": "2025-09-14",
+      "download": {
+        "kind": "page",
+        "url": "https://www.patreon.com/posts/uh60l-mod-2-0-138859868"
+      }
+    }
+  ]
+}

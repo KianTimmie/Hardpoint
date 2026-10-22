@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "bort-dcs-bios-reference",
+  "name": "Bort (DCS-BIOS Reference Tool)",
+  "summary": "Desktop UI and testing tool for browsing and testing DCS-BIOS controls.",
+  "description": "Bort is an Electron app that replaces the old Chrome-app DCS-BIOS reference tool, letting you look up and test DCS-BIOS controls per aircraft. It is a separate program with its own installer (Windows, Linux, macOS builds).",
+  "category": "utility",
+  "tags": [
+    "dcs-bios",
+    "reference",
+    "cockpit-builder",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "DCS-Skunkworks",
+      "url": "https://github.com/DCS-Skunkworks"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/DCS-Skunkworks/Bort",
+  "source": "https://github.com/DCS-Skunkworks/Bort",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v0.3.1",
+      "date": "2026-02-28",
+      "changelog": "Linux JSON loading fix, version dialog, removed Openbeta channel, control attributes and colours.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/DCS-Skunkworks/Bort/releases/tag/v0.3.1"
+      }
+    }
+  ]
+}

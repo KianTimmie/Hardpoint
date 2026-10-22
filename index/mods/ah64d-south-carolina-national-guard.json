@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ah64d-south-carolina-national-guard",
+  "name": "South Carolina National Guard skinpack (AH-64D)",
+  "summary": "South Carolina Army National Guard liveries for the AH-64D.",
+  "description": "Four South Carolina National Guard liveries for the AH-64D. The author's instructions place the four zips in `CoreMods\\aircraft\\AH-64D\\Liveries\\AH-64D_BLK_II` in the DCS install folder.",
+  "category": "livery",
+  "tags": [
+    "ah-64d",
+    "apache",
+    "national-guard",
+    "us-army"
+  ],
+  "authors": [
+    {
+      "name": "static_actual"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3322060/",
+  "requires_modules": [
+    "AH-64D Apache"
+  ],
+  "releases": [
+    {
+      "version": "2022-04-24",
+      "date": "2022-04-24",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3322060/"
+      },
+      "livery_for": "AH-64D_BLK_II"
+    }
+  ]
+}

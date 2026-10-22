@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 import type { HubIndex, HubMod, Release } from "../types";
-import { categoryLabel, delivery, formatBytes, installLink, latestRelease, writesInstallDir } from "../types";
+import { categoryLabel, delivery, downloadOnlyKind, formatBytes, installLink, latestRelease, writesInstallDir } from "../types";
 import { browseHref, modHref } from "../router";
 import { DeliveryTag, IcTag } from "../components/Badges";
 import { formatDate } from "../components/StoresTable";
@@ -52,7 +52,7 @@ function Actions({ mod, r }: { mod: HubMod; r?: Release }) {
     return (
       <div className="stack">
         <a className="btn btn-block" href={r.download.url} target="_blank" rel="noopener">Open download page</a>
-        <p className="note">Used inside missions, so there's nothing to install into DCS.</p>
+        <p className="note">{downloadOnlyKind(mod).note}</p>
       </div>
     );
   }

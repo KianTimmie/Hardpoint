@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "airwolf-mod",
+  "name": "AirWolf Mod",
+  "summary": "Fictional AirWolf helicopter mod built on the UH-60L mod's EFM, made standalone.",
+  "description": "Flyable fictional AirWolf helicopter based on Kinkkujuustovoileipä's UH-60L v1.4 EFM, modified to run standalone. Copy the `AirWolf` folder to `Saved Games\\DCS\\Mods\\Aircraft` and the `Config` folder into `Saved Games\\DCS`.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "fictional",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "Tanuki44"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/384848-airwolf-mod/",
+  "releases": [
+    {
+      "version": "V1.12",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/384848-airwolf-mod/"
+      }
+    }
+  ]
+}

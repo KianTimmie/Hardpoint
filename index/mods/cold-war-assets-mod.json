@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "cold-war-assets-mod",
+  "name": "Cold War Assets Mod",
+  "summary": "AI Cold War bombers and interceptors (Tu-126, Tu-128, Tu-95K, Tu-22, B-58, B-47) with their weapons.",
+  "description": "Adds AI aircraft and associated missiles and bombs such as Kh-20, KS-1, KSR-2/5, Kh-22, R-4 and FABs up to FAB-9000.",
+  "category": "tech",
+  "tags": [
+    "cold-war",
+    "ai-units",
+    "weapons",
+    "bombers",
+    "missiles"
+  ],
+  "authors": [
+    {
+      "name": "tripod3"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/350021-cold-war-assets-mod-v-12/",
+  "releases": [
+    {
+      "version": "1.2",
+      "date": "2024-06-24",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/350021-cold-war-assets-mod-v-12/"
+      }
+    }
+  ]
+}

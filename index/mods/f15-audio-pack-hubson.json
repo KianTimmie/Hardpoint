@@ -1,0 +1,33 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f15-audio-pack-hubson",
+  "name": "F15 Audio Pack",
+  "summary": "Sound pack for the Flaming Cliffs F-15C.",
+  "description": "F-15C sound replacement pack. Place the Sounds folder in `Saved Games\\DCS`. It does not touch the DCS install folder.",
+  "category": "sound",
+  "tags": [
+    "sound",
+    "f-15c",
+    "flaming-cliffs"
+  ],
+  "authors": [
+    {
+      "name": "hubson001"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3071256/",
+  "requires_modules": [
+    "F-15C (Flaming Cliffs)"
+  ],
+  "releases": [
+    {
+      "version": "v5 (DCS 2.5.6)",
+      "date": "2017-12-17",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3071256/"
+      }
+    }
+  ]
+}

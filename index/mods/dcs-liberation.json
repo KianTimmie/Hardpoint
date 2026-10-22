@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-liberation",
+  "name": "DCS Liberation",
+  "summary": "Turn-based single-player or co-op dynamic campaign generator for DCS World.",
+  "description": "DCS Liberation manages a persistent campaign and generates DCS missions turn by turn. It is a separate program distributed as a zip you extract and run.",
+  "category": "utility",
+  "tags": [
+    "campaign",
+    "mission-generator",
+    "dynamic-campaign",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "DCS Liberation team",
+      "url": "https://github.com/dcs-liberation"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "homepage": "https://github.com/dcs-liberation/dcs_liberation/wiki/",
+  "source": "https://github.com/dcs-liberation/dcs_liberation",
+  "installable": false,
+  "releases": [
+    {
+      "version": "15.0.0",
+      "date": "2026-06-19",
+      "changelog": "DCS 2.9.27 support (F-100D, F-14A Export), Kola and Cold War Germany maps; saves from 14.x not compatible.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/dcs-liberation/dcs_liberation/releases/tag/15.0.0"
+      }
+    }
+  ]
+}

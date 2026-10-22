@@ -83,7 +83,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 /* Tags */
 .tag { display: inline-block; font: 600 0.85rem/1 var(--display); padding: 4px 7px; border-radius: 2px; border: 1px solid var(--line); color: var(--ink-2); white-space: nowrap; letter-spacing: 0.02em; }
 .tag.oneclick { border-color: var(--ok); color: var(--ok); background: var(--ok-bg); }
-.tag.page { border-color: var(--line); }
+.tag.ext { border-color: var(--line); }
 .tag.ic { border-color: var(--amber); color: var(--amber); background: var(--amber-bg); }
 .tag.dl { border-color: var(--blue); color: var(--blue); }
 

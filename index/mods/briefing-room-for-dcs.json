@@ -1,0 +1,33 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "briefing-room-for-dcs",
+  "name": "BriefingRoom for DCS World",
+  "summary": "Open-source mission generator for DCS World, available as a desktop app or web version.",
+  "description": "Generates DCS missions from user-chosen parameters. The desktop build needs the WebView2 Runtime and must not be placed under Program Files. A web version exists at dcs-briefingroom.co.uk.\n\nA separate program with its own download; it isn't installed into DCS.",
+  "category": "utility",
+  "tags": [
+    "mission-generator",
+    "open-source",
+    "tool"
+  ],
+  "authors": [
+    {
+      "name": "akaAgar",
+      "url": "https://github.com/akaAgar"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/DCS-BR-Tools/briefing-room-for-dcs",
+  "source": "https://github.com/DCS-BR-Tools/briefing-room-for-dcs",
+  "installable": false,
+  "releases": [
+    {
+      "version": "0.5.2026.08.26",
+      "date": "2026-08-26",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/DCS-BR-Tools/briefing-room-for-dcs/releases"
+      }
+    }
+  ]
+}

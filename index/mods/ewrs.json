@@ -1,0 +1,39 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ewrs",
+  "name": "EWRS - Early Warning Radar Script",
+  "summary": "Sends BRA and bogey-dope text calls to players based on what friendly in-game radars actually detect.",
+  "description": "Loaded inside a mission with DO SCRIPT FILE after MIST. Uses DCS radar detection so terrain masking applies; players set reference (bullseye or own aircraft) and units via the F10 menu.\n\nRequires: Requires MIST loaded before EWRS.lua.",
+  "category": "script",
+  "tags": [
+    "radar",
+    "gci",
+    "awareness",
+    "multiplayer",
+    "mist"
+  ],
+  "authors": [
+    {
+      "name": "Steggles"
+    },
+    {
+      "name": "Bob7heBuilder",
+      "url": "https://github.com/Bob7heBuilder"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://forum.dcs.world/topic/132721-introducing-ewrs-early-warning-radar-script/",
+  "source": "https://github.com/Bob7heBuilder/EWRS",
+  "installable": false,
+  "releases": [
+    {
+      "version": "master (2016-11-07)",
+      "date": "2016-11-07",
+      "changelog": "Fixed maxThreatDisplay bug; added C101-CC and SA342 Mistral.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/Bob7heBuilder/EWRS"
+      }
+    }
+  ]
+}

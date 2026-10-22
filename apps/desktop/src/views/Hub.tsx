@@ -3,7 +3,7 @@ import { marked } from "marked";
 import DOMPurify from "dompurify";
 import type { Actions } from "../App";
 import type { HubMod, IndexResult, Overview, ProgressEvent } from "../types";
-import { CATEGORIES, categoryLabel, compareVersions, delivery, formatBytes, latestRelease, writesInstallDir } from "../types";
+import { CATEGORIES, categoryLabel, compareVersions, delivery, downloadOnlyKind, formatBytes, latestRelease, writesInstallDir } from "../types";
 import { ProgressBar, humanTarget } from "../components/ui";
 
 type Busy = Record<string, ProgressEvent | true>;
@@ -109,7 +109,7 @@ function Detail({ mod, installed, busy, actions }: { mod: HubMod; installed?: st
       <p className="muted">{mod.summary}</p>
       <div className="detail-action"><ModAction mod={mod} installed={installed} busy={busy} actions={actions} /></div>
       {d === "page" && <p className="small muted">The author hosts this download. Save the file, then drop it onto this window.</p>}
-      {d === "download-only" && <p className="small muted">Used inside missions, so there's nothing to install into DCS.</p>}
+      {d === "download-only" && <p className="small muted">{downloadOnlyKind(mod).note}</p>}
       {w === true && <p className="notice warn small">Changes files in the DCS install folder. Servers that enforce the integrity check may refuse it.</p>}
       <dl className="facts">
         {r && <><dt>Version</dt><dd>{r.version}{installed ? <span className="muted"> (you have {installed})</span> : null}</dd></>}

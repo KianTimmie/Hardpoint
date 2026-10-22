@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "goldeneye-recon",
+  "name": "Goldeneye Photo Recon Script",
+  "summary": "Mission script simulating tactical photo reconnaissance with per-aircraft camera parameters and F10 map markers.",
+  "description": "Loaded inside a mission. Derived from Yink's recon.lua for the Enigma Cold War server; adds aircraft such as F-14, F-5E, MB-339 and F-4E, status markers and BDA re-photography.",
+  "category": "script",
+  "tags": [
+    "recon",
+    "reconnaissance",
+    "photo",
+    "bda"
+  ],
+  "authors": [
+    {
+      "name": "FS Voodoo (VF29Voodoo)",
+      "url": "https://github.com/VF29Voodoo"
+    },
+    {
+      "name": "Yink"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/349910-goldeneye-tactical-photo-recon-script-update-with-the-f-4e-and-coders-recruitment",
+  "source": "https://github.com/VF29Voodoo/Goldeneye-DCS-Recon-Script",
+  "installable": false,
+  "releases": [
+    {
+      "version": "main (2024-08-09)",
+      "date": "2024-08-09",
+      "changelog": "Fix for DCS 2.9.6.58056.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/VF29Voodoo/Goldeneye-DCS-Recon-Script"
+      }
+    }
+  ]
+}

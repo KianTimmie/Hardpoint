@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-grpc",
+  "name": "DCS-gRPC",
+  "summary": "gRPC server for DCS that lets external programs read mission data and send commands to a running mission.",
+  "description": "A DCS gRPC server written in Rust: network clients can get data out of DCS and send commands into a running mission. Mainly used by server operators and tool developers.\n\nAfter installing, DCS-gRPC also needs a manual change to `Scripts\\MissionScripting.lua` in the DCS install folder; see its README.",
+  "category": "utility",
+  "tags": [
+    "server",
+    "api",
+    "grpc",
+    "scripting",
+    "hooks"
+  ],
+  "authors": [
+    {
+      "name": "DCS-gRPC",
+      "url": "https://github.com/DCS-gRPC"
+    }
+  ],
+  "license": "AGPL-3.0",
+  "homepage": "https://github.com/DCS-gRPC/rust-server",
+  "source": "https://github.com/DCS-gRPC/rust-server",
+  "releases": [
+    {
+      "version": "0.8.1",
+      "date": "2024-11-05",
+      "changelog": "Land/Takeoff events added after ED change in 2.9.6.",
+      "install": [
+        {
+          "from": "Docs",
+          "to": "saved:Docs"
+        },
+        {
+          "from": "Missions",
+          "to": "saved:Missions"
+        },
+        {
+          "from": "Mods",
+          "to": "saved:Mods"
+        },
+        {
+          "from": "Scripts",
+          "to": "saved:Scripts"
+        },
+        {
+          "from": "Tools",
+          "to": "saved:Tools"
+        }
+      ],
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/DCS-gRPC/rust-server/releases/download/0.8.1/DCS-gRPC-0.8.1.zip",
+        "sha256": "348ccb5bb39734633f86be75fc13972882451af3972376cc9ac7ae0548b16694",
+        "size": 22502595,
+        "file_name": "DCS-gRPC-0.8.1.zip"
+      }
+    }
+  ]
+}

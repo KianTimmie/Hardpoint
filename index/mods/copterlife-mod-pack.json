@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "copterlife-mod-pack",
+  "name": "CopterLife Mod Pack",
+  "summary": "Civilian vehicles, emergency units with light bars, ships, cargo and statics prefixed CMP.",
+  "description": "Ground vehicles, emergency vehicles with alarm-state lights, two sinking tankers, cargo and static objects, plus a showcase mission. Drop the folder in `Saved Games\\DCS\\Mods\\tech`.",
+  "category": "tech",
+  "tags": [
+    "civilian",
+    "vehicles",
+    "ships",
+    "cargo",
+    "static"
+  ],
+  "authors": [
+    {
+      "name": "Eight Ball"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/386801-copterlife-mod-pack/",
+  "releases": [
+    {
+      "version": "WIP (unversioned)",
+      "date": "2026-03-28",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/386801-copterlife-mod-pack/"
+      }
+    }
+  ]
+}

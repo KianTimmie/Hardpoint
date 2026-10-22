@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "jf17-ac-inspired-sound-mod",
+  "name": "JF-17 AC Inspired Sound Mod + New Engine Sounds",
+  "summary": "Ace Combat-style voice warnings (ENG/JPN/SWE) and new RD-93 engine sounds for the JF-17.",
+  "description": "Replaces the JF-17 voice warnings and optionally the engine sounds. The author says to extract the `Mods` and `CoreMods` folders into the base DCS install folder, not Saved Games.",
+  "category": "sound",
+  "tags": [
+    "sound",
+    "jf-17",
+    "vmu",
+    "engine"
+  ],
+  "authors": [
+    {
+      "name": "J-20_Stronk"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3311633/",
+  "requires_modules": [
+    "JF-17 Thunder"
+  ],
+  "releases": [
+    {
+      "version": "2020-08-07",
+      "date": "2020-08-07",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3311633/"
+      }
+    }
+  ]
+}

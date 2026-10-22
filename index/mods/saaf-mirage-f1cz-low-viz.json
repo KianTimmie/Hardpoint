@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "saaf-mirage-f1cz-low-viz",
+  "name": "Mirage F-1CZ, South African Air Force low viz pack",
+  "summary": "South African Air Force low-visibility F-1CZ liveries for the Aerges Mirage F1, in two download parts.",
+  "description": "SAAF low-viz livery pack for the Mirage F1 (F1CE folder). Copy the extracted files into `Saved Games\\DCS\\Liveries\\Mirage-F1CE` (the author also gives a CoreMods path as an option). Part 2 (https://files.digitalcombatsimulator.com/en/files/3329502/, 95.3 MB) must be installed together with Part 1.",
+  "category": "livery",
+  "tags": [
+    "saaf",
+    "south-africa",
+    "mirage-f1",
+    "low-viz"
+  ],
+  "authors": [
+    {
+      "name": "spitfire_raf"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3329501/",
+  "requires_modules": [
+    "Mirage F1"
+  ],
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2023-03-04",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3329501/"
+      },
+      "livery_for": "Mirage-F1CE"
+    }
+  ]
+}

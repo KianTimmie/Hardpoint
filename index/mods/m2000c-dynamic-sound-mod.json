@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "m2000c-dynamic-sound-mod",
+  "name": "M2000C -DYNAMIC SOUND- Mod",
+  "summary": "Reworked dynamic engine and environment sounds for the M-2000C.",
+  "description": "Sound overhaul for the M-2000C. The author recommends installing with JSGME, which implies the DCS install folder. The page does not state the exact target.",
+  "category": "sound",
+  "tags": [
+    "sound",
+    "m-2000c",
+    "engine",
+    "jsgme"
+  ],
+  "authors": [
+    {
+      "name": "WatermanPC"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3212855/",
+  "requires_modules": [
+    "M-2000C"
+  ],
+  "releases": [
+    {
+      "version": "3.0",
+      "date": "2018-03-08",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3212855/"
+      }
+    }
+  ]
+}

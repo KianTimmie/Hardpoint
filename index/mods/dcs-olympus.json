@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-olympus",
+  "name": "DCS Olympus",
+  "summary": "Real-time web map interface for spawning, controlling and tasking units on a DCS server, RTS-style.",
+  "description": "Installed with its own manager (installer.bat) that adds Olympus to DCS instances; consists of a DLL loaded by DCS and a web server. Server hosts need autoexec.cfg API permissions; clients need no mods.",
+  "category": "utility",
+  "tags": [
+    "server",
+    "game-master",
+    "web",
+    "rts",
+    "multiplayer"
+  ],
+  "authors": [
+    {
+      "name": "Veltro (Pax1601) & DCS Olympus Team",
+      "url": "https://github.com/Pax1601"
+    }
+  ],
+  "license": "GPL-3.0 with additional terms",
+  "homepage": "https://github.com/Pax1601/DCSOlympus",
+  "source": "https://github.com/Pax1601/DCSOlympus",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v2.0.5",
+      "date": "2026-02-25",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/Pax1601/DCSOlympus/releases/tag/v2.0.5"
+      }
+    }
+  ]
+}

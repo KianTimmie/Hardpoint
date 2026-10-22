@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "simpleradio-standalone",
+  "name": "SimpleRadio Standalone (SRS)",
+  "summary": "Standalone voice radio client and server that integrates with DCS clickable cockpits and FC3 aircraft.",
+  "description": "SRS simulates aircraft radios for multiplayer voice comms, tied to the in-cockpit radio controls. It is a separate program with its own installer (and an auto-updater); a Linux command-line server is also published.",
+  "category": "utility",
+  "tags": [
+    "radio",
+    "voice",
+    "multiplayer",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "ciribob",
+      "url": "https://github.com/ciribob"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/ciribob/DCS-SimpleRadioStandalone",
+  "source": "https://github.com/ciribob/DCS-SimpleRadioStandalone",
+  "installable": false,
+  "releases": [
+    {
+      "version": "2.4.0.0",
+      "date": "2026-07-23",
+      "changelog": "Requires .NET 10; adds LA-7, F-14B (U), F-100D support, VR-compatible overlay, NAT improvements, new UDP commands.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/ciribob/DCS-SimpleRadioStandalone/releases/tag/2.4.0.0"
+      }
+    }
+  ]
+}

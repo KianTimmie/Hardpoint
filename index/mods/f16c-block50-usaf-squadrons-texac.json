@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f16c-block50-usaf-squadrons-texac",
+  "name": "F-16C Block 50 USAF Squadrons Skin Pack",
+  "summary": "USAF F-16C Block 50 squadron liveries with improved default textures, by Texac.",
+  "description": "USAF squadron liveries for the F-16C. The User Files download is only a README; the textures (Fighting_Falcon_Improved_Textures.zip) come from a MEGA link inside the PDF. Installs via JSGME or manually into `CoreMods\\aircraft\\F-16C\\Liveries\\F-16C_50` in the DCS install folder.",
+  "category": "livery",
+  "tags": [
+    "f-16c",
+    "usaf",
+    "squadrons",
+    "jsgme"
+  ],
+  "authors": [
+    {
+      "name": "Texac"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3331062/",
+  "requires_modules": [
+    "F-16C Viper"
+  ],
+  "installable": false,
+  "releases": [
+    {
+      "version": "2023-05-29",
+      "date": "2023-05-29",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3331062/"
+      },
+      "livery_for": "F-16C_50"
+    }
+  ]
+}

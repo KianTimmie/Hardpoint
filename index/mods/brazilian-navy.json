@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "brazilian-navy",
+  "name": "DCS Brazilian Navy",
+  "summary": "AI ship pack with Brazilian Navy vessels including NAM Atlantico, Niteroi and Greenhalgh class frigates.",
+  "description": "Adds the A-140 Atlantico carrier, Niteroi and Greenhalgh class frigates, Amazonas/Grajau/Macae patrol ships, the Bahia landing ship and more. Extract into `Saved Games\\DCS`. Removing ships from older versions can corrupt missions that use them.",
+  "category": "tech",
+  "tags": [
+    "ships",
+    "naval",
+    "brazil",
+    "ai-units",
+    "carrier"
+  ],
+  "authors": [
+    {
+      "name": "ygorma",
+      "url": "https://github.com/ygorma"
+    },
+    {
+      "name": "Henrik Nielsen (3D models)"
+    }
+  ],
+  "homepage": "https://github.com/ygorma/DCS-Brazilian-Navy",
+  "source": "https://github.com/ygorma/DCS-Brazilian-Navy",
+  "releases": [
+    {
+      "version": "0.4-alpha",
+      "date": "2023-07-06",
+      "changelog": "Niteroi class gained Exocet, Aspide and Bofors 40mm; SH-60B livery added; NAM Atlantico reworked.",
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/ygorma/DCS-Brazilian-Navy/releases/download/v0.4-alpha/DCS.Brazilian.Navy.zip",
+        "sha256": "607810fc595943b2e8a0dcf72efa1d01923515433b9a4f1e481ebd5a8c569090",
+        "size": 84658961,
+        "file_name": "DCS.Brazilian.Navy.zip"
+      }
+    }
+  ]
+}

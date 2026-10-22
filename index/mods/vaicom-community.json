@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "vaicom-community",
+  "name": "VAICOM Community Edition",
+  "summary": "Free voice-control add-on for VoiceAttack that operates DCS radio and AI communication menus by speech.",
+  "description": "VAICOM lets you issue DCS comms commands (ATC, wingmen, AWACS, AIRIO, etc.) by voice instead of the comms menu; the community edition is 100% free. It is a separate program (MSI or zip) that runs as a VoiceAttack plugin.",
+  "category": "utility",
+  "tags": [
+    "voice",
+    "voiceattack",
+    "comms",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "PeneCruz and VAICOM community",
+      "url": "https://github.com/Penecruz/VAICOM-Community"
+    },
+    {
+      "name": "Hollywood_315 (original author)"
+    }
+  ],
+  "homepage": "https://github.com/Penecruz/VAICOM-Community",
+  "source": "https://github.com/Penecruz/VAICOM-Community",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v3.1.8.3",
+      "date": "2026-10-02",
+      "changelog": "OKB Out reliability and AID connection, AH-64D George commands, TX-Link rework, F-14 AIRIO improvements.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/Penecruz/VAICOM-Community/releases/tag/v3.1.8.3"
+      }
+    }
+  ]
+}

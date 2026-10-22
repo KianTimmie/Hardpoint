@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "spino-f-15j-eagle",
+  "name": "F-15J Eagle (Spino)",
+  "summary": "Freeware JASDF F-15J Eagle variant with Japanese missiles and liveries.",
+  "description": "JASDF F-15J based on the author's F-15C Golden Eagle mod, with AAM-3/4/5 missiles and JASDF liveries. Listed for DCS 2.9; download is hosted on MediaFire.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "japan",
+    "f-15"
+  ],
+  "authors": [
+    {
+      "name": "Spino7"
+    }
+  ],
+  "license": "Freeware (do not redistribute)",
+  "homepage": "https://www.digitalcombatsimulator.com/en/files/3328157/",
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2022-12-28",
+      "download": {
+        "kind": "page",
+        "url": "https://www.digitalcombatsimulator.com/en/files/3328157/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "splash-damage",
+  "name": "Splash Damage Script",
+  "summary": "Mission script that adds blast and splash damage effects to weapon impacts beyond the default DCS model.",
+  "description": "Loaded inside a mission with a Mission Start trigger and DO SCRIPT FILE. The .lua is copied into the .miz, so re-add it after changing settings. Several variants (Basic, Standard, Standard with ground ordnance) are provided.",
+  "category": "script",
+  "tags": [
+    "weapons",
+    "explosions",
+    "damage",
+    "effects"
+  ],
+  "authors": [
+    {
+      "name": "stevey666",
+      "url": "https://github.com/stephenpostlethwaite"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3344761/",
+  "source": "https://github.com/stephenpostlethwaite/DCSSplashDamageScript",
+  "installable": false,
+  "releases": [
+    {
+      "version": "master (2026-07-29)",
+      "date": "2026-07-29",
+      "changelog": "Repo master contains Splash_Damage_3.4.7_*.lua files.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/stephenpostlethwaite/DCSSplashDamageScript"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "navy-equipment",
+  "name": "Navy Equipment",
+  "summary": "Static carrier and airfield equipment: IFOLS, tow tractors, ammo trailers, GPU, forklift and deck crew.",
+  "description": "Adds IFOLS, MD-3 tow tractors, towbars, holdback bar, FCLP lights, GTR-18 Smokey Sam, MHU-191 trailer, GPU, A-10 ammo loader, forklift and static deck crew; placeable on carriers. Extract to `Saved Games\\DCS\\Mods\\tech`. Marked ready for DCS 2.7.",
+  "category": "tech",
+  "tags": [
+    "static",
+    "carrier",
+    "airfield",
+    "deck-crew",
+    "props"
+  ],
+  "authors": [
+    {
+      "name": "BlackLibrary"
+    },
+    {
+      "name": "cdpkobra"
+    }
+  ],
+  "license": "Freeware (no redistribution)",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3303802/",
+  "releases": [
+    {
+      "version": "1.4b",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3303802/"
+      }
+    }
+  ]
+}

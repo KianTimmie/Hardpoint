@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "jackals-hunt-syria-pve",
+  "name": "Jackal's Hunt Multiplayer PvE Mission",
+  "summary": "Persistent multiplayer PvE mission on the Syria map built with DML, MOOSE, EWRS and SPGG.",
+  "description": "Multiplayer PvE `.miz` for the Syria map with many flyable aircraft, including the F-4E. It needs the Hercules and community A-4E-C mods. Persistence needs `MissionScripting.lua` edited in the DCS install folder (io/lfs desanitised).",
+  "category": "mission",
+  "tags": [
+    "syria",
+    "multiplayer",
+    "pve",
+    "persistent"
+  ],
+  "authors": [
+    {
+      "name": "kostasdoboj"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3343108/",
+  "requires_modules": [
+    "F-4E Phantom II",
+    "Syria map"
+  ],
+  "releases": [
+    {
+      "version": "2025-02-02",
+      "date": "2025-02-02",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3343108/"
+      }
+    }
+  ]
+}

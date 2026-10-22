@@ -1,0 +1,38 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ctld",
+  "name": "CTLD - Complete Troops and Logistics Deployment",
+  "summary": "Lua script for troop transport, crate-based unit building, FOBs, radio beacons and JTAC auto-lasing.",
+  "description": "Loaded inside a mission with DO SCRIPT triggers after MIST. Adds helicopter and C-130 troop/vehicle transport, crate logistics, FOB construction, beacons and JTAC automation. Originally by Ciribob, now maintained by Zip and the VEAF team.\n\nRequires: Requires MIST loaded first; beacon.ogg/beaconsilent.ogg sound files needed for beacons; optional CTLD-i18n.lua and DCS-SimpleTextToSpeech.",
+  "category": "script",
+  "tags": [
+    "logistics",
+    "helicopters",
+    "troops",
+    "jtac",
+    "mist"
+  ],
+  "authors": [
+    {
+      "name": "Ciribob",
+      "url": "https://github.com/ciribob"
+    },
+    {
+      "name": "VEAF Team"
+    }
+  ],
+  "homepage": "https://github.com/ciribob/DCS-CTLD",
+  "source": "https://github.com/ciribob/DCS-CTLD",
+  "installable": false,
+  "releases": [
+    {
+      "version": "1.6.1",
+      "date": "2025-12-12",
+      "changelog": "ASC C-130J support and multiple fixes",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/ciribob/DCS-CTLD/releases/tag/1.6.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "minkys-simple-sandbox-syria",
+  "name": "Minky's Simple Sandbox 3.0: Syria",
+  "summary": "Syria sandbox mission for air-to-air and air-to-ground practice in fixed- and rotary-wing aircraft.",
+  "description": "Single `.miz` training sandbox on the Syria map. The A-4E-C and UH-60L mods are optional. The page gives no install path; missions normally go in `Saved Games\\DCS\\Missions`.",
+  "category": "mission",
+  "tags": [
+    "syria",
+    "sandbox",
+    "training",
+    "multiplayer"
+  ],
+  "authors": [
+    {
+      "name": "Minky7"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3332108/",
+  "requires_modules": [
+    "Syria map"
+  ],
+  "releases": [
+    {
+      "version": "3.0",
+      "date": "2023-07-17",
+      "changelog": "Changelog lists a 6/11/2025 update adding OH-58, CH-47 and F-4E spawns.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3332108/"
+      }
+    }
+  ]
+}

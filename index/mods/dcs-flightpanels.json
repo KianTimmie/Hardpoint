@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-flightpanels",
+  "name": "DCSFlightpanels",
+  "summary": "Drives Saitek/Logitech flight panels and Stream Decks for DCS, via DCS-BIOS or key emulation.",
+  "description": "Supports Saitek/Logitech switch, multi, radio, TPM and BIP panels plus Elgato Stream Deck models, mapping them to DCS controls via DCS-BIOS or keyboard emulation. It is a separate program distributed as a zip.",
+  "category": "utility",
+  "tags": [
+    "hardware",
+    "saitek",
+    "stream-deck",
+    "dcs-bios",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "DCS-Skunkworks",
+      "url": "https://github.com/DCS-Skunkworks"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DCS-Skunkworks/DCSFlightpanels",
+  "source": "https://github.com/DCS-Skunkworks/DCSFlightpanels",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v.4.11.16",
+      "date": "2025-09-15",
+      "changelog": "Add support for CH-47 Chinook.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/DCS-Skunkworks/DCSFlightpanels/releases/tag/v.4.11.16"
+      }
+    }
+  ]
+}

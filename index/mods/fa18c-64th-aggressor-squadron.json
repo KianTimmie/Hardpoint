@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "fa18c-64th-aggressor-squadron",
+  "name": "F/A-18C - 64th Aggressor Squadron Skin pack",
+  "summary": "Five fictional 64th Aggressor Squadron camouflage liveries for the F/A-18C.",
+  "description": "Five liveries (Desert, Flanker, Ghost, Felon, Shadow). Each goes in `Saved Games\\DCS\\Liveries\\FA-18C_hornet`.",
+  "category": "livery",
+  "tags": [
+    "fa-18c",
+    "hornet",
+    "aggressor"
+  ],
+  "authors": [
+    {
+      "name": "X-man"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3306664/",
+  "requires_modules": [
+    "F/A-18C Hornet"
+  ],
+  "releases": [
+    {
+      "version": "1.09",
+      "date": "2019-10-19",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3306664/"
+      },
+      "livery_for": "FA-18C_hornet"
+    }
+  ]
+}

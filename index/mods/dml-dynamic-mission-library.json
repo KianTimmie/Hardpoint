@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dml-dynamic-mission-library",
+  "name": "DML - Dynamic Mission Library",
+  "summary": "Mission-building toolbox whose modules are configured through Mission Editor trigger-zone attributes, no Lua needed.",
+  "description": "Modules are loaded inside a mission and read attributes placed on trigger zones (spawners, cloners, CSAR, civil traffic, persistence and more). Ships with a PDF manual and demo missions. The repository is marked discontinued.",
+  "category": "script",
+  "tags": [
+    "mission-building",
+    "no-code",
+    "zones",
+    "persistence"
+  ],
+  "authors": [
+    {
+      "name": "cfrag",
+      "url": "https://github.com/csofranz"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/290975-dml-mission-creation-toolbox-no-lua-required/",
+  "source": "https://github.com/csofranz/DML",
+  "installable": false,
+  "releases": [
+    {
+      "version": "2.5.3",
+      "date": "2025-07-17",
+      "changelog": "Build 20250717 per forum thread; repo later marked discontinued (last commit 2026-06-04).",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/csofranz/DML"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "su-30mk-community-mod",
+  "name": "Su-30MK Community Mod",
+  "summary": "Community Su-30MK/SM family multirole fighter mod for DCS World with custom EFM.",
+  "description": "Flyable Su-30 variants with a custom EFM, distributed via Google Drive links in the ED forum thread. An optional CWS add-on makes it standalone; without it some variants rely on Flaming Cliffs aircraft.\n\nRequires: Optional CWS add-on (separate download) for standalone weapon systems; without CWS the BVR variant reportedly needs FC3/Su-33.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "multirole",
+    "russia",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "freebirddz (Codename Community)"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/247098-dcs-su-30mk-mod/",
+  "releases": [
+    {
+      "version": "2.8.06Beta",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/247098-dcs-su-30mk-mod/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-bios-skunkworks",
+  "name": "DCS-BIOS (Skunkworks)",
+  "summary": "Export.lua script that lets external hardware and software read and operate the clickable cockpits of DCS aircraft.",
+  "description": "DCS-BIOS is an `Export.lua` script that connects home cockpit hardware (e.g. Arduino panels) and software to the clickable cockpit of DCS aircraft. This is the DCS-Skunkworks continuation of the original, no longer updated, DCS-BIOS.\n\nAfter installing, add this line to `Saved Games\\DCS\\Scripts\\Export.lua` (create the file if it doesn't exist): `dofile(lfs.writedir()..[[Scripts\\DCS-BIOS\\BIOS.lua]])`. Hardpoint doesn't edit Export.lua because other tools share it.",
+  "category": "utility",
+  "tags": [
+    "export",
+    "cockpit-builder",
+    "arduino",
+    "hardware",
+    "scripts"
+  ],
+  "authors": [
+    {
+      "name": "DCS-Skunkworks",
+      "url": "https://github.com/DCS-Skunkworks"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/DCS-Skunkworks/dcs-bios",
+  "source": "https://github.com/DCS-Skunkworks/dcs-bios",
+  "releases": [
+    {
+      "version": "v0.11.6",
+      "date": "2026-08-22",
+      "install": [
+        {
+          "from": "DCS-BIOS",
+          "to": "saved:Scripts/DCS-BIOS"
+        }
+      ],
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/DCS-Skunkworks/dcs-bios/releases/download/v0.11.6/DCS-BIOS_v0.11.6.zip",
+        "sha256": "40c1745d213cd86d280094749243f1f8212cce021fc5ba60443fadbe85dc5237",
+        "size": 8000553,
+        "file_name": "DCS-BIOS_v0.11.6.zip"
+      }
+    }
+  ]
+}

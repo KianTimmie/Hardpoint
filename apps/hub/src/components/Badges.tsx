@@ -1,12 +1,15 @@
 import type { HubMod } from "../types";
-import { delivery, latestRelease, writesInstallDir } from "../types";
+import { delivery, downloadOnlyKind, latestRelease, writesInstallDir } from "../types";
 
 export function DeliveryTag({ mod }: { mod: HubMod }) {
   switch (delivery(mod)) {
     case "one-click": return <span className="tag oneclick" title="Hardpoint downloads and installs this for you">One-click install</span>;
-    case "page": return <span className="tag page" title="Download from the author's page, then drop the file into Hardpoint">Author's page</span>;
-    case "download-only": return <span className="tag dl" title="Used inside missions; nothing to install into DCS">Mission library</span>;
-    default: return <span className="tag page">Listing</span>;
+    case "page": return <span className="tag ext" title="Download from the author's page, then drop the file into Hardpoint">Author's page</span>;
+    case "download-only": {
+      const k = downloadOnlyKind(mod);
+      return <span className="tag dl" title={k.note}>{k.label}</span>;
+    }
+    default: return <span className="tag ext">Listing</span>;
   }
 }
 

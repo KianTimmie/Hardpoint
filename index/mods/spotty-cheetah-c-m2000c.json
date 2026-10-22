@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "spotty-cheetah-c-m2000c",
+  "name": "342 \"Spotty\" Cheetah C Mirage 2000C",
+  "summary": "SAAF Cheetah C 342 'Spotty' livery for the M-2000C.",
+  "description": "Single SAAF Cheetah C livery (airframe 342 'Spotty') for the M-2000C. Copy into `Saved Games\\DCS\\Liveries\\M-2000C`; replace the v1.0 files if you have them.",
+  "category": "livery",
+  "tags": [
+    "saaf",
+    "south-africa",
+    "cheetah",
+    "m-2000c"
+  ],
+  "authors": [
+    {
+      "name": "__Moody__"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3305113/",
+  "requires_modules": [
+    "M-2000C"
+  ],
+  "releases": [
+    {
+      "version": "1.5",
+      "date": "2019-05-02",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3305113/"
+      },
+      "livery_for": "M-2000C"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "veaf-mission-creation-tools",
+  "name": "VEAF Mission Creation Tools",
+  "summary": "VEAF's Lua mission framework plus a CLI that builds .miz files from version-controlled sources.",
+  "description": "The runtime Lua modules are loaded inside missions (spawning via F10 markers, CAS/convoy/QRA missions, radio menus). The `veaf-tools` CLI extracts and rebuilds .miz files and injects weather, waypoints and presets.",
+  "category": "script",
+  "tags": [
+    "framework",
+    "mission-building",
+    "spawning",
+    "training",
+    "cli"
+  ],
+  "authors": [
+    {
+      "name": "VEAF (Virtual European Air Force)",
+      "url": "https://github.com/VEAF"
+    }
+  ],
+  "homepage": "https://github.com/VEAF/VEAF-Mission-Creation-Tools",
+  "source": "https://github.com/VEAF/VEAF-Mission-Creation-Tools",
+  "installable": false,
+  "releases": [
+    {
+      "version": "6.30.0",
+      "date": "2026-10-15",
+      "changelog": "Open Training v6 release: Falklands support, WW2 units for CAS, Normandy/Sinai parking data, FARP/convoy/QRA changes.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/VEAF/VEAF-Mission-Creation-Tools/releases/tag/published-v6.30.0"
+      }
+    }
+  ]
+}

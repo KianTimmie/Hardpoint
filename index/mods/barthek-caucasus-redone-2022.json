@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "barthek-caucasus-redone-2022",
+  "name": "Barthek's Caucasus Redone 2022",
+  "summary": "Caucasus ground texture rework installed with JSGME, plus an optional snowless winter pack.",
+  "description": "Caucasus terrain texture mod distributed as JSGME-ready Google Drive downloads linked from the forum thread. It overwrites files in the DCS install folder through JSGME. An optional Snowless Winter / Late Autumn pack and a ReShade preset (goes in the DCS bin folder) are also offered.",
+  "category": "terrain",
+  "tags": [
+    "caucasus",
+    "textures",
+    "terrain",
+    "jsgme"
+  ],
+  "authors": [
+    {
+      "name": "Barthek"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/218225-bartheks-caucasus-redone-2022/",
+  "requires_modules": [
+    "Caucasus map"
+  ],
+  "installable": false,
+  "releases": [
+    {
+      "version": "REV. 2",
+      "date": "2022-11-08",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/218225-bartheks-caucasus-redone-2022/"
+      }
+    }
+  ]
+}

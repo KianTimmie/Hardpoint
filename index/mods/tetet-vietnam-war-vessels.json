@@ -1,0 +1,45 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "tetet-vietnam-war-vessels",
+  "name": "TeTeT's Vietnam War Vessels",
+  "summary": "Large Vietnam-era pack of US Navy ships, riverine craft, AI aircraft and ground assets.",
+  "description": "Includes Essex-class carriers, CVAN-65 Enterprise, USS New Jersey, destroyers and frigates, PBR and Tango river boats, junks, sampans, AI aircraft such as the F-8 and A-1, and base buildings. Place the `Mods` folder in `Saved Games\\DCS`; delete old `Mods/tech` and `Mods/aircraft` folders before upgrading.\n\nRequires: Some ships (Maddox, The Sullivans) moved to the separate Cold War Vessels release.",
+  "category": "tech",
+  "tags": [
+    "ships",
+    "naval",
+    "vietnam",
+    "carrier",
+    "ai-units",
+    "riverine"
+  ],
+  "authors": [
+    {
+      "name": "TeTeT",
+      "url": "https://github.com/tspindler-cms"
+    },
+    {
+      "name": "Odyseus"
+    },
+    {
+      "name": "Erwin23p"
+    },
+    {
+      "name": "ColeMinor"
+    }
+  ],
+  "license": "CC BY-NC-SA",
+  "homepage": "https://forum.dcs.world/topic/338387-tetets-vietnam-war-vessels/",
+  "source": "https://github.com/tspindler-cms/tetet-vwv",
+  "releases": [
+    {
+      "version": "3.3.0",
+      "date": "2026-09-07",
+      "changelog": "Adds AOE-1 USS Sacramento and unit payloads; hitpoint rebalance; fleet ship and river boat updates.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/tspindler-cms/tetet-vwv/releases/tag/VWV_3.3.0"
+      }
+    }
+  ]
+}

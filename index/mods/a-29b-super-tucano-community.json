@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "a-29b-super-tucano-community",
+  "name": "A-29B Super Tucano (Community)",
+  "summary": "Free open-source A-29B Super Tucano turboprop light-attack aircraft module for DCS World.",
+  "description": "Independent community A-29B with FLIR, CCIP and its own systems; the README says it needs no other modules. Installs like other aircraft mods into `Saved Games\\DCS\\Mods\\aircraft`.",
+  "category": "aircraft",
+  "tags": [
+    "turboprop",
+    "light-attack",
+    "trainer",
+    "brazil",
+    "open-source"
+  ],
+  "authors": [
+    {
+      "name": "Luiz Renault and contributors",
+      "url": "https://github.com/luizrenault"
+    }
+  ],
+  "homepage": "https://github.com/luizrenault/a-29b-community",
+  "source": "https://github.com/luizrenault/a-29b-community",
+  "releases": [
+    {
+      "version": "0.8.0",
+      "date": "2026-06-05",
+      "changelog": "Minor updates for compatibility with DCS 2.9.26.23303.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/luizrenault/a-29b-community/releases/tag/0.8.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcsserverbot",
+  "name": "DCSServerBot",
+  "summary": "Standalone server-management bot for DCS with monitoring, auto-restart, statistics and optional Discord integration.",
+  "description": "Standalone Python application run alongside DCS servers (install.cmd / run.cmd), not loaded in missions. Provides monitoring, player/server stats, tournaments and plugins for SRS, LotAtc and Tacview; works with or without Discord.\n\nRequires: Requires Python 3.11-3.14, PostgreSQL, optional Git; Discord bot token for the Discord version; modifies MissionScripting.lua.",
+  "category": "utility",
+  "tags": [
+    "server",
+    "discord",
+    "admin",
+    "stats",
+    "automation"
+  ],
+  "authors": [
+    {
+      "name": "Special K",
+      "url": "https://github.com/Special-K-s-Flightsim-Bots"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Special-K-s-Flightsim-Bots/DCSServerBot",
+  "source": "https://github.com/Special-K-s-Flightsim-Bots/DCSServerBot",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v3.0.4.26",
+      "date": "2026-06-09",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/Special-K-s-Flightsim-Bots/DCSServerBot/releases/tag/v3.0.4.26"
+      }
+    }
+  ]
+}

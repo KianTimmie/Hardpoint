@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "massun92-asset-pack",
+  "name": "Massun92's Asset Pack",
+  "summary": "Animated modular ground crew and an M151A2 scout vehicle with liveries.",
+  "description": "Adds the M92_GroundCrew01 animated personnel with equipment and clothing options, and a Scout M151A2 with animated driver. Ground crew must be placed as Personnel (not statics) and needs triggers for animations.",
+  "category": "tech",
+  "tags": [
+    "personnel",
+    "ground-crew",
+    "vehicles",
+    "animated"
+  ],
+  "authors": [
+    {
+      "name": "Massun92",
+      "url": "https://forum.dcs.world/profile/106761-massun92/"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/316316-massun92s-asset-pack-official-update-september-2026/",
+  "releases": [
+    {
+      "version": "2.01",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/316316-massun92s-asset-pack-official-update-september-2026/"
+      }
+    }
+  ]
+}

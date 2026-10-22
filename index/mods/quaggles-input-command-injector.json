@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "quaggles-input-command-injector",
+  "name": "DCS Input Command Injector (Quaggles)",
+  "summary": "Hook mod that lets you add custom input commands from your Saved Games folder instead of editing each aircraft's game files.",
+  "description": "Lets you add custom keybinds to any module by putting command files in `Saved Games\\DCS\\InputCommands`. Release 1.0.14 replaces `Scripts\\Input\\Data.lua` in the DCS install folder; Hardpoint backs up the original and can re-apply the mod after a DCS update.",
+  "category": "utility",
+  "tags": [
+    "input",
+    "keybinds",
+    "controls",
+    "hooks"
+  ],
+  "authors": [
+    {
+      "name": "Quaggles",
+      "url": "https://github.com/Quaggles"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Quaggles/dcs-input-command-injector",
+  "source": "https://github.com/Quaggles/dcs-input-command-injector",
+  "releases": [
+    {
+      "version": "1.0.14",
+      "date": "2026-04-29",
+      "changelog": "Updated for DCS 2.9.26.23111.1 Data.lua changes; strongly recommended, older versions can leave the controls page in a bugged state.",
+      "install": [
+        {
+          "from": "DCS-Input-Command-Injector-Quaggles/Scripts",
+          "to": "install:Scripts"
+        }
+      ],
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/Quaggles/dcs-input-command-injector/releases/download/1.0.14/DCS-Input-Command-Injector-Quaggles.zip",
+        "sha256": "5d2fc42e0b9743aa73712db7c7ab2bea81a630ddb5e4703581f113b391cf7b1a",
+        "size": 17107,
+        "file_name": "DCS-Input-Command-Injector-Quaggles.zip"
+      }
+    }
+  ]
+}

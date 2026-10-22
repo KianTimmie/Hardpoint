@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f16c-viper-formation-trainer",
+  "name": "F16C Viper Formation Trainer",
+  "summary": "Three F-16C formation-flying training missions: beginner, advanced and night, on the Caucasus map.",
+  "description": "Small training mission pack for the F-16C on the Caucasus map. The page gives no install path; missions normally go in `Saved Games\\DCS\\Missions`.",
+  "category": "mission",
+  "tags": [
+    "f-16c",
+    "training",
+    "formation",
+    "caucasus"
+  ],
+  "authors": [
+    {
+      "name": "617.Evil"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3328308/",
+  "requires_modules": [
+    "Caucasus map",
+    "F-16C Viper"
+  ],
+  "releases": [
+    {
+      "version": "2023-07-01",
+      "date": "2023-07-01",
+      "changelog": "Added a third mission.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3328308/"
+      }
+    }
+  ]
+}

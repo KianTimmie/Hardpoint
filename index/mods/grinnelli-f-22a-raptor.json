@@ -1,0 +1,38 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "grinnelli-f-22a-raptor",
+  "name": "Grinnelli Designs F-22A Raptor",
+  "summary": "Community F-22A Raptor mod with thrust-vectoring EFM and interactive cockpit, relying on F-15C avionics.",
+  "description": "Flyable F-22A with EFM, 6-DoF clickable cockpit, PBR textures and a paint kit. Needs DCS F-15C or Flaming Cliffs 3, and `load_immediately = true` added to `Mods/aircraft/F-15C/entry.lua` (this breaks the integrity check).\n\nNeeds the F-15C (or Flaming Cliffs 3) and a manual edit to the F-15C's `entry.lua`, which breaks the multiplayer integrity check. Follow the author's instructions on the release page.\n\nRequires: Requires editing the official F-15C entry.lua (load_immediately = true); fails DCS integrity check.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "stealth",
+    "usaf",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "Grinnelli Designs",
+      "url": "https://github.com/grinnellidesigns"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/grinnellidesigns/f-22a",
+  "source": "https://github.com/grinnellidesigns/f-22a",
+  "requires_modules": [
+    "F-15C or Flaming Cliffs 3"
+  ],
+  "releases": [
+    {
+      "version": "v2.1.0",
+      "date": "2025-06-06",
+      "changelog": "LERX vapor, IRST pod, removable pylons, ground-attack role, Mako ARM, FM and gear tuning, bug fixes.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/grinnellidesigns/f-22a/releases/tag/v2.1.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "ciribob-csar",
+  "name": "CSAR Script",
+  "summary": "Simplified combat search and rescue script: ejected pilots must be picked up and returned to a MASH, airfield or FARP.",
+  "description": "Loaded inside a mission with a DO SCRIPT trigger after MIST. By default a crashed aircraft's slot stays disabled until its ejected pilot is rescued. Optional slot blocking needs csarSlotBlockGameGUI.lua placed in the DCS Scripts folder.\n\nRequires: Requires MIST 4.0.57 or above; beacon.ogg needed for ADF homing.",
+  "category": "script",
+  "tags": [
+    "csar",
+    "rescue",
+    "helicopters",
+    "mist"
+  ],
+  "authors": [
+    {
+      "name": "Ciribob",
+      "url": "https://github.com/ciribob"
+    }
+  ],
+  "homepage": "https://github.com/ciribob/DCS-CSAR",
+  "source": "https://github.com/ciribob/DCS-CSAR",
+  "installable": false,
+  "releases": [
+    {
+      "version": "1.9.1",
+      "date": "2016-05-12",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/ciribob/DCS-CSAR/releases/tag/1.9.1"
+      }
+    }
+  ]
+}

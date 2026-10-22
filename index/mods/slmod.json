@@ -1,0 +1,39 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "slmod",
+  "name": "Slmod",
+  "summary": "Server-side multiplayer mod adding admin tools, stats tracking and extra mission-scripting functions.",
+  "description": "Server hook: the repo's Scripts folder is extracted into Saved Games\\DCS (Hooks\\slmodGameGUI.lua plus net\\Slmod files). Server-only; clients do not need it and it does not run in single player.",
+  "category": "script",
+  "tags": [
+    "server",
+    "admin",
+    "stats",
+    "multiplayer",
+    "hooks"
+  ],
+  "authors": [
+    {
+      "name": "Speed"
+    },
+    {
+      "name": "Grimes (mrSkortch)",
+      "url": "https://github.com/mrSkortch"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://forum.dcs.world/topic/130602-slmod-for-dcs-1520/",
+  "source": "https://github.com/mrSkortch/DCS-SLmod",
+  "installable": false,
+  "releases": [
+    {
+      "version": "master (2022-03-28)",
+      "date": "2022-03-28",
+      "changelog": "Hotfix for DCS 2.7.11 AH-64 release (merged from develop).",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/mrSkortch/DCS-SLmod"
+      }
+    }
+  ]
+}

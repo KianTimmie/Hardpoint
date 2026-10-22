@@ -1,0 +1,33 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "a10c2-us-digital-pack",
+  "name": "A-10C II US Digital Pack Grey Desert MixPix & Blue",
+  "summary": "Fictional US digital-camouflage liveries (grey, desert, mixed pixel, blue) for the A-10C II.",
+  "description": "Digital pixel camouflage livery pack for the A-10C II Tank Killer. The page gives no install path.",
+  "category": "livery",
+  "tags": [
+    "a-10c",
+    "digital-camo",
+    "fictional"
+  ],
+  "authors": [
+    {
+      "name": "Albator78"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3326863/",
+  "requires_modules": [
+    "A-10C II Tank Killer"
+  ],
+  "releases": [
+    {
+      "version": "2022-11-15",
+      "date": "2022-11-15",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3326863/"
+      }
+    }
+  ]
+}

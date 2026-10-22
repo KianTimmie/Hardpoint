@@ -1,0 +1,32 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "currenthill-military-asset-pack-germany",
+  "name": "Currenthill Military Asset Pack Germany",
+  "summary": "High-detail Germany military ground, air-defence and naval AI units by Currenthill.",
+  "description": "Part of Currenthill's country asset packs. Extract the complete pack zip into `Saved Games\\DCS\\Mods\\tech`; incremental packs go into the existing complete-pack folder. Remove older single-asset versions first. Assets use 4K textures and are heavy to run.",
+  "category": "tech",
+  "tags": [
+    "ai-units",
+    "ground-units",
+    "air-defense",
+    "naval",
+    "germany"
+  ],
+  "authors": [
+    {
+      "name": "Currenthill",
+      "url": "https://www.currenthill.com/"
+    }
+  ],
+  "homepage": "https://www.currenthill.com/",
+  "releases": [
+    {
+      "version": "1.5.0",
+      "date": "2026-05-18",
+      "download": {
+        "kind": "page",
+        "url": "https://www.currenthill.com/"
+      }
+    }
+  ]
+}

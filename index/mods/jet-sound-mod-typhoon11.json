@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "jet-sound-mod-typhoon11",
+  "name": "DCS: World - Jet Sound Mod",
+  "summary": "Replaces the distant jet noise (PlaneFarNoise) sound for all aircraft.",
+  "description": "Edits the PlaneFarNoise sound used by all aircraft. The page gives no install path.",
+  "category": "sound",
+  "tags": [
+    "sound",
+    "jet",
+    "environment"
+  ],
+  "authors": [
+    {
+      "name": "Typhoon11"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3302040/",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2018-09-29",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3302040/"
+      }
+    }
+  ]
+}

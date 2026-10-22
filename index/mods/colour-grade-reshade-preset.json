@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "colour-grade-reshade-preset",
+  "name": "Colour Grade Profile [reshade]",
+  "summary": "ReShade colour-grading preset for DCS.",
+  "description": "A single ReShade .ini preset. It needs ReShade installed for DCS.exe (DX11/12). The .ini goes in the root of the DCS install `bin-mt` (or `bin`) folder, so it modifies the install folder.",
+  "category": "terrain",
+  "tags": [
+    "reshade",
+    "shader",
+    "colour",
+    "visual"
+  ],
+  "authors": [
+    {
+      "name": "T.Power"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3344695/",
+  "releases": [
+    {
+      "version": "4.0",
+      "date": "2025-05-12",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3344695/"
+      }
+    }
+  ]
+}

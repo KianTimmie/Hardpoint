@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-the-way",
+  "name": "DCS TheWay",
+  "summary": "Imports waypoints picked on the DCS F10 map into the aircraft's navigation system, like a data cartridge.",
+  "description": "TheWay transfers waypoints selected on the F10 map into many DCS modules' nav systems; multiplayer needs the server to allow player exports. It is a separate program with its own installer plus a Scripts folder and Export.lua line.",
+  "category": "utility",
+  "tags": [
+    "waypoints",
+    "navigation",
+    "export",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "aronCiucu",
+      "url": "https://github.com/aronCiucu"
+    }
+  ],
+  "homepage": "https://github.com/aronCiucu/DCSTheWay",
+  "source": "https://github.com/aronCiucu/DCSTheWay",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v.2.5.0",
+      "date": "2024-07-22",
+      "changelog": "OH-58 Kiowa support.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/aronCiucu/DCSTheWay/releases/tag/v.2.5.0"
+      }
+    }
+  ]
+}

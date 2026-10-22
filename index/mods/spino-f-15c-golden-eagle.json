@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "spino-f-15c-golden-eagle",
+  "name": "F-15C Golden Eagle Upgrade (Spino)",
+  "summary": "Freeware upgraded F-15C variant with AESA radar stand-in and AIM-9X support.",
+  "description": "Adds an upgraded F-15C (APG-63v3 stand-in, native AIM-9X). Copy into `Saved Games\\DCS\\Mods\\aircraft`. With the F-15EX mod installed it also gains extra AIM-120 variants, AIM-260A and MAKO.\n\nRequires: F-15EX Eagle II mod (Spino) optional, for extra weapons.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "usaf",
+    "f-15"
+  ],
+  "authors": [
+    {
+      "name": "Spino7"
+    }
+  ],
+  "license": "Freeware (do not redistribute)",
+  "homepage": "https://www.digitalcombatsimulator.com/en/files/3331163/",
+  "releases": [
+    {
+      "version": "1.5",
+      "date": "2023-06-07",
+      "download": {
+        "kind": "page",
+        "url": "https://www.digitalcombatsimulator.com/en/files/3331163/"
+      }
+    }
+  ]
+}

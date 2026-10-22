@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "civilian-assets-pack-vehicles",
+  "name": "Civilian Assets Pack: Vehicles",
+  "summary": "Twenty civilian ground vehicles with variants plus one static object, Combined Arms compatible.",
+  "description": "Adds civilian cars, trucks and service vehicles listed under Ground Units > Civilian Vehicle > CAP in the Mission Editor. Place the pack in `Saved Games\\DCS\\Mods\\tech`.",
+  "category": "tech",
+  "tags": [
+    "civilian",
+    "vehicles",
+    "ground-units",
+    "combined-arms"
+  ],
+  "authors": [
+    {
+      "name": "Eight Ball"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/270558-civilian-objects-and-vehicles/",
+  "releases": [
+    {
+      "version": "1.0",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/270558-civilian-objects-and-vehicles/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "bell-47-flyable",
+  "name": "Bell 47 Flyable Helicopter (EFM)",
+  "summary": "Freeware flyable Bell 47 light helicopter with EFM for DCS World.",
+  "description": "Flyable Bell 47 with cold start, NVG, flashlight and a door gunner that fires where the pilot looks. Built for DCS 2.7; cannot land on water.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "vintage",
+    "light",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "nibbylot"
+    },
+    {
+      "name": "upuart"
+    },
+    {
+      "name": "FreddyStoned"
+    },
+    {
+      "name": "Hawkeye60"
+    },
+    {
+      "name": "cerealex"
+    }
+  ],
+  "license": "Freeware (unlimited distribution)",
+  "homepage": "https://www.digitalcombatsimulator.com/en/files/3317105/",
+  "releases": [
+    {
+      "version": "2.7",
+      "date": "2021-06-23",
+      "download": {
+        "kind": "page",
+        "url": "https://www.digitalcombatsimulator.com/en/files/3317105/"
+      }
+    }
+  ]
+}

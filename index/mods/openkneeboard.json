@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "openkneeboard",
+  "name": "OpenKneeboard",
+  "summary": "Open-source in-game kneeboard overlay for VR and flat-screen flight sims, including DCS.",
+  "description": "Shows PDFs, images, DCS mission briefings and other content as a kneeboard overlay inside the sim. It is a separate program with its own MSI installer.",
+  "category": "utility",
+  "tags": [
+    "kneeboard",
+    "vr",
+    "overlay",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "OpenKneeboard",
+      "url": "https://github.com/OpenKneeboard"
+    }
+  ],
+  "license": "OpenKneeboard Public License, Version 1",
+  "homepage": "https://openkneeboard.com/",
+  "source": "https://github.com/OpenKneeboard/OpenKneeboard",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v1.12.12",
+      "date": "2026-10-16",
+      "changelog": "Fixes a crash when Windows has missing or incomplete support for the current timezone.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/OpenKneeboard/OpenKneeboard/releases/tag/v1.12.12"
+      }
+    }
+  ]
+}

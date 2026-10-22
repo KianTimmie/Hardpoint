@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-scratchpad",
+  "name": "DCS Scratchpad",
+  "summary": "Resizable, movable in-game notepad for DCS for quick persistent notes, especially useful in VR.",
+  "description": "Adds an in-game scratchpad window for persistent notes (coordinates, frequencies, etc.), handy in VR where you cannot use a paper kneeboard.",
+  "category": "utility",
+  "tags": [
+    "notes",
+    "vr",
+    "in-game",
+    "scripts"
+  ],
+  "authors": [
+    {
+      "name": "rkusa",
+      "url": "https://github.com/rkusa"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rkusa/dcs-scratchpad",
+  "source": "https://github.com/rkusa/dcs-scratchpad",
+  "releases": [
+    {
+      "version": "0.7.1",
+      "date": "2023-08-16",
+      "changelog": "Fix creation of first page if there is none.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/rkusa/dcs-scratchpad/releases"
+      }
+    }
+  ]
+}

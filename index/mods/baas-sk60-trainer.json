@@ -1,0 +1,40 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "baas-sk60-trainer",
+  "name": "Saab SK 60 Trainer (BAAS Dynamics)",
+  "summary": "Free community Saab 105 / SK 60 jet trainer mod for DCS World with EFM.",
+  "description": "Flyable Swedish SK 60 trainer with rebuilt 3D model, KNS-81 nav, radios and custom sounds (v2.x). Installs like any aircraft mod into `Saved Games\\DCS\\Mods\\aircraft`.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "trainer",
+    "sweden",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "BAAS Dynamics"
+    },
+    {
+      "name": "BreadMaker",
+      "url": "https://github.com/Breadmaker91"
+    },
+    {
+      "name": "CorsairCat",
+      "url": "https://github.com/CorsairCat"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/304104-saab-sk-60-trainer/",
+  "source": "https://github.com/BAAS-Dynamic/DCS-SK60-Mod",
+  "releases": [
+    {
+      "version": "v2.1",
+      "date": "2026-10-17",
+      "changelog": "Canopy, visor and gunsight fixes; tinted visor option; gunsight mountable via Mission Editor.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/BAAS-Dynamic/DCS-SK60-Mod/releases/tag/v2.1"
+      }
+    }
+  ]
+}

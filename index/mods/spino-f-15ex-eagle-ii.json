@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "spino-f-15ex-eagle-ii",
+  "name": "F-15EX Eagle II (Spino)",
+  "summary": "Freeware F-15EX Eagle II mod using the F-15C cockpit and PFM with expanded weapons loadout.",
+  "description": "Adds a flyable F-15EX with modernised radar/weapons and up to 12 air-to-air missiles, built on the F-15C cockpit and flight model. Listed for DCS 2.9.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "usaf",
+    "f-15"
+  ],
+  "authors": [
+    {
+      "name": "Spino7"
+    }
+  ],
+  "license": "Freeware (do not redistribute)",
+  "homepage": "https://www.digitalcombatsimulator.com/en/files/3340119/",
+  "releases": [
+    {
+      "version": "1.8.7",
+      "date": "2024-08-15",
+      "download": {
+        "kind": "page",
+        "url": "https://www.digitalcombatsimulator.com/en/files/3340119/"
+      }
+    }
+  ]
+}

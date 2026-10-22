@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "fa18c-syrian-civil-war-campaign",
+  "name": "F/A-18C Syrian Civil War Campaign",
+  "summary": "Free single-player F/A-18C campaign set in the Syrian Civil War, using the Supercarrier.",
+  "description": "Single-player campaign. Unzip and copy the folder into `Saved Games\\DCS\\Missions\\Campaigns\\En\\`.",
+  "category": "campaign",
+  "tags": [
+    "fa-18c",
+    "syria",
+    "singleplayer",
+    "supercarrier"
+  ],
+  "authors": [
+    {
+      "name": "wildjager"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3342580/",
+  "requires_modules": [
+    "F/A-18C Hornet",
+    "Supercarrier",
+    "Syria map"
+  ],
+  "releases": [
+    {
+      "version": "1.01",
+      "date": "2024-12-17",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3342580/"
+      }
+    }
+  ]
+}

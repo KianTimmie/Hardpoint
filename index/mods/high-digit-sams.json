@@ -1,0 +1,47 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "high-digit-sams",
+  "name": "High Digit SAMs",
+  "summary": "Community pack adding modern Russian, Chinese and European SAM systems and MANPADS as AI units.",
+  "description": "Adds S-300PMU-1/PMU-2, S-300V/VM, Buk-M1-2, SAMP/T, extra S-75/S-125/HQ-2 missiles, SA-7/14/24 MANPADS and a Polyana-D4M1 C2 vehicle. Copy the `Mods` folder into `Saved Games\\DCS` (or use OVGME). All multiplayer participants need the mod.\n\nRequires: None required; Skynet IADS script is optional for IADS behaviour.",
+  "category": "tech",
+  "tags": [
+    "sam",
+    "air-defense",
+    "ai-units",
+    "russia",
+    "iads"
+  ],
+  "authors": [
+    {
+      "name": "Auranis",
+      "url": "https://github.com/Auranis"
+    },
+    {
+      "name": "ERO"
+    },
+    {
+      "name": "Hextopia"
+    },
+    {
+      "name": "LetMePickThat"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://forum.dcs.world/topic/269447-high-digit-sams-a-community-asset-pack-for-dcs-world/",
+  "source": "https://github.com/Auranis/HighDigitSAMs",
+  "releases": [
+    {
+      "version": "2.1.0",
+      "date": "2024-07-16",
+      "changelog": "Update for DCS 2.9.6, added SAMP/T and SA-7, improved S-300 guidance.",
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/Auranis/HighDigitSAMs/releases/download/v2.1.0/HighDigitSAMs_v2_1_0.zip",
+        "sha256": "bb11694cb5141fea87943db533b9a6aca0c717d96dcba762ea2f3cf88b2cc31e",
+        "size": 229093434,
+        "file_name": "HighDigitSAMs_v2_1_0.zip"
+      }
+    }
+  ]
+}

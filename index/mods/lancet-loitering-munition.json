@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "lancet-loitering-munition",
+  "name": "ZALA Lancet Loitering Munition",
+  "summary": "Lancet loitering munition usable by AI or flown by a player, with animated surfaces and camera gimbal.",
+  "description": "Adds a Lancet loitering munition with custom textures, moving control surfaces, swivelling camera and network sync. Delete any old `Lancet` folder, then extract into `Saved Games\\DCS\\Mods\\aircraft`.",
+  "category": "tech",
+  "tags": [
+    "weapons",
+    "drone",
+    "loitering-munition",
+    "russia",
+    "ai-units"
+  ],
+  "authors": [
+    {
+      "name": "idkwhattowrite / imakedcsmods",
+      "url": "https://github.com/imakedcsmods"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/390895-release-zala-lancet-loitering-munition-mod-v10/",
+  "source": "https://github.com/imakedcsmods/DCS-loitering-munition-mod-Lancet",
+  "releases": [
+    {
+      "version": "1.1",
+      "date": "2026-08-06",
+      "changelog": "Smooth control-surface animation, working gimbal and propeller in both modes, network sync.",
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/imakedcsmods/DCS-loitering-munition-mod-Lancet/releases/download/v1.1/Lancet.v1.zip",
+        "sha256": "bc87d7e0184be8422472f465d5cf9bfa634570f36ea08fb7c47f513fd9609ac9",
+        "size": 19955927,
+        "file_name": "Lancet.v1.zip"
+      }
+    }
+  ]
+}

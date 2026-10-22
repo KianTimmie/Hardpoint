@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "community-jas-39c-gripen",
+  "name": "Community JAS-39C Gripen",
+  "summary": "Community-built flyable Saab JAS-39C Gripen for DCS World with A/A and A/G variants.",
+  "description": "Open community mod adding the JAS-39C Gripen with its own cockpit, liveries and weapons. Copy the `Mods` folder from the archive into `Saved Games\\DCS`. The A/A variants (F-15C / Su-33 based) need Flaming Cliffs 3; the A/G variant (Su-25T avionics) does not.\n\nRequires: A/A BVR (F-15C based) and A/A WVR (Su-33 based) variants require Flaming Cliffs 3; the A/G variant works without it.",
+  "category": "aircraft",
+  "tags": [
+    "jet",
+    "fighter",
+    "multirole",
+    "sweden",
+    "efm"
+  ],
+  "authors": [
+    {
+      "name": "Community JAS-39 team (Whisky Actual et al.)",
+      "url": "https://github.com/whisky-actual"
+    }
+  ],
+  "homepage": "https://github.com/whisky-actual/Community-JAS-39-C",
+  "source": "https://github.com/whisky-actual/Community-JAS-39-C",
+  "releases": [
+    {
+      "version": "v1.8.6-Beta",
+      "date": "2026-01-01",
+      "changelog": "Adds RWR on HUD, basic nav system, HMD brightness; fixes HMD, GBU drops and an MP crash.",
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/whisky-actual/Community-JAS-39-C/releases/download/v1.8.6-Beta/JAS_39C_1.8.6.zip",
+        "sha256": "e615cc1a7b21dacd2ae5e562285d2b902036cdd6986be1f22b6812daecde822a",
+        "size": 2144483125,
+        "file_name": "JAS_39C_1.8.6.zip"
+      }
+    }
+  ]
+}

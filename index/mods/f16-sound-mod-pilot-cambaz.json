@@ -1,0 +1,33 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "f16-sound-mod-pilot-cambaz",
+  "name": "F-16 Sound Mod (Pilot)",
+  "summary": "Replacement cockpit sounds for the F-16C Viper (Beyaz Kartallar sound mod).",
+  "description": "F-16C cockpit sound replacement. Copy the Sound folder into `Saved Games\\DCS\\Sounds\\Effects\\Aircrafts\\Cockpits`. It does not touch the DCS install folder.",
+  "category": "sound",
+  "tags": [
+    "sound",
+    "f-16c",
+    "cockpit"
+  ],
+  "authors": [
+    {
+      "name": "CaMBaZ"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3337857/",
+  "requires_modules": [
+    "F-16C Viper"
+  ],
+  "releases": [
+    {
+      "version": "2024-05-20",
+      "date": "2024-05-20",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3337857/"
+      }
+    }
+  ]
+}

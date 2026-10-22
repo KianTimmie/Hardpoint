@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-retribution",
+  "name": "DCS Retribution",
+  "summary": "Dynamic campaign mission generator for DCS World, forked from DCS Liberation.",
+  "description": "Generates DCS missions from a persistent dynamic campaign, with extra campaign features and mod-aircraft support. It is a separate program distributed as a zip you extract and run.",
+  "category": "utility",
+  "tags": [
+    "campaign",
+    "mission-generator",
+    "dynamic-campaign",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "DCS Retribution team",
+      "url": "https://github.com/dcs-retribution"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "homepage": "https://github.com/dcs-retribution/dcs-retribution/wiki/",
+  "source": "https://github.com/dcs-retribution/dcs-retribution",
+  "installable": false,
+  "releases": [
+    {
+      "version": "v1.5.0",
+      "date": "2026-04-13",
+      "changelog": "Invisible/neutral FOBs, influence zones, DCS 2.9.20 support incl. MiG-29A, MOOSE base plugin, mod updates and fixes.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/dcs-retribution/dcs-retribution/releases/tag/v1.5.0"
+      }
+    }
+  ]
+}

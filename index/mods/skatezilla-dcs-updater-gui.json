@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "skatezilla-dcs-updater-gui",
+  "name": "DCS Updater / Launcher GUI Utility (SkateZilla)",
+  "summary": "Windows GUI for launching DCS with options and running the DCS updater to update, repair or manage modules.",
+  "description": "A community GUI that launches DCS with switches and manages builds, modules, graphics presets, server options and updater tasks. It is a separate program downloaded from the ED Forums thread.",
+  "category": "utility",
+  "tags": [
+    "launcher",
+    "updater",
+    "modules",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "SkateZilla"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/134493-the-dcs-updater-gui-utility",
+  "installable": false,
+  "releases": [
+    {
+      "version": "2.0.0.42",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/134493-the-dcs-updater-gui-utility"
+      }
+    }
+  ]
+}

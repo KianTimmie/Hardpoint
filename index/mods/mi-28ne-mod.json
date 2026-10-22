@@ -1,0 +1,33 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "mi-28ne-mod",
+  "name": "Mi-28NE Havoc (freebirddz)",
+  "summary": "Early work-in-progress Mi-28NE attack helicopter mod that borrows the Ka-50 cockpit and EFM.",
+  "description": "Flyable Mi-28NE (v1.0, WIP). Unzip into `Saved Games\\DCS\\Mods\\aircraft`. Requires the official Ka-50 III module because it uses its cockpit and flight model.",
+  "category": "aircraft",
+  "tags": [
+    "helicopter",
+    "attack",
+    "russia",
+    "wip"
+  ],
+  "authors": [
+    {
+      "name": "freebirddz"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/375967-dcs-mi-28ne-mod/",
+  "requires_modules": [
+    "Ka-50 III"
+  ],
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2025-07-05",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/375967-dcs-mi-28ne-mod/"
+      }
+    }
+  ]
+}

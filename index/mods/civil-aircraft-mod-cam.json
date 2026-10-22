@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "civil-aircraft-mod-cam",
+  "name": "Civil Aircraft Mod (CAM)",
+  "summary": "Freeware pack of AI civil airliners and light aircraft for DCS World missions.",
+  "description": "Adds AI-only civil aircraft (A320, A380, 727, 737, 747, 757, Cessna 210 and liveries). Install into `Saved Games\\DCS\\Mods\\aircraft`; units appear under Insurgents with the period filter off.",
+  "category": "aircraft",
+  "tags": [
+    "ai",
+    "civil",
+    "airliner",
+    "traffic"
+  ],
+  "authors": [
+    {
+      "name": "cdpkobra"
+    },
+    {
+      "name": "popChar"
+    },
+    {
+      "name": "seth0s"
+    }
+  ],
+  "license": "Freeware",
+  "homepage": "https://cam.em-key.de/",
+  "releases": [
+    {
+      "version": "V0.81",
+      "download": {
+        "kind": "page",
+        "url": "https://filehorst.de/folder.php?key=dnc1kh7A"
+      }
+    }
+  ]
+}

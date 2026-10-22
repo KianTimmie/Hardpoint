@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "anubis-c-130j-super-hercules",
+  "name": "C-130J-30 Super Hercules (Anubis mod)",
+  "summary": "Free community C-130J-30 Super Hercules transport mod for DCS World by Anubis.",
+  "description": "Flyable tactical airlifter with cargo and airdrop capability. Extract into `Saved Games\\DCS\\Mods\\aircraft`; liveries go in `Saved Games\\DCS\\Liveries\\Hercules`.",
+  "category": "aircraft",
+  "tags": [
+    "transport",
+    "turboprop",
+    "cargo",
+    "usaf"
+  ],
+  "authors": [
+    {
+      "name": "Anubis"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/252075-dcs-super-hercules-mod-by-anubis/",
+  "releases": [
+    {
+      "version": "6.8.2",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/252075-dcs-super-hercules-mod-by-anubis/"
+      }
+    }
+  ]
+}

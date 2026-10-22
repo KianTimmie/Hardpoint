@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "reshade-vr-enhancer-mod-vrem",
+  "name": "Reshade VR Enhancer Mod (VREM)",
+  "summary": "ReShade add-on that improves visual clarity in VR, with NVG and cockpit tweaks.",
+  "description": "ReShade add-on for VR. Copy its `bin` and `bin-mt` folders into the DCS install directory, which adds an addon file and a `shaderreplace` folder beside DCS.exe. It needs ReShade with full add-on support. JSGME/OVGME compatible.",
+  "category": "terrain",
+  "tags": [
+    "reshade",
+    "vr",
+    "shader",
+    "visual"
+  ],
+  "authors": [
+    {
+      "name": "lefuneste01"
+    }
+  ],
+  "license": "Freeware - Free version, Unlimited distribution",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3305420/",
+  "releases": [
+    {
+      "version": "9.4.1",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3305420/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "nike-hercules-sam",
+  "name": "MIM-14 Nike Hercules SAM",
+  "summary": "Adds a basic MIM-14 Nike Hercules SAM site with launchers, radars and control trailers.",
+  "description": "Custom models for MIM-14B/C launchers (static, raised), HIPAR/LOPAR and tracking radars and site structures; flight model based on the stock SA-5. Extract `Nike_Hercules` into `Saved Games\\DCS\\Mods\\tech`.",
+  "category": "tech",
+  "tags": [
+    "sam",
+    "air-defense",
+    "cold-war",
+    "usa",
+    "ai-units"
+  ],
+  "authors": [
+    {
+      "name": "SirPueo",
+      "url": "https://github.com/SirPueo"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/377049-mim-14-nike-hercules-sam-system/",
+  "source": "https://github.com/SirPueo/DCSNikeSAMs",
+  "releases": [
+    {
+      "version": "0.1.2",
+      "date": "2025-08-02",
+      "changelog": "Adds new covered tracking radars.",
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/SirPueo/DCSNikeSAMs/releases/download/Release/Nike_Hercules.zip",
+        "sha256": "3fed0bc91b128b910839d1e68a0651b027fe455103dccf995cdc540fc9268e71",
+        "size": 87073019,
+        "file_name": "Nike_Hercules.zip"
+      }
+    }
+  ]
+}

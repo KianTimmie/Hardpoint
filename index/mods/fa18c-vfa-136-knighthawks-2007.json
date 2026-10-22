@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "fa18c-vfa-136-knighthawks-2007",
+  "name": "F/A-18C Hornet - VFA-136 Knighthawks (c.2007)",
+  "summary": "US Navy VFA-136 Knighthawks squadron liveries for the F/A-18C, circa 2007.",
+  "description": "VFA-136 squadron livery set for the F/A-18C. It needs the bundled 'VFA-136 Shared' texture folder, and the author recommends deleting older versions first. The page gives no install path.",
+  "category": "livery",
+  "tags": [
+    "fa-18c",
+    "hornet",
+    "us-navy",
+    "squadron"
+  ],
+  "authors": [
+    {
+      "name": "Tholozor"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3305981/",
+  "requires_modules": [
+    "F/A-18C Hornet"
+  ],
+  "releases": [
+    {
+      "version": "2.7",
+      "date": "2019-08-11",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3305981/"
+      }
+    }
+  ]
+}

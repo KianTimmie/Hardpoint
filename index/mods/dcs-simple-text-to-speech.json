@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dcs-simple-text-to-speech",
+  "name": "DCS-SimpleTextToSpeech (STTS)",
+  "summary": "Lua helper that speaks text or plays MP3/OGG files over SRS radio frequencies from mission scripts.",
+  "description": "Loaded inside a mission with DO SCRIPT or DO SCRIPT FILE, then called via `STTS.TextToSpeech(...)` and `STTS.PlayMP3(...)`. Uses SRS External Audio, so the SRS server must run on the mission host.\n\nRequires: Requires SRS 1.9.6.0+ on the same machine and a desanitized MissionScripting.lua (reapply after each DCS update). Optional Google TTS credentials.",
+  "category": "script",
+  "tags": [
+    "srs",
+    "tts",
+    "audio",
+    "radio"
+  ],
+  "authors": [
+    {
+      "name": "Ciribob",
+      "url": "https://github.com/ciribob"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ciribob/DCS-SimpleTextToSpeech",
+  "source": "https://github.com/ciribob/DCS-SimpleTextToSpeech",
+  "installable": false,
+  "releases": [
+    {
+      "version": "master (2021-05-09)",
+      "date": "2021-05-09",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/ciribob/DCS-SimpleTextToSpeech"
+      }
+    }
+  ]
+}

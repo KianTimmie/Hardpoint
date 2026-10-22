@@ -1,0 +1,48 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "dct-dynamic-campaign-tools",
+  "name": "DCT - Dynamic Campaign Tools",
+  "summary": "Mission scripting framework for large persistent multiplayer campaigns built from editor templates and config files.",
+  "description": "Distributed as a zip extracted into Saved Games\\DCS; missions then use the framework to spawn templated theaters with tickets, per-faction IADS and persistent state across restarts.\n\nAfter installing, DCT also needs `Scripts\\MissionScripting.lua` in the DCS install folder changed to allow file and network access for missions. That lowers DCS's mission sandboxing; see the DCT documentation.\n\nRequires: Requires removing os/io/lfs/require/package sanitization in MissionScripting.lua.",
+  "category": "script",
+  "tags": [
+    "campaign",
+    "persistence",
+    "framework",
+    "multiplayer",
+    "server"
+  ],
+  "authors": [
+    {
+      "name": "jtoppins",
+      "url": "https://github.com/jtoppins"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "homepage": "https://jtoppins.github.io/dct/",
+  "source": "https://github.com/jtoppins/dct",
+  "releases": [
+    {
+      "version": "v0.11.2",
+      "date": "2022-12-20",
+      "changelog": "dcs: fix broken dead events.",
+      "install": [
+        {
+          "from": "DCT",
+          "to": "saved:Mods/tech/DCT"
+        },
+        {
+          "from": "HOOKS/dct-hook.lua",
+          "to": "saved:Scripts/Hooks/dct-hook.lua"
+        }
+      ],
+      "download": {
+        "kind": "direct",
+        "url": "https://github.com/jtoppins/dct/releases/download/v0.11.2/DCT-v0.11.2.zip",
+        "sha256": "ebd71de5a9caace2319884ef28191123f82739d2ebf611c27b6b3cc78ef05eef",
+        "size": 178216,
+        "file_name": "DCT-v0.11.2.zip"
+      }
+    }
+  ]
+}

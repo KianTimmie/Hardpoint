@@ -1,0 +1,42 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "community-pto-pack",
+  "name": "Community PTO Pack",
+  "summary": "Pacific Theatre WWII pack with Japanese and US ships, AI aircraft, weapons and a Saipan mission.",
+  "description": "Adds AI aircraft (TBM-3, A6M5, B5N, D3A1, SB2C) and ships (Fletcher, Iowa, Zuikaku, Hiryu, Akizuki, I-58 submarine, oilers, cargo) with custom shells and torpedoes. Extract to `Saved Games\\DCS\\Mods\\Tech\\Community PTO Pack`. Breaks integrity check.",
+  "category": "tech",
+  "tags": [
+    "ww2",
+    "pacific",
+    "ships",
+    "ai-units",
+    "japan"
+  ],
+  "authors": [
+    {
+      "name": "Stratos"
+    },
+    {
+      "name": "Hawkeye60"
+    },
+    {
+      "name": "Pikey"
+    },
+    {
+      "name": "Groovie"
+    }
+  ],
+  "homepage": "https://forum.dcs.world/topic/389357-community-pto-pack/",
+  "requires_modules": [
+    "WWII Assets Pack (for the Saipan sandbox mission)"
+  ],
+  "releases": [
+    {
+      "version": "April 2026 (unversioned)",
+      "download": {
+        "kind": "page",
+        "url": "https://forum.dcs.world/topic/389357-community-pto-pack/"
+      }
+    }
+  ]
+}

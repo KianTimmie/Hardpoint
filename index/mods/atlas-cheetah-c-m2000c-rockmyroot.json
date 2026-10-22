@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "atlas-cheetah-c-m2000c-rockmyroot",
+  "name": "Mirage 2000 - Atlas Cheetah C",
+  "summary": "SAAF Atlas Cheetah C liveries for the M-2000C, with variants for the three SAAF roundels.",
+  "description": "South African Air Force Cheetah C style liveries for the DCS M-2000C. The 26/03/24 update fixed roundel orientation and added liveries with the three SAAF roundels. The page gives no install path; liveries normally go in `Saved Games\\DCS\\Liveries\\M-2000C`.",
+  "category": "livery",
+  "tags": [
+    "saaf",
+    "south-africa",
+    "cheetah",
+    "m-2000c"
+  ],
+  "authors": [
+    {
+      "name": "RockMyRoot"
+    }
+  ],
+  "license": "Freeware - Free version, Do Not Redistribute",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3336411/",
+  "requires_modules": [
+    "M-2000C"
+  ],
+  "releases": [
+    {
+      "version": "2024-03-26",
+      "date": "2024-03-26",
+      "changelog": "Corrected roundel orientation; added three liveries with the existing SAAF roundels.",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3336411/"
+      },
+      "livery_for": "M-2000C"
+    }
+  ]
+}

@@ -96,28 +96,11 @@ pub fn detect(root: &Path, hints: &LayoutHints) -> Result<Vec<Mapping>> {
 fn analyse(dir: &Path, prefix: &str, dir_name: Option<&str>, hints: &LayoutHints, out: &mut Vec<Mapping>) -> Result<()> {
     let l = list(dir)?;
 
-    // 1. Mirror of the install folder (OvGME-style packages).
-    if l.dirs.iter().any(|d| canonical_marker(d, INSTALL_MARKERS).is_some()) {
-        out.push(Mapping { from: prefix.to_string(), to: Target::new(Root::Install, "")? });
-        return Ok(());
-    }
-
-    // 2. Mirror of Saved Games\DCS: map each recognised top-level folder.
-    let saved: Vec<(&String, &'static str)> = l
-        .dirs
-        .iter()
-        .filter_map(|d| canonical_marker(d, SAVED_MARKERS).map(|m| (d, m)))
-        .collect();
-    if !saved.is_empty() {
-        for (d, canon) in saved {
-            out.push(Mapping { from: join_rel(prefix, d), to: Target::new(Root::Saved, canon)? });
-        }
-        return Ok(());
-    }
-
     let name = dir_name.map(str::to_string).unwrap_or_else(|| hints.fallback_name.clone());
 
-    // 3. A module folder (has entry.lua) → Mods/aircraft|tech|terrains/<name>.
+    // 1. A module folder (has entry.lua) → Mods/aircraft|tech|terrains/<name>.
+    //    Checked first: modules often contain their own Liveries, Input or bin folders,
+    //    which would otherwise look like a Saved Games or install-folder mirror.
     if has_file(&l, "entry.lua") {
         let kind = match hints.category {
             Some(Category::Tech) | Some(Category::Utility) => "tech",
@@ -125,6 +108,41 @@ fn analyse(dir: &Path, prefix: &str, dir_name: Option<&str>, hints: &LayoutHints
             _ => "aircraft",
         };
         out.push(Mapping { from: prefix.to_string(), to: Target::new(Root::Saved, &format!("Mods/{kind}/{name}"))? });
+        return Ok(());
+    }
+
+    let meaningful_files: Vec<&String> = l.files.iter().filter(|f| !is_doc(f)).collect();
+
+    // 2. Mirror of the install folder (OvGME-style packages).
+    if l.dirs.iter().any(|d| canonical_marker(d, INSTALL_MARKERS).is_some()) {
+        out.push(Mapping { from: prefix.to_string(), to: Target::new(Root::Install, "")? });
+        return Ok(());
+    }
+
+    // 3. Mirror of Saved Games\DCS: map each recognised top-level folder. Anything else at
+    //    this level means we don't understand the package, so refuse rather than drop it.
+    let saved: Vec<(&String, &'static str)> = l
+        .dirs
+        .iter()
+        .filter_map(|d| canonical_marker(d, SAVED_MARKERS).map(|m| (d, m)))
+        .collect();
+    if !saved.is_empty() {
+        let unknown: Vec<&String> = l
+            .dirs
+            .iter()
+            .filter(|d| canonical_marker(d, SAVED_MARKERS).is_none())
+            .chain(meaningful_files.iter().copied())
+            .collect();
+        if !unknown.is_empty() {
+            return Err(Error::AmbiguousLayout(format!(
+                "'{}' mixes Saved Games folders with other items ({})",
+                if prefix.is_empty() { "archive root" } else { prefix },
+                unknown.iter().take(4).map(|s| s.as_str()).collect::<Vec<_>>().join(", ")
+            )));
+        }
+        for (d, canon) in saved {
+            out.push(Mapping { from: join_rel(prefix, d), to: Target::new(Root::Saved, canon)? });
+        }
         return Ok(());
     }
 
@@ -150,8 +168,6 @@ fn analyse(dir: &Path, prefix: &str, dir_name: Option<&str>, hints: &LayoutHints
         }
         return Ok(());
     }
-
-    let meaningful_files: Vec<&String> = l.files.iter().filter(|f| !is_doc(f)).collect();
 
     // 6. A single wrapper folder → look inside.
     if l.dirs.len() == 1 && meaningful_files.is_empty() {
@@ -229,6 +245,26 @@ mod tests {
         let h = LayoutHints { livery_for: Some("F-16C_50".into()), ..hints() };
         let m = detect(t.path(), &h).unwrap();
         assert_eq!(m[0].to.to_string(), "saved:Liveries/F-16C_50/SAAF 2 Sqn");
+    }
+
+    #[test]
+    fn module_with_own_liveries_and_bin() {
+        let t = tempfile::tempdir().unwrap();
+        touch(t.path(), "Nike_Hercules/entry.lua");
+        touch(t.path(), "Nike_Hercules/Liveries/MIM14B/description.lua");
+        touch(t.path(), "Nike_Hercules/Database/Vehicle/x.lua");
+        touch(t.path(), "Nike_Hercules/bin/fm.dll");
+        let h = LayoutHints { category: Some(Category::Tech), ..hints() };
+        let m = detect(t.path(), &h).unwrap();
+        assert_eq!(m, vec![Mapping { from: "Nike_Hercules".into(), to: Target::parse("saved:Mods/tech/Nike_Hercules").unwrap() }]);
+    }
+
+    #[test]
+    fn mixed_mirror_is_ambiguous() {
+        let t = tempfile::tempdir().unwrap();
+        touch(t.path(), "Pack/Mods/tech/X/entry.lua");
+        touch(t.path(), "Pack/Extras/thing.lua");
+        assert!(matches!(detect(t.path(), &hints()), Err(Error::AmbiguousLayout(_))));
     }
 
     #[test]

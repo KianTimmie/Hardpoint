@@ -1,0 +1,32 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "sailships-props-library",
+  "name": "Sailships & Props Library",
+  "summary": "Two historic sailing ships plus a shipwreck, rowboat and small props, with a demo mission.",
+  "description": "High-poly PBR sailships (furled and hoisted sails), shipwreck, rowboat, crates, barrel and treasure chest, placed as vessels and structures. Extract directly into `Saved Games\\DCS` (\"extract here\"). Works on any map; DCS 2.9.",
+  "category": "tech",
+  "tags": [
+    "ships",
+    "static",
+    "historic",
+    "props",
+    "naval"
+  ],
+  "authors": [
+    {
+      "name": "J-1775"
+    }
+  ],
+  "license": "Freeware, unlimited distribution; models under Creative Commons",
+  "homepage": "https://files.digitalcombatsimulator.com/en/files/3346481/",
+  "releases": [
+    {
+      "version": "1.0",
+      "date": "2025-08-18",
+      "download": {
+        "kind": "page",
+        "url": "https://files.digitalcombatsimulator.com/en/files/3346481/"
+      }
+    }
+  ]
+}

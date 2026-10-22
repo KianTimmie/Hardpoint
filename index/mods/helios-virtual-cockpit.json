@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/mod.schema.json",
+  "id": "helios-virtual-cockpit",
+  "name": "Helios Virtual Cockpit",
+  "summary": "Builds virtual cockpit panels on touchscreens and extra monitors, driven by DCS exports.",
+  "description": "Helios lets you lay out gauges, switches and exported displays on secondary or touch screens for DCS aircraft. It is a separate program with its own installer.",
+  "category": "utility",
+  "tags": [
+    "cockpit",
+    "touchscreen",
+    "displays",
+    "standalone"
+  ],
+  "authors": [
+    {
+      "name": "Helios Virtual Cockpit community (BlueFinBima and contributors)",
+      "url": "https://github.com/HeliosVirtualCockpit"
+    }
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/HeliosVirtualCockpit/Helios/wiki",
+  "source": "https://github.com/HeliosVirtualCockpit/Helios",
+  "installable": false,
+  "releases": [
+    {
+      "version": "1.6.6180.1",
+      "date": "2026-03-23",
+      "changelog": "Helios 1.6.618: mostly bug fixes, adds AH-6J 1.1 community mod interface, F-16 CMDS patch, memory leak fix.",
+      "download": {
+        "kind": "page",
+        "url": "https://github.com/HeliosVirtualCockpit/Helios/releases/tag/1.6.6180.1"
+      }
+    }
+  ]
+}
