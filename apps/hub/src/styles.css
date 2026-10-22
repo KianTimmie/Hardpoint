@@ -225,3 +225,12 @@ pre.code { background: var(--ink); color: var(--paper); padding: 16px; border-ra
 .credits-thumb { border-radius: 4px; }
 .credits-name { font: 600 1.05rem var(--display); color: var(--ink); text-decoration: none; }
 .gallery { max-width: 760px; margin: 4px 0 28px; }
+
+/* Homepage v2 */
+.spot { padding-block: 24px 8px; }
+.intro { padding-block: 36px 8px; }
+.intro .hero-grid { align-items: center; }
+.intro h1 { font-size: clamp(2.1rem, 4.2vw, 3rem); }
+.btn.lg { padding: 13px 22px; font-size: 1.12rem; }
+.hp-shelf:first-child { margin-top: 0; }
+.hp-shelf-tools a { white-space: nowrap; margin-right: 6px; }

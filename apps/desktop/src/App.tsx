@@ -1,13 +1,16 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactElement, type ReactNode } from "react";
 import type { Backend } from "./api";
 import type { ErrorInfo, IndexResult, ModHealth, Overview, ProgressEvent } from "./types";
 import { asError } from "./types";
 import { Dialog, Toasts, type Toast } from "./components/ui";
 import { Library } from "./views/Library";
-import { Hub } from "./views/Hub";
+import { Hub, ModDrawer, type HubFilter } from "./views/Hub";
+import { Home } from "./views/Home";
 import { Settings } from "./views/Settings";
+import { ProgressBar } from "./components/ui";
+import { IconAdd, IconBrowse, IconHome, IconMine, IconSearch, IconSettings } from "./components/icons";
 
-export type View = "library" | "hub" | "settings";
+export type View = "home" | "library" | "hub" | "settings";
 
 /** Everything the views can do. Each action reports its own outcome as a toast. */
 export interface Actions {
@@ -35,7 +38,11 @@ type Prompt =
 export function App({ backend }: { backend: Backend }) {
   // "#hub/<mod-id>" or "#settings" opens a view directly (used by demo links and screenshots).
   const [initialView, initialFocus] = location.hash.slice(1).split("/");
-  const [view, setView] = useState<View>(["library", "hub", "settings"].includes(initialView) ? (initialView as View) : "library");
+  const [view, setView] = useState<View>(["home", "library", "hub", "settings"].includes(initialView) ? (initialView as View) : "home");
+  const [q, setQ] = useState("");
+  const [cat, setCat] = useState("");
+  const [hubFilter, setHubFilter] = useState<HubFilter>("");
+  const [libFilter, setLibFilter] = useState<string | undefined>(undefined);
   const [overview, setOverview] = useState<Overview | null>(null);
   const [index, setIndex] = useState<IndexResult | null>(null);
   const [indexError, setIndexError] = useState<string | null>(null);
@@ -45,6 +52,13 @@ export function App({ backend }: { backend: Backend }) {
   const [prompt, setPrompt] = useState<Prompt | null>(null);
   const [dragging, setDragging] = useState(false);
   const [hubFocus, setHubFocus] = useState<string | null>(initialFocus ? decodeURIComponent(initialFocus) : null);
+  const goTo = (v: View, opts?: { category?: string; filter?: string }) => {
+    setView(v);
+    setQ("");
+    if (v === "hub") { setCat(opts?.category ?? ""); setHubFilter((opts?.filter as HubFilter) ?? ""); }
+    if (v === "library") setLibFilter(opts?.filter);
+    document.querySelector(".main")?.scrollTo(0, 0);
+  };
   const toastId = useRef(0);
 
   const toast = useCallback((tone: Toast["tone"], text: string, action?: Toast["action"]) => {
@@ -88,7 +102,6 @@ export function App({ backend }: { backend: Backend }) {
       const m = url.match(/^hardpoint:\/\/install\/([^?#/]+)(?:\?(.*))?/);
       if (!m) return toast("error", `Hardpoint can't open this link: ${url}`);
       const version = new URLSearchParams(m[2] ?? "").get("version") ?? undefined;
-      setView("hub");
       setHubFocus(decodeURIComponent(m[1]));
       setPrompt({ kind: "deeplink", id: decodeURIComponent(m[1]), version });
     };
@@ -142,7 +155,7 @@ export function App({ backend }: { backend: Backend }) {
       mark(id, { id, phase: "download", done: 0, total: null });
       try {
         await backend.installHub(id, version);
-        toast("ok", `Installed ${name}.`, { label: "Show in library", run: () => setView("library") });
+        toast("ok", `Installed ${name}.`, { label: "Show in My mods", run: () => goTo("library") });
         await refresh(); await verify(); await refreshIndex();
       } catch (e) { fail(e, name); } finally { mark(id, null); }
     },
@@ -179,6 +192,18 @@ export function App({ backend }: { backend: Backend }) {
   const updates = index?.updates ?? [];
   const pathsOk = overview ? overview.install_ok && overview.saved_ok : true;
 
+  const hubMods = index?.index.mods ?? [];
+  const brokenCount = health.filter((h) => h.missing.length || h.changed.length).length;
+  const downloads = Object.values(busy).filter((b): b is ProgressEvent => b !== true);
+  const focused = hubFocus ? hubMods.find((m) => m.id === hubFocus) : undefined;
+  const nav: { v: View; label: string; icon: ReactElement; badge?: ReactNode }[] = [
+    { v: "home", label: "Home", icon: <IconHome /> },
+    { v: "hub", label: "Browse mods", icon: <IconBrowse />, badge: hubMods.length ? <span className="count">{hubMods.length}</span> : null },
+    { v: "library", label: "My mods", icon: <IconMine />, badge: updates.length || brokenCount ? <span className="pill">{updates.length + brokenCount}</span> : overview?.mods.length ? <span className="count">{overview.mods.length}</span> : null },
+    { v: "settings", label: "Settings", icon: <IconSettings />, badge: !pathsOk ? <span className="dot-warn" aria-label="needs attention" /> : null },
+  ];
+  const searchPlaceholder = view === "library" ? "Search my mods" : `Search ${hubMods.length || ""} mods`.replace("  ", " ");
+
   return (
     <div className="shell">
       <aside className="side">
@@ -187,35 +212,65 @@ export function App({ backend }: { backend: Backend }) {
           HARDPOINT
         </div>
         <nav aria-label="Main">
-          <button aria-current={view === "library" ? "page" : undefined} onClick={() => setView("library")}>
-            Library <span className="count">{overview?.mods.length ?? ""}</span>
-          </button>
-          <button aria-current={view === "hub" ? "page" : undefined} onClick={() => setView("hub")}>
-            Hub {updates.length > 0 && <span className="pill" title="Updates available">{updates.length} update{updates.length > 1 ? "s" : ""}</span>}
-          </button>
-          <button aria-current={view === "settings" ? "page" : undefined} onClick={() => setView("settings")}>
-            Settings {!pathsOk && <span className="dot-warn" aria-label="needs attention" />}
-          </button>
+          {nav.map((n) => (
+            <button key={n.v} aria-current={view === n.v ? "page" : undefined} onClick={() => goTo(n.v)}>
+              {n.icon}<span className="nav-label">{n.label}</span>{n.badge}
+            </button>
+          ))}
         </nav>
+
+        {downloads.length > 0 && (
+          <div className="tray" aria-live="polite">
+            <div className="tray-head">Downloads</div>
+            {downloads.map((d) => (
+              <div key={d.id} className="tray-item">
+                <span className="tray-name">{hubMods.find((m) => m.id === d.id)?.name ?? d.id}</span>
+                {d.phase === "download" ? <ProgressBar done={d.done} total={d.total} label="Downloading" /> : <span className="muted small">Installing…</span>}
+              </div>
+            ))}
+          </div>
+        )}
+
         <div className="side-foot">
           {overview && (pathsOk ? (
             <><span className="status ok" />DCS {overview.dcs_version ?? "found"}</>
           ) : (
-            <button className="linkish" onClick={() => setView("settings")}><span className="status bad" />Set your DCS folders</button>
+            <button className="linkish" onClick={() => goTo("settings")}><span className="status bad" />Set your DCS folders</button>
           ))}
           {backend.demo && <div className="demo-note">Demo mode: nothing is installed.</div>}
         </div>
       </aside>
 
       <div className="main">
+        {view !== "settings" && (
+          <div className="topbar">
+            <form className="topsearch" role="search" onSubmit={(e) => { e.preventDefault(); if (view === "home") setView("hub"); }}>
+              <IconSearch />
+              <label className="sr" htmlFor="topq">{searchPlaceholder}</label>
+              <input id="topq" type="search" placeholder={searchPlaceholder} value={q}
+                onChange={(e) => { setQ(e.target.value); if (view === "home" && e.target.value) setView("hub"); }} />
+            </form>
+            <button className="btn ghost" onClick={() => actions.addFromFile()}><IconAdd /> Add a mod file</button>
+          </div>
+        )}
+        {view === "home" && overview && (
+          <Home overview={overview} index={index} health={health} updates={updates} busy={busy} actions={actions}
+            go={(v, o) => goTo(v, o)} openMod={setHubFocus} />
+        )}
         {view === "library" && overview && (
-          <Library overview={overview} health={health} updates={updates} busy={busy} actions={actions} onBrowse={() => setView("hub")} hubMods={index?.index.mods ?? []} />
+          <Library overview={overview} health={health} updates={updates} busy={busy} actions={actions} onBrowse={() => goTo("hub")}
+            hubMods={hubMods} q={q} openMod={setHubFocus} initialFilter={libFilter} />
         )}
         {view === "hub" && (
-          <Hub index={index} indexError={indexError} overview={overview} busy={busy} actions={actions} focus={hubFocus} onFocus={setHubFocus} />
+          <Hub index={index} indexError={indexError} overview={overview} busy={busy} actions={actions}
+            q={q} cat={cat} setCat={setCat} filter={hubFilter} setFilter={setHubFilter} openMod={setHubFocus} focus={hubFocus} />
         )}
         {view === "settings" && overview && <Settings overview={overview} actions={actions} toast={toast} demo={backend.demo} />}
       </div>
+
+      {focused && (
+        <ModDrawer mod={focused} installed={overview?.mods.find((m) => m.id === focused.id)?.version} busy={busy[focused.id]} actions={actions} onClose={() => setHubFocus(null)} />
+      )}
 
       {dragging && (
         <div className="dropzone" aria-hidden="true">
