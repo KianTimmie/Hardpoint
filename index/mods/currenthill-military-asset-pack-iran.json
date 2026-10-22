@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Talash_Air_Defense.jpg?width=1920",
+    "credit": "Tasnim News Agency",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Talash_Air_Defense.jpg"
+  },
   "images": [
     "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u8iR65wZ5Xj4pt7hXjHnRoIvC8xdKPMw9puxpHiei3WNdOhc0XnaQcZE4QAk2_m3hGj1aGw-E7c4wsHmyCvL7P3tUrc7xnOh1yYAOwaOOXXzHv0lou51e4q5JxESumU--XTQgu9xw2-MrCxGNJFJvKGmGqFLxPW1PemzmqSpCdCw2oS0ElbSvNuFzpQKQ=w1280"
   ],

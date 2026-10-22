@@ -17,6 +17,12 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/361881-dcs-su-35s-mod-from-codename-community/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Su-35S_-_MAKS-2013Firstpixflights08.jpg?width=1920",
+    "credit": "Vitaly V. Kuzmin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Su-35S_-_MAKS-2013Firstpixflights08.jpg"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2025_02/Screen_241105_000544.png.aa31f2be7efa9c110784bfa4a051ebda.png"
   ],

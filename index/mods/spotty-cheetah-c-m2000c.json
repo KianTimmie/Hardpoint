@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3305113/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAF_Cheetah-C_342_(Spotty)_(11071114746).jpg?width=1920",
+    "credit": "Bob Adams from George, South Africa",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SAAF_Cheetah-C_342_(Spotty)_(11071114746).jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/iblock/350/Cheetahspotty.jpg"
   ],

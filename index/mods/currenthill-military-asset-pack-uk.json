@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Challenger_2_%22Amazon%22.jpg?width=1920",
+    "credit": "KyūMaruOtami",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Challenger_2_%22Amazon%22.jpg"
+  },
   "images": [
     "https://lh3.googleusercontent.com/sitesv/AG8ngQV2Hq1JOG7cQbWNKzhad3H-F_44WxO2csno9KSKvFMLNnuKQWgjU6_jUPPuc32RQQSvFDWMp9Zmh6R9Blg9M_V5dPl7wl-W7OUgcxdiDwmpHQS8K6AH3ZD56faEthPGZkvJzyfpsiCh_HsIuds7cMMqblEAMJd_V3nH_llrCdsCGxRQ8RNrI9y1e-Aibig=w1280"
   ],

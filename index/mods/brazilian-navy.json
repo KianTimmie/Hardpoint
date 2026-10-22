@@ -23,6 +23,12 @@
   ],
   "homepage": "https://github.com/ygorma/DCS-Brazilian-Navy",
   "source": "https://github.com/ygorma/DCS-Brazilian-Navy",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A140-_Atl%C3%A2ntico_(51989116988).jpg?width=1920",
+    "credit": "Marinha do Brasil",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A140-_Atl%C3%A2ntico_(51989116988).jpg"
+  },
   "releases": [
     {
       "version": "0.4-alpha",

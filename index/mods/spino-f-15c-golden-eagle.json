@@ -18,6 +18,12 @@
   ],
   "license": "Freeware (do not redistribute)",
   "homepage": "https://www.digitalcombatsimulator.com/en/files/3331163/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An_F-15C_Eagle_from_the_173rd_Fighter_Wing_taxis_before_taking_off_for_a_large_force_exercise_as_part_of_the_19th_Air_Force_Commander%E2%80%99s_Call_and_Fly-In_at_Holloman_Air_Force_Base,_New_Mexico,_March_3,_2023.jpg?width=1920",
+    "credit": "U.S. Air National Guard photo by Tech. Sgt. Victor J. Caputo",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:An_F-15C_Eagle_from_the_173rd_Fighter_Wing_taxis_before_taking_off_for_a_large_force_exercise_as_part_of_the_19th_Air_Force_Commander%E2%80%99s_Call_and_Fly-In_at_Holloman_Air_Force_Base,_New_Mexico,_March_3,_2023.jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/8e3/oymspw57z0zl1x4k526p9td5k2t5ka6u/F-15C_GE.jpg"
   ],

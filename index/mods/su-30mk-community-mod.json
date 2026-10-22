@@ -18,6 +18,12 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/247098-dcs-su-30mk-mod/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MAKS-2017part1-018.jpg?width=1920",
+    "credit": "Vitaly V. Kuzmin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MAKS-2017part1-018.jpg"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2020_10/Screen_200927_193932.png.9214f9fbbf3fd44e4918b6949af37574.png"
   ],

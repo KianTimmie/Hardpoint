@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3329501/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAF_Mirage_F1CZ_at_AFB_Swartkop.jpg?width=1920",
+    "credit": "DanieB52",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SAAF_Mirage_F1CZ_at_AFB_Swartkop.jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/d34/enms2lj8v6qgx1wiqpz58hdyxz5kch6v/Screen_230226_174751_copie.jpg"
   ],

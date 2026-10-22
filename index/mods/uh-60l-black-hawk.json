@@ -19,6 +19,12 @@
   ],
   "homepage": "https://forum.dcs.world/topic/293813-uh-60l-black-hawk-mod-official-thread/",
   "source": "https://github.com/Kinkkujuustovoileipa/uh-60l",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/892_United_States_-_US_Army_Sikorsky_UH-60L_Black_Hawk_(5644290375).jpg?width=1920",
+    "credit": "Tomás Del Coro",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:892_United_States_-_US_Army_Sikorsky_UH-60L_Black_Hawk_(5644290375).jpg"
+  },
   "releases": [
     {
       "version": "2.0",

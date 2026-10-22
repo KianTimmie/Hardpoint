@@ -20,6 +20,12 @@
   ],
   "homepage": "https://github.com/luizrenault/a-29b-community",
   "source": "https://github.com/luizrenault/a-29b-community",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aeronave_A-29_Super_Tucano_em_voo_sobre_a_Floresta_Amaz%C3%B4nica.jpg?width=1920",
+    "credit": "Johnson Barros",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aeronave_A-29_Super_Tucano_em_voo_sobre_a_Floresta_Amaz%C3%B4nica.jpg"
+  },
   "releases": [
     {
       "version": "0.8.0",

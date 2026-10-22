@@ -17,6 +17,12 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/375967-dcs-mi-28ne-mod/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mi-28N_from_Berkuti_aerobatics_team.jpg?width=1920",
+    "credit": "Vitaly V. Kuzmin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mi-28N_from_Berkuti_aerobatics_team.jpg"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2025_07/Screen_241223_203800.png.0d981f71c8c9de52a0888cd1b30de4ea.png"
   ],

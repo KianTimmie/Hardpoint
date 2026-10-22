@@ -20,6 +20,12 @@
   ],
   "homepage": "https://forum.dcs.world/topic/377049-mim-14-nike-hercules-sam-system/",
   "source": "https://github.com/SirPueo/DCSNikeSAMs",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MIM-14_NIKE_Hercules,_Stevnsfort_Cold_War_Museum,_Denmark-4835.jpg?width=1920",
+    "credit": "Slaunger",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MIM-14_NIKE_Hercules,_Stevnsfort_Cold_War_Museum,_Denmark-4835.jpg"
+  },
   "images": [
     "https://github.com/user-attachments/assets/0ddfaf35-8c1b-4c64-9eab-1f52b0939266"
   ],

@@ -17,6 +17,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3337857/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F-16_Fighting_Falcon_at_the_2014_Royal_International_Air_Tattoo_(14665731713).jpg?width=1920",
+    "credit": "kevinmcgill from Edinburgh, United Kingdom",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:F-16_Fighting_Falcon_at_the_2014_Royal_International_Air_Tattoo_(14665731713).jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/b17/gv7rlfbz0vbpolkvk14mji21lv5epoog/S1.png"
   ],

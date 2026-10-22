@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayraktar_TB2_Runway.jpg?width=1920",
+    "credit": "Bayhaluk",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bayraktar_TB2_Runway.jpg"
+  },
   "images": [
     "https://lh3.googleusercontent.com/sitesv/AG8ngQVlOmQmqqSChQ4pRt3N-PyF8EM9VRFg2mueTPf9zmp7vF4NQA1ZPhDZLyOOI3AvTloQ0AooTeT03J3_HjR_Y8YhwMoKJvJ_VHDXeUAeAJJBFkqIzeBueHISx3XGVWsfHE9-vfRoI1fCf9IZrGYG7W3Fn-sOy9nxjdwwX32o6ft9yXSmRK2U_T9E76mkJ3mIMoRLk32rc4NrzI_t5U80LpENcqPYpVVFtiMu9ORKkXA=w1280"
   ],

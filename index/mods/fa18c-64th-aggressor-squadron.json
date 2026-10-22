@@ -17,6 +17,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3306664/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McDonnell_Douglas_FA-18C_Hornet_of_VMFA-212_in_flight_over_the_South_China_Sea_on_8_October_2003_(6638451).jpg?width=1920",
+    "credit": "LCpl John McGarity, USMC",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_FA-18C_Hornet_of_VMFA-212_in_flight_over_the_South_China_Sea_on_8_October_2003_(6638451).jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/iblock/d2e/Hornet%20Skins%201.jpg"
   ],

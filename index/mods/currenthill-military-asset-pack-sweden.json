@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stridsvagn_122_Revinge_2016-2.jpg?width=1920",
+    "credit": "Jorchr",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stridsvagn_122_Revinge_2016-2.jpg"
+  },
   "images": [
     "https://lh3.googleusercontent.com/sitesv/AG8ngQXJjCdiYowMtG6Hds-8PqXBrjZObvigN0gAX_id7scK7kTRyPJSip-RA_ofvFhoRIaRy1kirf3A2Q5mggmpFXfIVAEfVf6TMItEPxPGqmNJWSZP4BCsg-u5rxLol6RRg1NCnnEOKlgLvMGRArLD2pqR9tufrFDgwbaZ9miEZIJNQoNuL5z32TOrtvB4ToYs5nWDhCylBgDOqxnRJJfyp_55UremDa-kkQyuoQ_iY7Y=w1280"
   ],

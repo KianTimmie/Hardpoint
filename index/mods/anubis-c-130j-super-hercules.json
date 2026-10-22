@@ -17,6 +17,12 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/252075-dcs-super-hercules-mod-by-anubis/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/C-130J-30(910thAirliftWing)FlightTestAerialspraysystem.jpg?width=1920",
+    "credit": "U.S. Air Force photo by Eric M. White",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:C-130J-30(910thAirliftWing)FlightTestAerialspraysystem.jpg"
+  },
   "releases": [
     {
       "version": "6.8.2",

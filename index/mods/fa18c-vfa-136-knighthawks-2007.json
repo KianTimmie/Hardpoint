@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3305981/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_040414-N-3986D-031_An_F-A-18C_Hornet_launches_off_the_flight_deck_aboard_USS_George_Washington_(CVN_73).jpg?width=1920",
+    "credit": "U.S. Navy photo by Photographer's Mate Airman Jessica Davis",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Navy_040414-N-3986D-031_An_F-A-18C_Hornet_launches_off_the_flight_deck_aboard_USS_George_Washington_(CVN_73).jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/867/3w3ocx0mavfbit2t8mups7x6q85roacw/VFA-136_0.png"
   ],

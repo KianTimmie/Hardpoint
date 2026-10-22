@@ -18,6 +18,12 @@
   ],
   "license": "Freeware (do not redistribute)",
   "homepage": "https://www.digitalcombatsimulator.com/en/files/3340119/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F-15EX_Eagle_II.jpg?width=1920",
+    "credit": "U.S. Air Force photo by Ethan Wagner",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:F-15EX_Eagle_II.jpg"
+  },
   "releases": [
     {
       "version": "1.8.7",

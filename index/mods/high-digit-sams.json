@@ -30,6 +30,12 @@
   "license": "MIT",
   "homepage": "https://forum.dcs.world/topic/269447-high-digit-sams-a-community-asset-pack-for-dcs-world/",
   "source": "https://github.com/Auranis/HighDigitSAMs",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/S-300PMU2_with_tractor-trailer_KrAZ-260V.jpg?width=1920",
+    "credit": "Vitaly V. Kuzmin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:S-300PMU2_with_tractor-trailer_KrAZ-260V.jpg"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2021_04/Image2.png.63d99b6bff69ced294e7d0b8fe914932.png"
   ],

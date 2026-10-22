@@ -26,6 +26,12 @@
   ],
   "homepage": "https://forum.dcs.world/topic/304104-saab-sk-60-trainer/",
   "source": "https://github.com/BAAS-Dynamic/DCS-SK60-Mod",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saab_105_Sk_60_60102_002.jpg?width=1920",
+    "credit": "Teijo Hakala",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saab_105_Sk_60_60102_002.jpg"
+  },
   "images": [
     "https://raw.githubusercontent.com/BAAS-Dynamic/DCS-SK60-Mod/main/Theme/ME/DEMO.png"
   ],

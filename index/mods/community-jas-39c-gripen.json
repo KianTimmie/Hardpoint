@@ -20,6 +20,12 @@
   ],
   "homepage": "https://github.com/whisky-actual/Community-JAS-39-C",
   "source": "https://github.com/whisky-actual/Community-JAS-39-C",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/215,_2017,_Fairford,_JAS-39C_Gripen,_Sweden_-_4120_(53949044907).jpg?width=1920",
+    "credit": "Jim van de Burgt",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:215,_2017,_Fairford,_JAS-39C_Gripen,_Sweden_-_4120_(53949044907).jpg"
+  },
   "releases": [
     {
       "version": "v1.8.6-Beta",

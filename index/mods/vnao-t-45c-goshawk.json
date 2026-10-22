@@ -18,6 +18,12 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/203816-vnao-t-45-goshawk/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Training_Squadron_86_(VT-86)_T-45C_Goshawks_off_the_coast_of_Florida_(1).jpg?width=1920",
+    "credit": "U.S. Navy photo by Capt. Scott Janik",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Training_Squadron_86_(VT-86)_T-45C_Goshawks_off_the_coast_of_Florida_(1).jpg"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2021_04/Loading_Screen_04.png.8de9b29576a4fbb9cb78132865f083fb.png"
   ],

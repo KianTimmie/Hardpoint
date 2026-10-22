@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/M1A2_SEPv3_Abrams_tanks_arrive_in_CENTCOM_(8732129).jpg?width=1920",
+    "credit": "U.S. Army photo by Sgt. Richard Cole",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:M1A2_SEPv3_Abrams_tanks_arrive_in_CENTCOM_(8732129).jpg"
+  },
   "images": [
     "https://lh3.googleusercontent.com/sitesv/AG8ngQWi8cSHv4m7uCEAN_PgF6I_fWHLwFiY01Q1rLMY0C3ZtlBCnw--HGIyB8Lhh4Lp0iiUQSub8WXQdSjHFoIndhstvpBm5Sgyof6j9OuKSK4HVPcek4rgwtEsoLginLO1aDmP-4XgiWoQfgxnmfIfb9c_a-af1ZZ2lPUs8hYeUde2hNVR2llpHj-ncIej3XZH2wko6hLVudFGh3NDy9HYBPMcFXsvEfK1s-P9vNpRmzU=w1280"
   ],

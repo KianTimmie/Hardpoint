@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3336411/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAF_Cheetah-C_344_(6910765707).jpg?width=1920",
+    "credit": "Bob Adams",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SAAF_Cheetah-C_344_(6910765707).jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/d76/s125fl8awsh5w4rqlh7djq15ozcc83ab/Screen_240326_224221.jpg"
   ],

@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ZTZ-99A_tank_front_right_20170902.jpg?width=1920",
+    "credit": "Tyg728",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ZTZ-99A_tank_front_right_20170902.jpg"
+  },
   "images": [
     "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uHUHbbPyW2wqXcq4tyeJ0Z2qLqKnF8vabx-dpQNGlRJMgvQE0UeYr3Qf4HAqj400PqFvEIN68bpmmqMrh3Uvw9gKgXpimNxgs_GKRciFjhGwVcC2mM69gKiOpFeNsf2NGMszF8--XFI9g2glx5MCQpVFhJvVObTd_jcZK33AY5PeU5YMlFe5tad0HlMutvnCO7ZWUeh1MERZXLIEn-T7-rZynQNCcvpiYoN4Mk=w1280"
   ],

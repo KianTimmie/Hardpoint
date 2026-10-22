@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Unlimited distribution",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3311633/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JF_17_Thunder_(21060690990).jpg?width=1920",
+    "credit": "kami rao",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JF_17_Thunder_(21060690990).jpg"
+  },
   "requires_modules": [
     "JF-17 Thunder"
   ],

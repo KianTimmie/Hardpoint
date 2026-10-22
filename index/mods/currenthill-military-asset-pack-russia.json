@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bronnitsy_-_01_-_Pantsir-S1_SAM.jpg?width=1920",
+    "credit": "Vitaly V. Kuzmin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bronnitsy_-_01_-_Pantsir-S1_SAM.jpg"
+  },
   "images": [
     "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vbBOJ6bma5sNpsH-BbQ8aG_2a27XzmDoCcql5HgxcSA64MdjDi71EIhEkl60Fxs0OMPWaVmgGPtYH74lLl6PV3s0n8nYCC1hBKoxNlhL_Jw1L3Rl6eOjMNtknrARoRRuARfyc7P-UGgVJj7DtDmJmXTJY0YjI7dBam8nEDRJk5CotSWJ5-qTflQFfFYZozpXBYOH_TE4HIfbFXvSW1mYZLI3SmTH5JVhnZ91boIuQ=w1280"
   ],

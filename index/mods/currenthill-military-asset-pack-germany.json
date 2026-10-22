@@ -19,6 +19,12 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tank_Leopard_2A7_NATO_Days_2022.jpg?width=1920",
+    "credit": "Fric.matej",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tank_Leopard_2A7_NATO_Days_2022.jpg"
+  },
   "images": [
     "https://lh3.googleusercontent.com/sitesv/AG8ngQWma0pn3w82cGUtmgRUmWVC-teUGtQznb-Lk5qmBWjBsTyfP08c8Cg26pSYL5BGf-yCvrmhlIkUBKT_h593JaymxaefNg3W223v7nMALOeBdSv_kuZAIlvdnueDvLjYBFwuILiCBnpaahZ2nBX97jdbk7gUjEV1Yvt1k-pDGisg0nqxNr93jasu9FUAQqE3cbe2MHY34GSVC7DOjwUKzcFkoeoMiEM1zy_cWVLpDpw=w1280"
   ],

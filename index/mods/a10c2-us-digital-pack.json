@@ -17,6 +17,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3326863/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Low_pass_141203-F-NI493-213.jpg?width=1920",
+    "credit": "U.S. Air Force photo by Airman 1st Class Ryan Callaghan",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Low_pass_141203-F-NI493-213.jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/iblock/2fd/nj92ldpuwk55jd0f1lrly5awbeyv1roh/DCS-2022-11-15-11-54-26.jpg"
   ],

@@ -31,6 +31,12 @@
   "license": "CC BY-NC-SA",
   "homepage": "https://forum.dcs.world/topic/338387-tetets-vietnam-war-vessels/",
   "source": "https://github.com/tspindler-cms/tetet-vwv",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/428-K-79759.jpg?width=1920",
+    "credit": "U.S. Navy (National Archives 148728284)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:428-K-79759.jpg"
+  },
   "images": [
     "https://raw.githubusercontent.com/tspindler-cms/tetet-vwv/main/vwv_banner_2048.jpg"
   ],

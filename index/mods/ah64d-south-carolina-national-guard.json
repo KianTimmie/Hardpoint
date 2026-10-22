@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3322060/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An_AH-64D_Longbow_Apache_helicopter_lands_during_a_combined_arms_demonstration_as_part_of_South_Carolina_National_Guard_Air_%26_Ground_Expo.jpg?width=1920",
+    "credit": "U.S. Department of Defense",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:An_AH-64D_Longbow_Apache_helicopter_lands_during_a_combined_arms_demonstration_as_part_of_South_Carolina_National_Guard_Air_%26_Ground_Expo.jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/iblock/4a6/0vpz0bz34x030bps15d3xhiw5wytwors/Formation.jpg"
   ],

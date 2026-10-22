@@ -21,6 +21,12 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/grinnellidesigns/f-22a",
   "source": "https://github.com/grinnellidesigns/f-22a",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F-22_Raptor_edit1_(cropped).jpg?width=1920",
+    "credit": "U.S. Air Force photo by Master Sgt. Andy Dunaway",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:F-22_Raptor_edit1_(cropped).jpg"
+  },
   "images": [
     "https://i0.wp.com/grinnellidesigns.com/wp-content/uploads/2022/01/F22_wepon_2.jpg?fit=1920%2C1080&ssl=1"
   ],

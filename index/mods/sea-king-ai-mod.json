@@ -17,6 +17,12 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/309243-sea-king-ai-mod/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SH-3H_Sea_King_HS-2_in_flight_in_1983.JPEG?width=1920",
+    "credit": "U.S. Navy",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:SH-3H_Sea_King_HS-2_in_flight_in_1983.JPEG"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2022_09/image.png.7c1e3b5f6de3cc2b31cd2ae902e5343e.png"
   ],

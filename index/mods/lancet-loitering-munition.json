@@ -20,6 +20,12 @@
   ],
   "homepage": "https://forum.dcs.world/topic/390895-release-zala-lancet-loitering-munition-mod-v10/",
   "source": "https://github.com/imakedcsmods/DCS-loitering-munition-mod-Lancet",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ZALA_Lancet_at_IDEX_2025.jpg?width=1920",
+    "credit": "Mztourist",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ZALA_Lancet_at_IDEX_2025.jpg"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2026_08/Screen_260806_235642.jpg.12d91c96c43c328a900e37695b0ee66b.jpg"
   ],

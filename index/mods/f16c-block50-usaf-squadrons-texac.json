@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3331062/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/210226-F-JG201-1052.jpg?width=1920",
+    "credit": "U.S. Air Force photo by Ethan Wagner",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:210226-F-JG201-1052.jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/fde/0qhbusa67a2si56kpirdy02w9b6bnah9/MAIN.jpg"
   ],

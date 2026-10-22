@@ -27,6 +27,12 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/389357-community-pto-pack/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS_Iowa_(BB-61)_-_NH_53264.tiff?width=1920",
+    "credit": "U.S. Navy (Naval History and Heritage Command)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:USS_Iowa_(BB-61)_-_NH_53264.tiff"
+  },
   "images": [
     "https://forum.dcs.world/uploads/monthly_2026_06/Screen_260614_183740.jpg.9e5a49b0126f7068b09e40ff74f618c0.jpg"
   ],

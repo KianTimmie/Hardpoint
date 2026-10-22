@@ -18,6 +18,12 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3212855/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirage_2000C_in-flight.jpg?width=1920",
+    "credit": "SrA Greg L. Davis, USAF",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mirage_2000C_in-flight.jpg"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/iblock/b35/sound_mod.jpg"
   ],

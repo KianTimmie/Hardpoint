@@ -18,6 +18,12 @@
   ],
   "license": "Freeware (do not redistribute)",
   "homepage": "https://www.digitalcombatsimulator.com/en/files/3328157/",
+  "cover": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two_JASDF_F-15J_take_off_in_formation.JPEG?width=1920",
+    "credit": "SSgt. James R. Ferguson, USAF",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Two_JASDF_F-15J_take_off_in_formation.JPEG"
+  },
   "images": [
     "https://files.digitalcombatsimulator.com/upload/userfiles/86a/s78kdyyziqbncvw9rtd31oeg2twvvwfv/DCS_F-15J.jpg"
   ],
