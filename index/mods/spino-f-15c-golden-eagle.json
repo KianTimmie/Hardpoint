@@ -18,6 +18,9 @@
   ],
   "license": "Freeware (do not redistribute)",
   "homepage": "https://www.digitalcombatsimulator.com/en/files/3331163/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/8e3/oymspw57z0zl1x4k526p9td5k2t5ka6u/F-15C_GE.jpg"
+  ],
   "releases": [
     {
       "version": "1.5",

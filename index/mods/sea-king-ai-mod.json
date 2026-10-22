@@ -17,6 +17,9 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/309243-sea-king-ai-mod/",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2022_09/image.png.7c1e3b5f6de3cc2b31cd2ae902e5343e.png"
+  ],
   "releases": [
     {
       "version": "1.4",

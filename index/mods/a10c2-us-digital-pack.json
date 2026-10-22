@@ -17,6 +17,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3326863/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/2fd/nj92ldpuwk55jd0f1lrly5awbeyv1roh/DCS-2022-11-15-11-54-26.jpg"
+  ],
   "requires_modules": [
     "A-10C II Tank Killer"
   ],

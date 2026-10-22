@@ -20,6 +20,9 @@
   ],
   "homepage": "https://github.com/VEAF/VEAF-Mission-Creation-Tools",
   "source": "https://github.com/VEAF/VEAF-Mission-Creation-Tools",
+  "images": [
+    "https://veaf.github.io/documentation/images/logo.png"
+  ],
   "installable": false,
   "releases": [
     {

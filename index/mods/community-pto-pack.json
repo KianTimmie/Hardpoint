@@ -27,6 +27,9 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/389357-community-pto-pack/",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2026_06/Screen_260614_183740.jpg.9e5a49b0126f7068b09e40ff74f618c0.jpg"
+  ],
   "requires_modules": [
     "WWII Assets Pack (for the Saipan sandbox mission)"
   ],

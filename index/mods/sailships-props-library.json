@@ -19,6 +19,9 @@
   ],
   "license": "Freeware, unlimited distribution; models under Creative Commons",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3346481/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/df1/pgc5da6d7ts3h7t3pccselztztukkc9a/library_sailships_f_props_main.jpg"
+  ],
   "releases": [
     {
       "version": "1.0",

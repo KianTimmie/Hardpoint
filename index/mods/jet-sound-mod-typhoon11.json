@@ -17,6 +17,9 @@
   ],
   "license": "Freeware - Free version, Unlimited distribution",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3302040/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/223/f-18.jpg.805cc9681042b6693c6cf4581c9dfccc.jpg"
+  ],
   "releases": [
     {
       "version": "1.0.0",

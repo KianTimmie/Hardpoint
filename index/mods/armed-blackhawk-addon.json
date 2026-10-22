@@ -18,6 +18,9 @@
   ],
   "license": "Freeware (do not redistribute)",
   "homepage": "https://www.digitalcombatsimulator.com/en/files/3326421/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/290/ojawd9r310962wfbdfj03p7xspbj47ed/ArmedBlackhawkv2.0.jpg"
+  ],
   "releases": [
     {
       "version": "7.1",

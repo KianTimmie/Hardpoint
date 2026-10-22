@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Unlimited distribution",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3328308/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/04e/hyoncp2ufqfv83118ffy9457pppo2990/Screen_230107_142940.jpg"
+  ],
   "requires_modules": [
     "Caucasus map",
     "F-16C Viper"

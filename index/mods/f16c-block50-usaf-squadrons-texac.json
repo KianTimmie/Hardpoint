@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3331062/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/fde/0qhbusa67a2si56kpirdy02w9b6bnah9/MAIN.jpg"
+  ],
   "requires_modules": [
     "F-16C Viper"
   ],

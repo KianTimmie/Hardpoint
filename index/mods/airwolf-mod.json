@@ -16,6 +16,9 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/384848-airwolf-mod/",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2026_02/cockpit1.png.7fea7add65aebba320129a074bdde4ea.png"
+  ],
   "releases": [
     {
       "version": "V1.12",

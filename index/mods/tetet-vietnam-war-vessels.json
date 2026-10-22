@@ -31,6 +31,9 @@
   "license": "CC BY-NC-SA",
   "homepage": "https://forum.dcs.world/topic/338387-tetets-vietnam-war-vessels/",
   "source": "https://github.com/tspindler-cms/tetet-vwv",
+  "images": [
+    "https://raw.githubusercontent.com/tspindler-cms/tetet-vwv/main/vwv_banner_2048.jpg"
+  ],
   "releases": [
     {
       "version": "3.3.0",

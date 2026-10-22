@@ -18,6 +18,9 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/386801-copterlife-mod-pack/",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2026_03/image.png.2cf7ee592d439f4030fc2672122e190d.png"
+  ],
   "releases": [
     {
       "version": "WIP (unversioned)",

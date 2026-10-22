@@ -21,6 +21,9 @@
   "license": "MIT",
   "homepage": "https://github.com/DCS-Skunkworks/DCSFlightpanels",
   "source": "https://github.com/DCS-Skunkworks/DCSFlightpanels",
+  "images": [
+    "https://github.com/DCS-Skunkworks/DCSFlightpanels/assets/10453261/8f6e6d3f-2c8b-4f43-b5bf-571f2113df4a"
+  ],
   "installable": false,
   "releases": [
     {

@@ -19,6 +19,9 @@
     }
   ],
   "homepage": "https://www.currenthill.com/",
+  "images": [
+    "https://lh3.googleusercontent.com/sitesv/AG8ngQWma0pn3w82cGUtmgRUmWVC-teUGtQznb-Lk5qmBWjBsTyfP08c8Cg26pSYL5BGf-yCvrmhlIkUBKT_h593JaymxaefNg3W223v7nMALOeBdSv_kuZAIlvdnueDvLjYBFwuILiCBnpaahZ2nBX97jdbk7gUjEV1Yvt1k-pDGisg0nqxNr93jasu9FUAQqE3cbe2MHY34GSVC7DOjwUKzcFkoeoMiEM1zy_cWVLpDpw=w1280"
+  ],
   "releases": [
     {
       "version": "1.5.0",

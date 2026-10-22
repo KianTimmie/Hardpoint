@@ -19,6 +19,9 @@
   ],
   "homepage": "https://forum.dcs.world/topic/290975-dml-mission-creation-toolbox-no-lua-required/",
   "source": "https://github.com/csofranz/DML",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2022_01/image.png.c2054dcfcd4998ec5d29a07c808b49e3.png"
+  ],
   "installable": false,
   "releases": [
     {

@@ -21,6 +21,9 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/DCS-Skunkworks/dcs-bios",
   "source": "https://github.com/DCS-Skunkworks/dcs-bios",
+  "images": [
+    "https://avatars.githubusercontent.com/u/34946890?s=200&v=4"
+  ],
   "releases": [
     {
       "version": "v0.11.6",

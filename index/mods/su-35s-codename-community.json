@@ -17,6 +17,9 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/361881-dcs-su-35s-mod-from-codename-community/",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_02/Screen_241105_000544.png.aa31f2be7efa9c110784bfa4a051ebda.png"
+  ],
   "requires_modules": [
     "Su-33 (Flaming Cliffs)"
   ],

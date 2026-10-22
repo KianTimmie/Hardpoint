@@ -20,6 +20,9 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/DCS-Skunkworks/Bort",
   "source": "https://github.com/DCS-Skunkworks/Bort",
+  "images": [
+    "https://raw.githubusercontent.com/DCS-Skunkworks/Bort/main/doc/img/bort-large-0.2.0.png"
+  ],
   "installable": false,
   "releases": [
     {

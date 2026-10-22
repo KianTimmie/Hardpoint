@@ -30,6 +30,9 @@
   "license": "MIT",
   "homepage": "https://forum.dcs.world/topic/269447-high-digit-sams-a-community-asset-pack-for-dcs-world/",
   "source": "https://github.com/Auranis/HighDigitSAMs",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2021_04/Image2.png.63d99b6bff69ced294e7d0b8fe914932.png"
+  ],
   "releases": [
     {
       "version": "2.1.0",

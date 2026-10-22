@@ -17,6 +17,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3321589/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/3b0/bzplu3o70vols4qqladnb1ztejls4son/SUMMER_1.JPG"
+  ],
   "requires_modules": [
     "Caucasus map"
   ],

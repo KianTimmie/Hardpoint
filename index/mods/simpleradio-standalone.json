@@ -20,6 +20,9 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/ciribob/DCS-SimpleRadioStandalone",
   "source": "https://github.com/ciribob/DCS-SimpleRadioStandalone",
+  "images": [
+    "https://i.imgur.com/7kNwB6d.png"
+  ],
   "installable": false,
   "releases": [
     {

@@ -17,6 +17,9 @@
     }
   ],
   "source": "https://github.com/FlightControl-Master/MOOSE",
+  "images": [
+    "https://raw.githubusercontent.com/FlightControl-Master/MOOSE/master/docs/images/classes/overview.jpg"
+  ],
   "installable": false,
   "releases": [
     {

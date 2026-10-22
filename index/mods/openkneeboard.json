@@ -20,6 +20,9 @@
   "license": "OpenKneeboard Public License, Version 1",
   "homepage": "https://openkneeboard.com/",
   "source": "https://github.com/OpenKneeboard/OpenKneeboard",
+  "images": [
+    "https://github.com/OpenKneeboard/OpenKneeboard/raw/master/docs/screenshots/non-vr.png"
+  ],
   "installable": false,
   "releases": [
     {

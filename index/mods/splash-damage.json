@@ -20,6 +20,9 @@
   "license": "MIT",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3344761/",
   "source": "https://github.com/stephenpostlethwaite/DCSSplashDamageScript",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/3dc/3obg0joimmyjj1u9sovx88h33viecky0/nap2ban_-_Copy.jpg"
+  ],
   "installable": false,
   "releases": [
     {

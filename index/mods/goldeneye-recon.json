@@ -22,6 +22,9 @@
   ],
   "homepage": "https://forum.dcs.world/topic/349910-goldeneye-tactical-photo-recon-script-update-with-the-f-4e-and-coders-recruitment",
   "source": "https://github.com/VF29Voodoo/Goldeneye-DCS-Recon-Script",
+  "images": [
+    "https://github.com/VF29Voodoo/DCS-Recon-Script/blob/develop/GIF/Valid%20recon%20flight.jpg?raw=true"
+  ],
   "installable": false,
   "releases": [
     {

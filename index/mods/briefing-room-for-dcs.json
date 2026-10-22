@@ -19,6 +19,9 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/DCS-BR-Tools/briefing-room-for-dcs",
   "source": "https://github.com/DCS-BR-Tools/briefing-room-for-dcs",
+  "images": [
+    "https://github.com/DCS-BR-Tools/briefing-room-for-dcs/raw/main/Media/SplashScreen.png"
+  ],
   "installable": false,
   "releases": [
     {

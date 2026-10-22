@@ -19,6 +19,9 @@
   ],
   "license": "Freeware - Free version, Unlimited distribution",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3306180/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/6dc/GR7.jpg"
+  ],
   "requires_modules": [
     "AV-8B Night Attack",
     "Caucasus map"

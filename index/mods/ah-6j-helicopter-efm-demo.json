@@ -20,6 +20,9 @@
   "license": "GPL-3.0",
   "homepage": "https://forum.dcs.world/topic/228394-ah-6j-efm-demo-v072-8-oct-26/",
   "source": "https://github.com/CrudeCoder1/Helicopter-EFM-Demo",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2025_12/Screen_2.png.c9a8a1a4a1ce61df48f44b63d89b7c2f.png"
+  ],
   "releases": [
     {
       "version": "v0.7.2",

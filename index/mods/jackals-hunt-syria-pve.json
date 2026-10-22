@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3343108/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/c62/kfgl151p9v8280fb4jb3q2vjo05tmumq/Hunt.jpg"
+  ],
   "requires_modules": [
     "F-4E Phantom II",
     "Syria map"

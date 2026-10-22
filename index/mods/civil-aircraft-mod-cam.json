@@ -24,6 +24,9 @@
   ],
   "license": "Freeware",
   "homepage": "https://cam.em-key.de/",
+  "images": [
+    "https://cam.em-key.de/wp-content/gallery/media/Screen_180503_073625.jpg"
+  ],
   "releases": [
     {
       "version": "V0.81",

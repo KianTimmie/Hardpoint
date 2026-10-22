@@ -20,6 +20,9 @@
   "license": "LGPL-3.0",
   "homepage": "https://github.com/dcs-retribution/dcs-retribution/wiki/",
   "source": "https://github.com/dcs-retribution/dcs-retribution",
+  "images": [
+    "https://user-images.githubusercontent.com/315852/120939254-0b4a9f80-c6cc-11eb-82f5-ce3f8d714bfe.png"
+  ],
   "installable": false,
   "releases": [
     {

@@ -30,6 +30,9 @@
   ],
   "license": "Freeware (unlimited distribution)",
   "homepage": "https://www.digitalcombatsimulator.com/en/files/3317105/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/4a2/1bvf0y47qtl7qv96kleul418anhnrc54/HE-7-4.jpg"
+  ],
   "releases": [
     {
       "version": "2.7",

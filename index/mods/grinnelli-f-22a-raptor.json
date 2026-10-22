@@ -21,6 +21,9 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/grinnellidesigns/f-22a",
   "source": "https://github.com/grinnellidesigns/f-22a",
+  "images": [
+    "https://i0.wp.com/grinnellidesigns.com/wp-content/uploads/2022/01/F22_wepon_2.jpg?fit=1920%2C1080&ssl=1"
+  ],
   "requires_modules": [
     "F-15C or Flaming Cliffs 3"
   ],

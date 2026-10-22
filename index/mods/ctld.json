@@ -23,6 +23,9 @@
   ],
   "homepage": "https://github.com/ciribob/DCS-CTLD",
   "source": "https://github.com/ciribob/DCS-CTLD",
+  "images": [
+    "https://i.imgur.com/pfVldQ1.png"
+  ],
   "installable": false,
   "releases": [
     {

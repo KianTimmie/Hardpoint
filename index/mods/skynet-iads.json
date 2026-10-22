@@ -17,6 +17,9 @@
     }
   ],
   "source": "https://github.com/walder/Skynet-IADS",
+  "images": [
+    "https://raw.githubusercontent.com/walder/Skynet-IADS/master/images/SA3_2.jpg"
+  ],
   "installable": false,
   "releases": [
     {

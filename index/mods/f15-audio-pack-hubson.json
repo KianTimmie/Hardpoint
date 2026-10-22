@@ -17,6 +17,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3071256/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/5a3/airplane-1513496372602-9598a.jpg"
+  ],
   "requires_modules": [
     "F-15C (Flaming Cliffs)"
   ],

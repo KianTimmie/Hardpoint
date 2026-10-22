@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Unlimited distribution",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3332108/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/1fc/r7syonfdqm95tm2x2ggkqouaedy6zfoi/Reduced_Thumbnail.png"
+  ],
   "requires_modules": [
     "Syria map"
   ],

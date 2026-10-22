@@ -20,6 +20,9 @@
   "license": "MIT",
   "homepage": "https://github.com/Quaggles/dcs-input-command-injector",
   "source": "https://github.com/Quaggles/dcs-input-command-injector",
+  "images": [
+    "https://user-images.githubusercontent.com/8382945/113183515-75dbfb00-9297-11eb-965a-492fd9789c26.png"
+  ],
   "releases": [
     {
       "version": "1.0.14",

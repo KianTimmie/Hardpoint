@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Unlimited distribution",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3305420/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/67b/xnirviu8iej4aw54pcn23wi8chebkfms/DCS_VREM.JPG"
+  ],
   "releases": [
     {
       "version": "9.4.1",

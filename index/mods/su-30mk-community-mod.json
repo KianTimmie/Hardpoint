@@ -18,6 +18,9 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/247098-dcs-su-30mk-mod/",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2020_10/Screen_200927_193932.png.9214f9fbbf3fd44e4918b6949af37574.png"
+  ],
   "releases": [
     {
       "version": "2.8.06Beta",

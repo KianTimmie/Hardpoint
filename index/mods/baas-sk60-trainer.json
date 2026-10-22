@@ -26,6 +26,9 @@
   ],
   "homepage": "https://forum.dcs.world/topic/304104-saab-sk-60-trainer/",
   "source": "https://github.com/BAAS-Dynamic/DCS-SK60-Mod",
+  "images": [
+    "https://raw.githubusercontent.com/BAAS-Dynamic/DCS-SK60-Mod/main/Theme/ME/DEMO.png"
+  ],
   "releases": [
     {
       "version": "v2.1",

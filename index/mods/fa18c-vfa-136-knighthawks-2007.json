@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3305981/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/867/3w3ocx0mavfbit2t8mups7x6q85roacw/VFA-136_0.png"
+  ],
   "requires_modules": [
     "F/A-18C Hornet"
   ],

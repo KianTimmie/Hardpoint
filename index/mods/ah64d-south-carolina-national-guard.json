@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3322060/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/4a6/0vpz0bz34x030bps15d3xhiw5wytwors/Formation.jpg"
+  ],
   "requires_modules": [
     "AH-64D Apache"
   ],

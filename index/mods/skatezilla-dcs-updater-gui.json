@@ -17,6 +17,9 @@
     }
   ],
   "homepage": "https://forum.dcs.world/topic/134493-the-dcs-updater-gui-utility",
+  "images": [
+    "https://forum.dcs.world/uploads/monthly_2023_07/DULU_TITLEPAGE.png.5d86b330fc05b340a71c2b1fdcc22a50.png"
+  ],
   "installable": false,
   "releases": [
     {

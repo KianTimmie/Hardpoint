@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3305113/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/350/Cheetahspotty.jpg"
+  ],
   "requires_modules": [
     "M-2000C"
   ],

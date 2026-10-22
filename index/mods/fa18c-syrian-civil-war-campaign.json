@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Unlimited distribution",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3342580/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/b72/fyl53nmhll63g7bnr58v373b8i5o3f1m/logo4.jpg"
+  ],
   "requires_modules": [
     "F/A-18C Hornet",
     "Supercarrier",

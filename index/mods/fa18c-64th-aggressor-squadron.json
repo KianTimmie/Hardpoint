@@ -17,6 +17,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3306664/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/d2e/Hornet%20Skins%201.jpg"
+  ],
   "requires_modules": [
     "F/A-18C Hornet"
   ],

@@ -22,6 +22,9 @@
   ],
   "license": "Freeware (no redistribution)",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3303802/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/iblock/9d1/truck.jpg"
+  ],
   "releases": [
     {
       "version": "1.4b",

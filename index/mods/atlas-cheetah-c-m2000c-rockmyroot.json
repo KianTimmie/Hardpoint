@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3336411/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/d76/s125fl8awsh5w4rqlh7djq15ozcc83ab/Screen_240326_224221.jpg"
+  ],
   "requires_modules": [
     "M-2000C"
   ],

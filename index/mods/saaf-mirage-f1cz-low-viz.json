@@ -18,6 +18,9 @@
   ],
   "license": "Freeware - Free version, Do Not Redistribute",
   "homepage": "https://files.digitalcombatsimulator.com/en/files/3329501/",
+  "images": [
+    "https://files.digitalcombatsimulator.com/upload/userfiles/d34/enms2lj8v6qgx1wiqpz58hdyxz5kch6v/Screen_230226_174751_copie.jpg"
+  ],
   "requires_modules": [
     "Mirage F1"
   ],
